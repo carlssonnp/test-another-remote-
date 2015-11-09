@@ -13,3 +13,9 @@ https://docs.google.com/document/d/1lotfElPA7mgUxRZybu2uQ-W6VbppnHFMELV9GYzAkfM/
 [hackpad Integration](https://avantdatascience.hackpad.com/Start-Here-rmZTFkC8X3x) <= Integrate This
 
 * Complete the simulation challenges. Every task will require a generated PR to be reviewed and discussed with Guardian. The human follow up discussion will help you gain a deeper knowledge within an area. 
+
+**CORE skillsets**
+  * DataScience
+    * FILLIN 
+  * DataEngineering
+    * FILLIN 
