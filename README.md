@@ -3,7 +3,7 @@
 ***
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/AC97-0295-13_a.jpeg" alt="alt text" width="300" height="300">
 
-At the advanced levels Avant will be a libertarian and give you the paintbrush to paint your own masterpiece based upon your passions, skillset, etc. On the fundamentals Avant will be a dictator as having a strong base & foundation is universally beneficial.
+*"At the advanced levels Avant will be a libertarian and give you the paintbrush to paint your own masterpiece based upon your passions, skillset, etc. On the fundamentals Avant will be a dictator as having a strong base & foundation is universally beneficial."* -- igor
 
 <img src="http://www.ibm.com/developerworks/library/os-datascience/figure1.png" width="300" height="300">
 
