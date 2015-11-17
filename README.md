@@ -38,15 +38,18 @@ Avant Specific =>
 * Tools of the trade 1:
   * hipChat -- you should have received a link to configure hipChat in e-mail.  If not, contact .... ?
   * rooms you need to be part of: Analytics, Analytics General, Analytics Alerts, LA data science (for LA office)
-* Lingo: Syberia, tundra, munge bits, ....
+* [Learn about Avant models](https://github.com/avantcredit/avant-analytics/wiki/Getting-started-with-Avant-models-and-data "Avant Models")
 * Exploring github and making contributions.
-  * How do I contribute?
-  * Know the coding style and naming conventions.
-  * Do's and Don'ts of githubbing.
+  * Gitting: clone, make your branch, merge, create a pull request.
+  * *Exercise* Add yourself to the team.
+  * Know the coding style, naming conventions, and [banned R practices](https://github.com/avantcredit/avant-analytics/wiki/Banned-R-Practices "banned").
+  * [Test your git skills with this git game](https://github.com/git-game/git-game "git game")
 * Tools of the trade 2: R setup, s3, R server, beast, beauty
 * Run a pre-built model.
 * How to train a model.
+* [Check list for production models](https://github.com/avantcredit/avant-analytics/wiki/Check-list-for-production-models "Model checklist")
 * [How to deploy a model.](https://github.com/avantcredit/avant-analytics/blob/master/culture/deployment.md "Deploy a model")
+* Best Tips for Getting Your S--t done.
 
 #### DataEngineering
 * FILLIN
