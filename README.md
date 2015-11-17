@@ -34,7 +34,10 @@ Avant Specific =>
 
 #### DataScience
 * [Getting Started](https://github.com/avantcredit/avant-analytics/wiki "Start Here")
-* Tools of the trade 1: hipChat, setting up your credentials
+  * And, some [additional notes](https://avantdatascience.hackpad.com/How-do-I-get-startedminimum-tools-needed-to-setup-your-work-stationeveryone-xGL9NSvHAaR)
+* Tools of the trade 1:
+  * hipChat -- you should have received a link to configure hipChat in e-mail.  If not, contact .... ?
+  * rooms you need to be part of: Analytics, Analytics General, Analytics Alerts, LA data science (for LA office)
 * Lingo: Syberia, tundra, munge bits, ....
 * Exploring github and making contributions.
   * How do I contribute?
@@ -43,7 +46,7 @@ Avant Specific =>
 * Tools of the trade 2: R setup, s3, R server, beast, beauty
 * Run a pre-built model.
 * How to train a model.
-* How to deploy a model.
+* [How to deploy a model.](https://github.com/avantcredit/avant-analytics/blob/master/culture/deployment.md "Deploy a model")
 
 #### DataEngineering
 * FILLIN
