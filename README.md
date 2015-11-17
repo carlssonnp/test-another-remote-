@@ -5,11 +5,17 @@
 
 At the advanced levels Avant will be a libertarian and give you the paintbrush to paint your own masterpiece based upon your passions, skillset, etc. On the fundamentals Avant will be a dictator as having a strong base & foundation is universally beneficial.
 
+<img src="http://www.ibm.com/developerworks/library/os-datascience/figure1.png" width="300" height="300">
+
+1. Programming Ability (link to R challenges)
+2. Mathematical Ability (matheamtical GBM challenge)
+3. Domain Knowledge (Lending Specific) 
 
 [Temporary Brain_Dump (peter/babar/davidN/Igor)](
 https://docs.google.com/document/d/1lotfElPA7mgUxRZybu2uQ-W6VbppnHFMELV9GYzAkfM/edit)
 
 
+Avant Specific => 
 [hackpad Integration](https://avantdatascience.hackpad.com/Start-Here-rmZTFkC8X3x) <= Integrate This
 
 * Complete the simulation challenges. Every task will require a generated PR to be reviewed and discussed with Guardian. The human follow up discussion will help you gain a deeper knowledge within an area.
