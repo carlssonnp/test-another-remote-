@@ -39,3 +39,4 @@ Avant Specific =>
 
 Pairing & Shadowing
 Have this document by dynamic and have trainee improve challenge
+Think of having git setup challenge
