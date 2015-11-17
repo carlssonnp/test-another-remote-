@@ -7,7 +7,7 @@ At the advanced levels Avant will be a libertarian and give you the paintbrush t
 
 <img src="http://www.ibm.com/developerworks/library/os-datascience/figure1.png" width="300" height="300">
 
-1. Programming Ability (link to R challenges)
+1. [Programming Ability](https://github.com/avant-analytics/onboarding/tree/master/simulation_challenges/programming)
 2. Mathematical Ability (matheamtical GBM challenge)
 3. Domain Knowledge (Lending Specific) 
 
