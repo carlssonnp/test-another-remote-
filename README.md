@@ -37,16 +37,22 @@ Avant Specific =>
   * And, some [additional notes](https://avantdatascience.hackpad.com/How-do-I-get-startedminimum-tools-needed-to-setup-your-work-stationeveryone-xGL9NSvHAaR)
 * Tools of the trade 1:
   * hipChat -- you should have received a link to configure hipChat in e-mail.  If not, contact .... ?
-  * rooms you need to be part of: Analytics, Analytics General, Analytics Alerts, LA data science (for LA office)
+    * rooms you need to be part of: `Analytics`, `Analytics General`, `Analytics Alerts`, `LA data science` (for LA office)
+* Tools of the trade 2: R setup, s3, R server, beast, beauty
+* Learn about [the infrastructure](https://github.com/avantcredit/avant-analytics/blob/master/README.md)
 * [Learn about Avant models](https://github.com/avantcredit/avant-analytics/wiki/Getting-started-with-Avant-models-and-data "Avant Models")
+  * Tutorial on [running StageRunner outside of Syberia](https://github.com/avantcredit/avant-analytics/wiki/How-to-use-StageRunner-(outside-of-Syberia))
+  * Example:: [Using StageRunner for analysis](https://github.com/avantcredit/avant-analytics/tree/prepayment_refi_offer_feasibility/models/dev/experimental/prepayment_analysis)
+  * Exercise:: Yuchen's writeup goes here???
 * Exploring github and making contributions.
   * Gitting: clone, make your branch, merge, create a pull request.
-  * *Exercise* Add yourself to the team.
-  * Know the coding style, naming conventions, and [banned R practices](https://github.com/avantcredit/avant-analytics/wiki/Banned-R-Practices "banned").
+  * *Exercise*:: Add yourself to the team.
+  * Know the [coding style](https://github.com/avantcredit/avant-analytics/wiki/R-Style-Guide), naming conventions, and [banned R practices](https://github.com/avantcredit/avant-analytics/wiki/Banned-R-Practices "banned").
+  * [How to file a github issue](https://guides.github.com/features/issues/ "git issue")
   * [Test your git skills with this git game](https://github.com/git-game/git-game "git game")
-* Tools of the trade 2: R setup, s3, R server, beast, beauty
-* Run a pre-built model.
-* How to train a model.
+* [How to train a model.](https://github.com/avantcredit/avant-analytics/blob/master/models/README.md "Train")
+  * *Exercise*:: What is the difference between 'run', 'schedule_build', and 'local_run'?
+  * Video -- Igor to add a link to his tutorial.
 * [Check list for production models](https://github.com/avantcredit/avant-analytics/wiki/Check-list-for-production-models "Model checklist")
 * [How to deploy a model.](https://github.com/avantcredit/avant-analytics/blob/master/culture/deployment.md "Deploy a model")
 * Best Tips for Getting Your S--t done.
