@@ -55,7 +55,7 @@ Avant Specific =>
   * Video -- Igor to add a link to his tutorial.
 * [Check list for production models](https://github.com/avantcredit/avant-analytics/wiki/Check-list-for-production-models "Model checklist")
 * [How to deploy a model.](https://github.com/avantcredit/avant-analytics/blob/master/culture/deployment.md "Deploy a model")
-* Best Tips for Getting Your S--t done.
+* [Best Tips for Getting Your S--t done.](https://github.com/avantcredit/avant-analytics/wiki/Programmer-Tips-&-Tricks)
 
 #### DataEngineering
 * FILLIN
