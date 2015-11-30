@@ -1,15 +1,19 @@
 # Onboarding
 
-***
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/79/AC97-0295-13_a.jpeg" alt="alt text" width="300" height="300">
-
-*"At the advanced levels Avant will be a libertarian and give you the paintbrush to paint your own masterpiece based upon your passions, skillset, etc. On the fundamentals Avant will be a dictator as having a strong base & foundation is universally beneficial."* 
+Congratulations! You have joined the most technically proficient team within the company. (Highest Amount of phd's per capita) However as a consequence the onboarding will be the most involved. Budget ~3 weeks to complete with all PR's merged. 
 
 #### Purpose of this document
 To introduce the data scientist/engineer at [Avant](https://www.avant.com/ "Avant") to
 * Your work environment
 * The tools you need to do your work
 * The skills that will make your work life easier
+
+***
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/79/AC97-0295-13_a.jpeg" alt="alt text" width="300" height="300">
+
+*"At the advanced levels Avant will be a libertarian and give you the paintbrush to paint your own masterpiece based upon your passions, skillset, etc. On the fundamentals Avant will be a dictator as having a strong base & foundation is universally beneficial."* - John Danaher [1]
+
+
 
 #### Skill expectations.
 <img src="http://www.ibm.com/developerworks/library/os-datascience/figure1.png" width="300" height="300">
@@ -63,3 +67,6 @@ Avant Specific =>
 Pairing & Shadowing
 Have this document by dynamic and have trainee improve challenge
 Think of having git setup challenge
+
+References  
+  [1][ John Danaher (Minute 6 & 30 seconds)](https://www.youtube.com/watch?v=SpLKrhwGavU)
