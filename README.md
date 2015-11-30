@@ -15,7 +15,7 @@ To introduce the data scientist/engineer at [Avant](https://www.avant.com/ "Avan
 <img src="http://www.ibm.com/developerworks/library/os-datascience/figure1.png" width="300" height="300">
 
 1. [Programming Ability](https://github.com/avant-analytics/onboarding/tree/master/simulation_challenges/programming)
-2. Mathematical Ability (matheamtical GBM challenge)
+2. [Mathematical](https://github.com/avantcredit/onboarding/tree/master/simulations/mathematical)
 3. Domain Knowledge (Lending Specific)
 
 #### Temporary Scratch Space.
