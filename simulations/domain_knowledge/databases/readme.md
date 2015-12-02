@@ -4,7 +4,7 @@ Answer Below using SQL Queries. This is taken from Robert Adler's Scaveneger Hun
 2) In what state have we issued the most principal in WebBank-owned loans? The greatest number of WebBank-owned loans?  
 3) How many loans did we issue in September 2014 in the US? In the UK? (hint: US and UK are on separate databases/Looker models)  
 4) How many customers do we have whose first name starts with the letter S?  
-5) On what date did we break $100MM in total principal funded? 
+5) On what date did we break $100MM in total principal funded?   
 (Subsequent are OPTIONAL)  
 6) In terms of number of leads created, number of leads imported, and number of loans funded, who are our top 3 lead sources in the UK and the US?  
 7) What are the different loan statuses? Which of these statuses correspond to "issued" loans? What are the 3 most common loan statuses for loans created in January 2015? Does the Jan 2015 cohort have all statuses present? Why or why not? (Hint: how do you find out all the different values loan statuses can take? Try this first to find out which loan statuses you care about here)  
