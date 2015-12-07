@@ -10,8 +10,8 @@ Apply this knowledge to run the following [syberia file](https://github.com/avan
   * It is important you are able to successfully run end to end as the subsequent simulations will use this model as a foundation. 
 
 Question(s):  
-  1) After "Drop single valued variables" what is the size of the training dataframe?
-  2) What is the object size of the saved TundraContainer (Hint: Use the s3 commandLine Interface)(Hint2: use `-H` for human readable formatting)
+    1) After "Drop single valued variables" what is the size of the training dataframe?  
+    2) What is the object size of the saved TundraContainer (Hint: Use the s3 commandLine Interface)(Hint2: use `-H` for human readable formatting)
 
 
 
