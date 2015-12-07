@@ -1,5 +1,5 @@
 Watch This [Introductory Tutorial on Running a Sbyeria File](https://www.youtube.com/watch?v=mpo8T6TiBvk)  
-(Verify you are signed in through Avant. If one cannot access notify Igor Veksler.)
+(Verify you are signed in through Avant. If one cannot access notify Igor Veksler)
   * NOTE: The notation has changed as of time of filming with the addition of DSSM(DataSource Specific Munging). 
           Therefore to run within specific substage one needs to specifiy additional stage. I.E.
           Run within First Munge Procedure of Data Stage => ```run('demo', to = 'data/2/1/')```
