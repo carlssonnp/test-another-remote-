@@ -4,12 +4,8 @@ Watch This [Introductory Tutorial on Running a Sbyeria File](https://www.youtube
           Therefore to run within specific substage one needs to specifiy additional stage. I.E.
           Run within First Munge Procedure of Data Stage => ```run('demo', to = 'data/2/1/')```
 
-<<<<<<< HEAD
-Apply this knwoledge to run the following [syberia file](https://github.com/avantcredit/avant-analytics/blob/master/models/examples/demo/demo.R)  
-  * create a new branch and new directory `demo_<yourname>` 
-=======
 Apply this knowledge to run the following [Syberia File](https://github.com/avantcredit/avant-analytics/blob/master/models/examples/demo/demo.R)  
->>>>>>> 749ad6cfe33cf0fe12e5b8555f9f2c81f186c127
+  * create a new branch and new directory `demo_<yourname>` 
   * Locally Within the Export stage change `a` to your name as to create a new model to not overwrite an existing model. I.e. `s3 =  "model/example/demo/<yourname>",`  
   * Verify Python [XGBoost Installed](https://github.com/dmlc/xgboost/tree/master/python-package)
   * Submit any errors you experience as an issue within [avant-analytics-scraps](https://github.com/avantcredit/avant-analytics-scraps) and tag Elaine Lee
