@@ -4,6 +4,7 @@ Watch This [Introductory Tutorial on Running a Sbyeria File](https://www.youtube
           Run within First Munge Procedure of Data Stage => ```r run('demo', to = 'data/2/1/')```
 
 Apply this knwoledge to run the following [syberia file](https://github.com/avantcredit/avant-analytics/blob/master/models/examples/demo/demo.R)  
+  * create a new branch and new directory `demo_<yourname>` 
   * Locally Within the Export stage change `a` to your name as to create a new model to not overwrite an existing model. I.e. `s3 =  "model/example/demo/<yourname>",`  
   * Verify Python [XGBoost Installed](https://github.com/dmlc/xgboost/tree/master/python-package)
   * Submit any errors you experience as an issue within [avant-analytics-scraps](https://github.com/avantcredit/avant-analytics-scraps) and tag Elaine Lee

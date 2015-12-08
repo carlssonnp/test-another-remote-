@@ -68,5 +68,8 @@ Pairing & Shadowing
 Have this document by dynamic and have trainee improve challenge
 Think of having git setup challenge
 
+Each 
+
 References  
   [1][ John Danaher (Minute 6 & 30 seconds)](https://www.youtube.com/watch?v=SpLKrhwGavU)
+
