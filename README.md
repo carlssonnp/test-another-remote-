@@ -12,7 +12,7 @@ to "Hit The Ground Running".
   On the fundamentals Avant will be a dictator as having a strong base & foundation is universally beneficial."* - John Danaher [1]
 
 
-#### Universal DataScience Skillset.
+#### Universal DataScience Skillset
 <img src="http://www.ibm.com/developerworks/library/os-datascience/figure1.png" width="300" height="300">
 
 **Complete the simulation challenges in the following order. Every Simulation challenge is meant to be answered with a Pull Request to be reviewed and discussed with Guardian. 
