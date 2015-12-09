@@ -11,8 +11,11 @@ Within Avant we use Github to collaborate. This will be a useful skill for one t
 Configure Hipchat:
   * hipChat -- you should have received a link to configure hipChat in e-mail.  If not, contact Guadian & IT.
     * rooms you need to be part of: `Analytics`, `Analytics General`, `Analytics Alerts`, `LA data science` (for LA office)
+
 Read [additional setup notes](https://avantdatascience.hackpad.com/How-do-I-get-startedminimum-tools-needed-to-setup-your-work-stationeveryone-xGL9NSvHAaR). If you don't have access to hackpad reference Justin Hou
+Learn [How to file a github issue](https://guides.github.com/features/issues/ "git issue")
 
 Challenge(s):
   1) If you feel there are gaps in documentation in the setup process, with the help of your guardian update the documentation. Thanks! 
   2) Add yourself to the [team list](https://github.com/avantcredit/avant/blob/master/R/team.R). Use this [PR](https://github.com/avantcredit/avant/commit/b7549ca74675f934c8d28ac341a74f8945b10ee3) as a template.
+  3) File a github Issue within Onboarding with any thoughts on setup process. 

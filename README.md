@@ -38,9 +38,6 @@ Avant Specific =>
 
 #### DataScience
 
-* Tools of the trade 2: R setup, s3, R server, beast, beauty
-  * [How to file a github issue](https://guides.github.com/features/issues/ "git issue")
-
 #### DataEngineering
 * FILLIN
 
