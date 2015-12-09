@@ -37,21 +37,7 @@ Avant Specific =>
 ### CORE skillsets and knowledge
 
 #### DataScience
-* [Getting Started](https://github.com/avantcredit/avant-analytics/wiki "Start Here")
-  * And, some [additional notes](https://avantdatascience.hackpad.com/How-do-I-get-startedminimum-tools-needed-to-setup-your-work-stationeveryone-xGL9NSvHAaR)
-* Tools of the trade 1:
 
-TODO: Incorporate ->
-  Stick under Setup
-  * *Exercise*:: Add yourself to the team.
-  * hipChat -- you should have received a link to configure hipChat in e-mail.  If not, contact .... ?
-    * rooms you need to be part of: `Analytics`, `Analytics General`, `Analytics Alerts`, `LA data science` (for LA office)
-
-  * Exploring github and making contributions.
-
-  * [Test your git skills with this git game](https://github.com/git-game/git-game "git game")
-
-  (create a deploy section)
 * [How to deploy a model.](https://github.com/avantcredit/avant-analytics/blob/master/culture/deployment.md "Deploy a model")
 * [Check list for production models](https://github.com/avantcredit/avant-analytics/wiki/Check-list-for-production-models "Model checklist")
 
@@ -61,12 +47,6 @@ TODO: Incorporate ->
 
 #### DataEngineering
 * FILLIN
-
-Pairing & Shadowing
-Have this document by dynamic and have trainee improve challenge
-Think of having git setup challenge
-
-Each 
 
 References  
   [1][ John Danaher (Minute 6 & 30 seconds)](https://www.youtube.com/watch?v=SpLKrhwGavU)
