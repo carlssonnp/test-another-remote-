@@ -38,10 +38,6 @@ Avant Specific =>
 
 #### DataScience
 
-* [How to deploy a model.](https://github.com/avantcredit/avant-analytics/blob/master/culture/deployment.md "Deploy a model")
-* [Check list for production models](https://github.com/avantcredit/avant-analytics/wiki/Check-list-for-production-models "Model checklist")
-
-  (not sure where this goes)
 * Tools of the trade 2: R setup, s3, R server, beast, beauty
   * [How to file a github issue](https://guides.github.com/features/issues/ "git issue")
 
