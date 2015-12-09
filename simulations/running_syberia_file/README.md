@@ -14,6 +14,7 @@ Apply this knowledge to run the following [Syberia File](https://github.com/avan
 Question(s):  
     1) After "Drop single valued variables" what is the size of the training dataframe?  
     2) What is the object size of the saved TundraContainer (Hint: Use the s3 commandLine Interface)(Hint2: use `-H` for human readable formatting)
+    3) What is a TundraContainer? 
 
 
 
