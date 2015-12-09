@@ -16,3 +16,4 @@ Challenge(s):
   1) In the context of this challenge we will write tests for the custom mungebit your created. 
      Write atleast 3 tests for your custom mungebit. 
      You will need to follow this format to write a mungebit [test within Avant Analytics](https://github.com/avantcredit/avant-analytics/tree/master/test)
+  2) Append The DS checklist to PR and check relavant boxes

@@ -1,0 +1,1 @@
+Know the [coding style](https://github.com/avantcredit/avant-analytics/wiki/R-Style-Guide), naming conventions, and [banned R practices](https://github.com/avantcredit/avant-analytics/wiki/Banned-R-Practices "banned").

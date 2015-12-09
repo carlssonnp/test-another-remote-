@@ -9,4 +9,4 @@ Read about R-markdown =>
 Challenge)
   Create a new Directory and you will create a similar modelcard for your model. One can Edit the README.Rmd to see template code.
   You are going to need how to use the [make_validation_plot](https://github.com/avantcredit/make_validation_plot/blob/master/R/make_validation_plot.R) code to create a lift chart. 
-  Refer to Guardian if you posses any Questions 
+  Refer to Guardian if you posses any Questions. More information on the Infastructure can be found [here](https://github.com/avantcredit/avant-analytics/wiki/Getting-started-with-Avant-models-and-data)

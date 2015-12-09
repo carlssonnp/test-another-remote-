@@ -4,6 +4,8 @@ Watch This [Introductory Tutorial on Running a Sbyeria File](https://www.youtube
           Therefore to run within specific substage one needs to specifiy additional stage. I.E.
           Run within First Munge Procedure of Data Stage => ```run('demo', to = 'data/2/1/')```
 
+Similarly, read subsequent Documentation within [avant-analytics/models](https://github.com/avantcredit/avant-analytics/blob/master/models/README.md)
+
 Apply this knowledge to run the following [Syberia File](https://github.com/avantcredit/avant-analytics/blob/master/models/examples/demo/demo.R)  
   * create a new branch and new directory `demo_<yourname>` 
   * Locally Within the Export stage change `a` to your name as to create a new model to not overwrite an existing model. I.e. `s3 =  "model/example/demo/<yourname>",`  
@@ -15,6 +17,7 @@ Question(s):
     1) After "Drop single valued variables" what is the size of the training dataframe?  
     2) What is the object size of the saved TundraContainer (Hint: Use the s3 commandLine Interface)(Hint2: use `-H` for human readable formatting)
     3) What is a TundraContainer? 
+    4) What is the difference between 'run', 'schedule_build', and 'local_run'?
 
 
 
