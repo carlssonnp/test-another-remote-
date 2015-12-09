@@ -19,22 +19,31 @@ to "Hit The Ground Running".
 2. [Mathematical](https://github.com/avantcredit/onboarding/tree/master/simulations/mathematical)
 3. [Domain Knowledge](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge)
 
-#### Temporary Scratch Space.
 
-Capture previously existing pages here.
+  **Complete the simulation challenges in the following order. Every Simulation challenge is meant to be answered with a Pull Request to be reviewed and discussed with Guardian. 
+  The human follow up discussion you will will help you gain a deeper knowledge within a domain. You don't learn to paint by reading books so lets get down to it:**
 
+1) WrapUp. Yes wrapup! stop asking questions and follow directions.
+2) Programming
+  2a) R_Simulation_challenge 
+  2b) code_principles
+3) Mathematical
+  3a) GBM
+4) Setup
+5) running_syberia_file
+6) mungebits
+7) testing
+8) modelcard
+9) modelcard_additions 
+10)
 
-* Complete the simulation challenges. Every task will require a generated PR to be reviewed and discussed with Guardian. The human follow up discussion will help you gain a deeper knowledge within an area.
-
-TODO:
-Checkoff all below Incorporations
-
-[Temporary Brain_Dump (peter/babar/davidN/Igor)](
-https://docs.google.com/document/d/1lotfElPA7mgUxRZybu2uQ-W6VbppnHFMELV9GYzAkfM/edit)
-
-Avant Specific =>
-[hackpad Integration](https://avantdatascience.hackpad.com/Start-Here-rmZTFkC8X3x) <= Integrate This
 
 References  
   [1][ John Danaher (Minute 6 & 30 seconds)](https://www.youtube.com/watch?v=SpLKrhwGavU)
+
+TODO:
+Checkoff If all below suggestions are Incorporated in the context of a challenge. DavidN & Babar
+  * [Temporary Brain_Dump (peter/babar/davidN/Igor)](https://docs.google.com/document/d/1lotfElPA7mgUxRZybu2uQ-W6VbppnHFMELV9GYzAkfM/edit)
+  * [hackpad Integration](https://avantdatascience.hackpad.com/Start-Here-rmZTFkC8X3x) 
+
 

@@ -15,3 +15,4 @@ Challenge(s):
   1) No challenges just take a brief moment to contemplate and be grateful.
      Easier said than done.  Ok good. 
      Now you can go back to cursing about bugs.
+  2) Optional Trivia. What Language was original GLMNET package programmed in?
