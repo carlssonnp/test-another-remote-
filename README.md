@@ -43,8 +43,6 @@ Avant Specific =>
   * hipChat -- you should have received a link to configure hipChat in e-mail.  If not, contact .... ?
     * rooms you need to be part of: `Analytics`, `Analytics General`, `Analytics Alerts`, `LA data science` (for LA office)
 * Tools of the trade 2: R setup, s3, R server, beast, beauty
-* Learn about [the infrastructure](https://github.com/avantcredit/avant-analytics/blob/master/README.md)
-* [Learn about Avant models](https://github.com/avantcredit/avant-analytics/wiki/Getting-started-with-Avant-models-and-data "Avant Models")
   * Tutorial on [running StageRunner outside of Syberia](https://github.com/avantcredit/avant-analytics/wiki/How-to-use-StageRunner-(outside-of-Syberia))
   * Example:: [Using StageRunner for analysis](https://github.com/avantcredit/avant-analytics/tree/prepayment_refi_offer_feasibility/models/dev/experimental/prepayment_analysis)
   * Exercise:: Yuchen's writeup goes here???
