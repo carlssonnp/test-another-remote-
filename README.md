@@ -29,13 +29,16 @@ to "Hit The Ground Running".
   2b) code_principles
 3) Mathematical
   3a) GBM
+4) DomainKnwoledge
+  4a) Avant Tribale Knowledge
 4) Setup
 5) running_syberia_file
 6) mungebits
 7) testing
 8) modelcard
 9) modelcard_additions 
-10)
+10) more_infastructure
+
 
 
 References  
