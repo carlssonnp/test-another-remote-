@@ -30,7 +30,9 @@ to "Hit The Ground Running".
 3) Mathematical
   3a) GBM
 4) DomainKnwoledge
-  4a) Avant Tribale Knowledge
+  4a) Business 
+  4b) process_tribal_knowledge
+  4c) database_tables
 4) Setup
 5) running_syberia_file
 6) mungebits
