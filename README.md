@@ -34,13 +34,6 @@ Avant Specific =>
 
 * Complete the simulation challenges. Every task will require a generated PR to be reviewed and discussed with Guardian. The human follow up discussion will help you gain a deeper knowledge within an area.
 
-### CORE skillsets and knowledge
-
-#### DataScience
-
-#### DataEngineering
-* FILLIN
-
 References  
   [1][ John Danaher (Minute 6 & 30 seconds)](https://www.youtube.com/watch?v=SpLKrhwGavU)
 

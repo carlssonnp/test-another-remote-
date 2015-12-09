@@ -12,8 +12,6 @@ Testing is a large subject in and of itself. Its a good thing you have the time.
 One of the tenants of [TDD](https://en.wikipedia.org/wiki/Test-driven_development) is to write tests a-priori. 
 This may not be your prefered workflow, but what matters to Avant is that you actually write tests. TODO: Verify with RobK this is true? 
    
-There is a [Checklist](https://github.com/avantcredit/avant-analytics/wiki/PR-Review-Checklist) Avant Follows before merging non-trivial changes on DS & DE. 
-
 Challenge(s):
   1) In the context of this challenge we will write tests for the custom mungebit your created. 
      Write atleast 3 tests for your custom mungebit. 
