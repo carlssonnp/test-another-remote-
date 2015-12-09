@@ -18,26 +18,45 @@ to "Hit The Ground Running".
 **Complete the simulation challenges in the following order. Every Simulation challenge is meant to be answered with a Pull Request to be reviewed and discussed with Guardian. 
 The human follow up discussion you will will help you gain a deeper knowledge within a domain. You don't learn to paint by reading books so lets get down to it:**
 
-1) [wrap_up](https://github.com/avantcredit/onboarding/tree/master/simulations/wrap_up). Yes wrapup! stop asking questions and follow directions   
-2) [Programming](https://github.com/avantcredit/onboarding/tree/master/simulations/programming)       
-  * 2a) [R_Simulation_challenge](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/R_simulation_challenge.md)   * 2b) [code_principles](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/code_principles.md)  
-3) [Mathematical](https://github.com/avantcredit/onboarding/tree/master/simulations/mathematical)   
+* 1.) [wrap_up](https://github.com/avantcredit/onboarding/tree/master/simulations/wrap_up). Yes wrapup! stop asking questions and follow directions
+
+* 2.) [Programming](https://github.com/avantcredit/onboarding/tree/master/simulations/programming)
+  * 2a) [R_Simulation_challenge](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/R_simulation_challenge.md)
+
+  * 2b) [code_principles](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/code_principles.md)  
+  
+* 3) [Mathematical](https://github.com/avantcredit/onboarding/tree/master/simulations/mathematical)   
+
   * 3a) [GBM](https://github.com/avantcredit/onboarding/tree/master/simulations/mathematical/gbm)    
-4) [DomainKnwoledge](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge)  
+
+* 4) [DomainKnwoledge](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge)  
+
   * 4a) [Business](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/business)  
+
   * 4b) [process_tribal_knowledge](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/process_tribal_knowledge)  
+
   * 4c) [database_tables](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/database_tables)  
-5) [Setup/Configuration](https://github.com/avantcredit/onboarding/tree/master/simulations/setup)    
-6) [running_syberia_file](https://github.com/avantcredit/onboarding/tree/master/simulations/running_syberia_file)  
-7) [mungebits](https://github.com/avantcredit/onboarding/tree/master/simulations/mungebits)  
-8) [testing](https://github.com/avantcredit/onboarding/tree/master/simulations/testing)  
-9) [modelcard](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard)  
-10) [modelcard_additions](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard_additions)   
-11) [infastructure](https://github.com/avantcredit/onboarding/tree/master/simulations/more_infastructure)  
-12) [follow_the_rules](https://github.com/avantcredit/onboarding/tree/master/simulations/follow_the_rules)  
-13) [microvariables](https://github.com/avantcredit/onboarding/tree/master/simulations/microvariables)  
-14) [history](https://github.com/avantcredit/onboarding/tree/master/simulations/history)  
-15) [wrap_up](https://github.com/avantcredit/onboarding/tree/master/simulations/wrap_up)
+* 5) [Setup/Configuration](https://github.com/avantcredit/onboarding/tree/master/simulations/setup)    
+
+* 6) [running_syberia_file](https://github.com/avantcredit/onboarding/tree/master/simulations/running_syberia_file)    
+
+* 7) [mungebits](https://github.com/avantcredit/onboarding/tree/master/simulations/mungebits)  
+
+* 8) [testing](https://github.com/avantcredit/onboarding/tree/master/simulations/testing)  
+
+* 9) [modelcard](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard)  
+
+* 10) [modelcard_additions](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard_additions)   
+
+* 11) [infastructure](https://github.com/avantcredit/onboarding/tree/master/simulations/more_infastructure)  
+
+* 12) [follow_the_rules](https://github.com/avantcredit/onboarding/tree/master/simulations/follow_the_rules)  
+
+* 13) [microvariables](https://github.com/avantcredit/onboarding/tree/master/simulations/microvariables)  
+
+* 14) [history](https://github.com/avantcredit/onboarding/tree/master/simulations/history)  
+
+* 15) [wrap_up](https://github.com/avantcredit/onboarding/tree/master/simulations/wrap_up)
 
 
 
