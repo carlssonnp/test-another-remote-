@@ -15,15 +15,10 @@ to "Hit The Ground Running".
 #### Skill expectations.
 <img src="http://www.ibm.com/developerworks/library/os-datascience/figure1.png" width="300" height="300">
 
-1. [Programming Ability](https://github.com/avant-analytics/onboarding/tree/master/simulation_challenges/programming)
-2. [Mathematical](https://github.com/avantcredit/onboarding/tree/master/simulations/mathematical)
-3. [Domain Knowledge](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge)
+**Complete the simulation challenges in the following order. Every Simulation challenge is meant to be answered with a Pull Request to be reviewed and discussed with Guardian. 
+The human follow up discussion you will will help you gain a deeper knowledge within a domain. You don't learn to paint by reading books so lets get down to it:**
 
-
-  **Complete the simulation challenges in the following order. Every Simulation challenge is meant to be answered with a Pull Request to be reviewed and discussed with Guardian. 
-  The human follow up discussion you will will help you gain a deeper knowledge within a domain. You don't learn to paint by reading books so lets get down to it:**
-
-1) WrapUp. Yes wrapup! stop asking questions and follow directions.
+1) wrap_up. Yes wrapup! stop asking questions and follow directions.
 2) Programming
   2a) R_Simulation_challenge 
   2b) code_principles
@@ -33,13 +28,17 @@ to "Hit The Ground Running".
   4a) Business 
   4b) process_tribal_knowledge
   4c) database_tables
-4) Setup
-5) running_syberia_file
-6) mungebits
-7) testing
-8) modelcard
-9) modelcard_additions 
-10) more_infastructure
+5) Setup/Configuration
+6) running_syberia_file
+7) mungebits
+8) testing
+9) modelcard
+10) modelcard_additions 
+11) more_infastructure
+12) follow_the_rules
+13) microvariables
+14) history
+15) wrap_up
 
 
 
