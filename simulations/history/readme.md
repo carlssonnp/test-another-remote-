@@ -12,7 +12,7 @@ Syberia Infastructure:
   TODO: RobK fill in with his version of story and github links
 
 Challenge(s):
-  1) No challenges just take a brief moment to contemplate and be grateful.
-     Easier said than done.  Ok good. 
-     Now you can go back to cursing about bugs.
+  1) No challenges just take a brief moment to contemplate and be grateful.  
+     Easier said than done.  Ok good.     
+     Now you can go back to cursing about bugs.   
   2) Optional Trivia. What Language was original GLMNET package programmed in?
