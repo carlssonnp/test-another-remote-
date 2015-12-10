@@ -17,14 +17,20 @@ This is meant to simulate the end to end workflow of a Data Scientist / Data Eng
 
 <img src="http://www.ibm.com/developerworks/library/os-datascience/figure1.png" width="300" height="300">
 
-**Complete the simulation challenges in the following order. Every simulation challenge is meant to be answered with a Pull Request to be reviewed and discussed with your Guardian. 
-The human follow up discussion you will will help you gain a deeper knowledge within a domain. You don't learn to paint by reading books so lets get down to it:**
+Complete the simulation challenges in the following order, from the top to the bottom. **This is a linear sequence of steps, not a choose your own adventure.**
+
+Every simulation challenge is meant to be answered with a Pull Request to be reviewed and discussed with your Guardian. 
+
+The human follow up discussion you will will help you gain a deeper knowledge within a domain. You don't learn to paint by reading books so lets get down to it.
+
 
 #### Starting Out
 
+* [Get the necessary accounts and set up your machine.](https://github.com/avantcredit/onboarding/tree/master/simulations/setup/README.md)    
+
 * Meet the team [TODO]
 
-* [Get the necessary accounts and set up your machine.](https://github.com/avantcredit/onboarding/tree/master/simulations/setup/README.md)    
+* Learn what people at Avant do [TODO]
 
 
 #### Computer Science
