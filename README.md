@@ -22,7 +22,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 #### Starting Out
 
-* Meet the team
+* Meet the team [TODO]
 
 * [Get the necessary accounts and set up your machine.](https://github.com/avantcredit/onboarding/tree/master/simulations/setup/README.md)    
 
@@ -38,59 +38,57 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 #### Math and Statistics
 
-* [Learn the GBM](https://github.com/avantcredit/onboarding/tree/master/simulations/mathematical/gbm).
+* [Learn the GBM](https://github.com/avantcredit/onboarding/blob/master/simulations/mathematical/gbm/readme.md).
 
 
 #### Domain Knowledge
 
 **Business Analytics**
 
-* [Learn the Business of Avant](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/business) 
+* Learn the Business of Avant -- TODO: https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/business
 
 
 **Business Intelligence**
 
 * [Learn SQL](https://www.codecademy.com/learn/learn-sql)
 
-* [Learn about the database tables](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/database_tables)  
-
 * [Learn about Looker](http://www.looker.com/docs/video-library/exploring-data)
 
-* SQL Exercises -- TODO: https://businessintelligence.hackpad.com/New-Hire-Scavenger-Hunt-Part-1-sn58RIsOqrX
+* [SQL Exercises](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/database_tables/readme.md)  
 
 
 **Data Science using Syberia**
 
-* [Run a Syberia File](https://github.com/avantcredit/onboarding/tree/master/simulations/running_syberia_file)    
+* [Run a Syberia File](https://github.com/avantcredit/onboarding/tree/master/simulations/running_syberia_file/README.md) [TODO]
 
-* [Learn about mungebits](https://github.com/avantcredit/onboarding/tree/master/simulations/mungebits)  
+* [Learn about mungebits](https://github.com/avantcredit/onboarding/tree/master/simulations/mungebits) [TODO] 
 
 * [The model card](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard)  -- TODO: Merge [modelcard_additions](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard_additions) into model card.
 
 
 **Data Engineering**
 
-* Deployment
+* Deployment [TODO]
 
-* Productionization
+* Productionization [TODO]
 
-* Writing an R Package
+* Writing an R Package [TODO]
 
-* [Testing an R Package](https://github.com/avantcredit/onboarding/tree/master/onboarding/simulations/testing/readme.md)
+* [Testing an R Package](https://github.com/avantcredit/onboarding/tree/master/onboarding/simulations/testing/readme.md) [TODO]
 
-* [Our Infrastructure](https://github.com/avantcredit/onboarding/tree/master/simulations/more_infastructure)
+* [Our Infrastructure](https://github.com/avantcredit/onboarding/tree/master/simulations/more_infastructure) [TODO]
 
-* Being a good developer
+* Being a good developer [TODO]
 
 
 **Getting Data**
 
-* [Add new microvariables](https://github.com/avantcredit/onboarding/tree/master/simulations/microvariables)  
+* [Add new microvariables](https://github.com/avantcredit/onboarding/tree/master/simulations/microvariables)   [TODO]
 
 
 **General**
 
-* [Follow the law](https://github.com/avantcredit/onboarding/tree/master/simulations/follow_the_rules)  
+* [Follow the law](https://github.com/avantcredit/onboarding/tree/master/simulations/follow_the_rules)   [TODO]
 
 
 
@@ -98,13 +96,13 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 You've made it to the end.  Now you just need to read! :)
 
-* [Up your programmer productivity](https://github.com/avantcredit/avant-analytics/wiki/Programmer-Tips-&-Tricks)
+* [Up your programmer productivity](https://github.com/avantcredit/avant-analytics/wiki/Programmer-Tips-&-Tricks) [TODO]
 
-* How do we choose our project priorities?
+* How do we choose our project priorities? [TODO]
 
-* [Learn our team's history](https://github.com/avantcredit/onboarding/tree/master/simulations/history)  
+* [Learn our team's history](https://github.com/avantcredit/onboarding/tree/master/simulations/history)   [TODO]
 
-* [Wrap up](https://github.com/avantcredit/onboarding/tree/master/simulations/wrap_up)
+* [Wrap up](https://github.com/avantcredit/onboarding/tree/master/simulations/wrap_up) [TODO]
 
 
 #### Other Ways to Learn
