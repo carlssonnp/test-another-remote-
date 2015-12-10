@@ -20,11 +20,18 @@ This is meant to simulate the end to end workflow of a Data Scientist / Data Eng
 **Complete the simulation challenges in the following order. Every simulation challenge is meant to be answered with a Pull Request to be reviewed and discussed with your Guardian. 
 The human follow up discussion you will will help you gain a deeper knowledge within a domain. You don't learn to paint by reading books so lets get down to it:**
 
+#### Starting Out
+
+* Meet the team
+
+* [Get the necessary accounts and set up your machine.](https://github.com/avantcredit/onboarding/tree/master/simulations/setup)    
+
+
 #### Computer Science
 
-* [Learn "Advanced R"](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/R_simulation_challenge.md).
+* [Learn "Advanced R"](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/R_simulation_challenge.md)
 
-* [Learn our coding principles](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/code_principles.md).
+* [Learn our coding principles](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/code_principles.md)
 
 * [Learn how to test](https://github.com/avantcredit/onboarding/tree/master/simulations/testing)  
 
@@ -42,15 +49,21 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * [Learn the Business of Avant](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/business) 
 
-* [Learn our tribal knowledge](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/process_tribal_knowledge)  
+--TODO: Learn our tribal knowledge https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/process_tribal_knowledge 
+
 
 **Business Intelligence**
 
+* [Learn SQL](https://www.codecademy.com/learn/learn-sql)
+
 * [Learn about the database tables](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/database_tables)  
 
-**Data Science using Syberia**
+* [Learn about Looker](http://www.looker.com/docs/video-library/exploring-data)
 
-* [Setup/Configuration](https://github.com/avantcredit/onboarding/tree/master/simulations/setup)    
+* SQL Exercises -- TODO: https://businessintelligence.hackpad.com/New-Hire-Scavenger-Hunt-Part-1-sn58RIsOqrX
+
+
+**Data Science using Syberia**
 
 * [Run a Syberia File](https://github.com/avantcredit/onboarding/tree/master/simulations/running_syberia_file)    
 
@@ -59,21 +72,55 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 * [The model card](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard)  
 
 -- TODO: Merge [modelcard_additions](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard_additions) into model card.
+
+
+**Data Engineering**
+
+* Deployment
+
+* Productionization
+
 -- TODO: [infastructure](https://github.com/avantcredit/onboarding/tree/master/simulations/more_infastructure)
+
 
 **Getting Data**
 
 * [Add new microvariables](https://github.com/avantcredit/onboarding/tree/master/simulations/microvariables)  
 
+
 **General**
 
 * [Follow the law](https://github.com/avantcredit/onboarding/tree/master/simulations/follow_the_rules)  
+
+
+
+#### Bonus Content
+
+You've made it to the end.  Now you just need to read! :)
+
+* [Up your programmer productivity](https://github.com/avantcredit/avant-analytics/wiki/Programmer-Tips-&-Tricks)
+
+* How do we choose our project priorities?
 
 * [Learn our team's history](https://github.com/avantcredit/onboarding/tree/master/simulations/history)  
 
 * [Wrap up](https://github.com/avantcredit/onboarding/tree/master/simulations/wrap_up)
 
+
+#### Other Ways to Learn
+
+* After you complete the training material, you will begin work on your first real-life task!  Yay!
+
+* You will also have multiple **pairing sessions** (where someone else helps you with your work) and **shadowing sessions** (where you see the work of others).
+
+* You should also participate in our morning lectures and ask questions.
+
+* You will also be invited to a Code Craftsmanship seminar to further hone your R knowledge.
+
+
 ***
 
-References  
-  [1][ John Danaher (Minute 6 & 30 seconds)](https://www.youtube.com/watch?v=SpLKrhwGavU)
+## References
+
+* [1] [John Danaher](https://youtu.be/SpLKrhwGavU?t=390)
+
