@@ -7,7 +7,7 @@ This repository should contain everything you need to know to get started.  **Bu
 This is meant to simulate the end to end workflow of a Data Scientist / Data Engineer. Once complete you will have the foundation to "Hit The Ground Running". 
 
 *"At the advanced levels Avant will be a libertarian and give you the paintbrush to paint your own masterpiece based upon your passions, skillset, etc. 
-  On the fundamentals Avant will be a dictator as having a strong base & foundation is universally beneficial."* - John Danaher [1]
+  On the fundamentals Avant will be a dictator as having a strong base & foundation is universally beneficial."* - [John Danaher](https://youtu.be/SpLKrhwGavU?t=390)
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/AC97-0295-13_a.jpeg" alt="alt text" width="300" height="300">
 
@@ -116,11 +116,4 @@ You've made it to the end.  Now you just need to read! :)
 * You should also participate in our morning lectures and ask questions.
 
 * You will also be invited to a Code Craftsmanship seminar to further hone your R knowledge.
-
-
-***
-
-## References
-
-* [1] [John Danaher](https://youtu.be/SpLKrhwGavU?t=390)
 
