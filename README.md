@@ -35,8 +35,6 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * [Learn how to test](https://github.com/avantcredit/onboarding/tree/master/simulations/testing)  
 
--- TODO: Learn how to be a developer, R packages, stacktrace seminar.
-
 
 #### Math and Statistics
 
@@ -48,8 +46,6 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 **Business Analytics**
 
 * [Learn the Business of Avant](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/business) 
-
---TODO: Learn our tribal knowledge https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/process_tribal_knowledge 
 
 
 **Business Intelligence**
@@ -69,9 +65,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * [Learn about mungebits](https://github.com/avantcredit/onboarding/tree/master/simulations/mungebits)  
 
-* [The model card](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard)  
-
--- TODO: Merge [modelcard_additions](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard_additions) into model card.
+* [The model card](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard)  -- TODO: Merge [modelcard_additions](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard_additions) into model card.
 
 
 **Data Engineering**
@@ -80,7 +74,13 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * Productionization
 
--- TODO: [infastructure](https://github.com/avantcredit/onboarding/tree/master/simulations/more_infastructure)
+* Writing an R Package
+
+* Testing an R Package
+
+* [Our Infrastructure](https://github.com/avantcredit/onboarding/tree/master/simulations/more_infastructure)
+
+* Being a good developer
 
 
 **Getting Data**
