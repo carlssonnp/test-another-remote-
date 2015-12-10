@@ -24,7 +24,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * Meet the team
 
-* [Get the necessary accounts and set up your machine.](https://github.com/avantcredit/onboarding/tree/master/simulations/setup)    
+* [Get the necessary accounts and set up your machine.](https://github.com/avantcredit/onboarding/tree/master/simulations/setup/README.md)    
 
 
 #### Computer Science
