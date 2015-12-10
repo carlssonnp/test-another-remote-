@@ -16,5 +16,7 @@ algorithim. (Most Frequently used model) Please Read the Paper & Create a PR to 
 5) Within the Helper Sheet try to aid others technical understanding of the algorithim. 
    Add any Insights you found especially useful that yielded a breakthrough in your understanding. 
    Can be a detailed mathematical proof or a simple diagram, human explanation, analogy, etc.  
+6) When do you stop training each tree and adding more trees to the forest?
+7) What are the hyper parameters to tune for tree-based method?
   
 TODO: Ask FEI Fei Ye for a few good Q to show deep understanding. 
