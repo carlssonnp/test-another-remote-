@@ -1,1 +1,2 @@
-Know the [coding style](https://github.com/avantcredit/avant-analytics/wiki/R-Style-Guide), naming conventions, and [banned R practices](https://github.com/avantcredit/avant-analytics/wiki/Banned-R-Practices "banned").
+* Read [our R Style Guide](https://github.com/avantcredit/avant-analytics/wiki/R-Style-Guide)
+* Avoid any of these [Banned R Practices](https://github.com/avantcredit/avant-analytics/wiki/Banned-R-Practices).
