@@ -65,7 +65,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 **Data Science using Syberia**
 
-* [Run a Syberia File](https://github.com/avantcredit/onboarding/tree/master/simulations/running_syberia_file/README.md) [TODO]
+* [Run a Syberia File](https://github.com/avantcredit/onboarding/tree/master/simulations/running_syberia_file/README.md)
 
 * [Learn about mungebits](https://github.com/avantcredit/onboarding/tree/master/simulations/mungebits) [TODO] 
 
