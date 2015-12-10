@@ -13,61 +13,67 @@ This is meant to simulate the end to end workflow of a Data Scientist / Data Eng
 
 ***
 
-#### Universal DataScience Skillset
+## Universal Data Science Skillset
+
 <img src="http://www.ibm.com/developerworks/library/os-datascience/figure1.png" width="300" height="300">
 
-**Complete the simulation challenges in the following order. Every Simulation challenge is meant to be answered with a Pull Request to be reviewed and discussed with Guardian. 
+**Complete the simulation challenges in the following order. Every simulation challenge is meant to be answered with a Pull Request to be reviewed and discussed with your Guardian. 
 The human follow up discussion you will will help you gain a deeper knowledge within a domain. You don't learn to paint by reading books so lets get down to it:**
 
-* 1.) [wrap_up](https://github.com/avantcredit/onboarding/tree/master/simulations/wrap_up). Yes wrapup! stop asking questions and follow directions
+#### Computer Science
 
-* 2.) [Programming](https://github.com/avantcredit/onboarding/tree/master/simulations/programming)
-  * 2a) [R_Simulation_challenge](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/R_simulation_challenge.md)
+* [Learn "Advanced R"](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/R_simulation_challenge.md).
 
-  * 2b) [code_principles](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/code_principles.md)  
-  
-* 3) [Mathematical](https://github.com/avantcredit/onboarding/tree/master/simulations/mathematical)   
+* [Learn our coding principles](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/code_principles.md).
 
-  * 3a) [GBM](https://github.com/avantcredit/onboarding/tree/master/simulations/mathematical/gbm)    
+* [Learn how to test](https://github.com/avantcredit/onboarding/tree/master/simulations/testing)  
 
-* 4) [DomainKnwoledge](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge)  
+-- TODO: Learn how to be a developer, R packages, stacktrace seminar.
 
-  * 4a) [Business](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/business)  
 
-  * 4b) [process_tribal_knowledge](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/process_tribal_knowledge)  
+#### Math and Statistics
 
-  * 4c) [database_tables](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/database_tables)  
-* 5) [Setup/Configuration](https://github.com/avantcredit/onboarding/tree/master/simulations/setup)    
+* [Learn the GBM](https://github.com/avantcredit/onboarding/tree/master/simulations/mathematical/gbm).
 
-* 6) [running_syberia_file](https://github.com/avantcredit/onboarding/tree/master/simulations/running_syberia_file)    
 
-* 7) [mungebits](https://github.com/avantcredit/onboarding/tree/master/simulations/mungebits)  
+#### Domain Knowledge
 
-* 8) [testing](https://github.com/avantcredit/onboarding/tree/master/simulations/testing)  
+**Business Analytics**
 
-* 9) [modelcard](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard)  
+* [Learn the Business of Avant](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/business) 
 
-* 10) [modelcard_additions](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard_additions)   
+* [Learn our tribal knowledge](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/process_tribal_knowledge)  
 
-* 11) [infastructure](https://github.com/avantcredit/onboarding/tree/master/simulations/more_infastructure)  
+**Business Intelligence**
 
-* 12) [follow_the_rules](https://github.com/avantcredit/onboarding/tree/master/simulations/follow_the_rules)  
+* [Learn about the database tables](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/database_tables)  
 
-* 13) [microvariables](https://github.com/avantcredit/onboarding/tree/master/simulations/microvariables)  
+**Data Science using Syberia**
 
-* 14) [history](https://github.com/avantcredit/onboarding/tree/master/simulations/history)  
+* [Setup/Configuration](https://github.com/avantcredit/onboarding/tree/master/simulations/setup)    
 
-* 15) [wrap_up](https://github.com/avantcredit/onboarding/tree/master/simulations/wrap_up)
+* [Run a Syberia File](https://github.com/avantcredit/onboarding/tree/master/simulations/running_syberia_file)    
+
+* [Learn about mungebits](https://github.com/avantcredit/onboarding/tree/master/simulations/mungebits)  
+
+* [The model card](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard)  
+
+-- TODO: Merge [modelcard_additions](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard_additions) into model card.
+-- TODO: [infastructure](https://github.com/avantcredit/onboarding/tree/master/simulations/more_infastructure)
+
+**Getting Data**
+
+* [Add new microvariables](https://github.com/avantcredit/onboarding/tree/master/simulations/microvariables)  
+
+**General**
+
+* [Follow the law](https://github.com/avantcredit/onboarding/tree/master/simulations/follow_the_rules)  
+
+* [Learn our team's history](https://github.com/avantcredit/onboarding/tree/master/simulations/history)  
+
+* [Wrap up](https://github.com/avantcredit/onboarding/tree/master/simulations/wrap_up)
 
 ***
 
 References  
   [1][ John Danaher (Minute 6 & 30 seconds)](https://www.youtube.com/watch?v=SpLKrhwGavU)
-
-***
-
-TODO:
-Checkoff If all below suggestions are Incorporated in the context of a challenge. DavidN & Babar
-  * [Temporary Brain_Dump (peter/babar/davidN/Igor)](https://docs.google.com/document/d/1lotfElPA7mgUxRZybu2uQ-W6VbppnHFMELV9GYzAkfM/edit)
-  * [hackpad Integration](https://avantdatascience.hackpad.com/Start-Here-rmZTFkC8X3x) 
-
