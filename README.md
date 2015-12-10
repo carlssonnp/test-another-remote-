@@ -1,16 +1,17 @@
 # Onboarding
 
-Congratulations! You have joined the most technically proficient team within the company. (Highest Amount of phd's per capita) 
-However as a consequence the onboarding process will be the most involved. Budget ~3 weeks to complete with all PR's merged. 
-This is meant to simulate the end to end workflow of a DataScientist/DataEngineer. Once complete you will have the foundation
-to "Hit The Ground Running". 
+Congratulations! You have joined the most technically proficient team within the company (we have the highest amount of PhD's per team member).
+However, the downside of this is that we will have the most complicated onboarding process.
 
-***
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/79/AC97-0295-13_a.jpeg" alt="alt text" width="300" height="300">
+This repository should contain everything you need to know to get started.  **Budget about three weeks to complete all the exercises.**
+This is meant to simulate the end to end workflow of a Data Scientist / Data Engineer. Once complete you will have the foundation to "Hit The Ground Running". 
 
 *"At the advanced levels Avant will be a libertarian and give you the paintbrush to paint your own masterpiece based upon your passions, skillset, etc. 
   On the fundamentals Avant will be a dictator as having a strong base & foundation is universally beneficial."* - John Danaher [1]
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/79/AC97-0295-13_a.jpeg" alt="alt text" width="300" height="300">
+
+***
 
 #### Universal DataScience Skillset
 <img src="http://www.ibm.com/developerworks/library/os-datascience/figure1.png" width="300" height="300">
@@ -58,14 +59,15 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * 15) [wrap_up](https://github.com/avantcredit/onboarding/tree/master/simulations/wrap_up)
 
-
+***
 
 References  
   [1][ John Danaher (Minute 6 & 30 seconds)](https://www.youtube.com/watch?v=SpLKrhwGavU)
+
+***
 
 TODO:
 Checkoff If all below suggestions are Incorporated in the context of a challenge. DavidN & Babar
   * [Temporary Brain_Dump (peter/babar/davidN/Igor)](https://docs.google.com/document/d/1lotfElPA7mgUxRZybu2uQ-W6VbppnHFMELV9GYzAkfM/edit)
   * [hackpad Integration](https://avantdatascience.hackpad.com/Start-Here-rmZTFkC8X3x) 
-
 
