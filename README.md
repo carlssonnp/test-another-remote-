@@ -29,6 +29,8 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 #### Computer Science
 
+* [Learn Git](https://try.github.io)
+
 * [Learn "Advanced R"](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/R_simulation_challenge.md)
 
 * [Learn our coding principles](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/code_principles.md)

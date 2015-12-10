@@ -4,10 +4,6 @@ Dont worry about about the subsequent Link's under "Now What" as those will be c
 
 Be able to [log into an EC2 instance](https://github.com/avantcredit/avant-analytics/wiki/Configure-your-new-EC2-instance)
 
-Within Avant we use Github to collaborate. This will be a useful skill for one to acquire regardelss of company when collobariting on large software projects within a team.:
-  * [Intro To Github](http://blog.udacity.com/2015/06/a-beginners-git-github-tutorial.html) 
-  * [Test your git skills with this git game](https://github.com/git-game/git-game "git game")(optional)
-
 Configure Hipchat:
   * hipChat -- you should have received a link to configure hipChat in e-mail.  If not, contact Guadian & IT.
     * rooms you need to be part of: `Analytics`, `Analytics General`, `Analytics Alerts`, `LA data science` (for LA office)
