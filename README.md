@@ -51,7 +51,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 **Business Analytics**
 
-* Learn the Business of Avant -- TODO: https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/business
+* [Learn the Business of Avant](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/business) [TODO]
 
 
 **Business Intelligence**
