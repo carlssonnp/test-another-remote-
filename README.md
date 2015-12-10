@@ -35,8 +35,6 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * [Learn our coding principles](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/code_principles.md)
 
-* [Learn how to test](https://github.com/avantcredit/onboarding/tree/master/simulations/testing)  
-
 
 #### Math and Statistics
 
@@ -78,7 +76,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * Writing an R Package
 
-* Testing an R Package
+* [Testing an R Package](https://github.com/avantcredit/onboarding/tree/master/onboarding/simulations/testing/readme.md)
 
 * [Our Infrastructure](https://github.com/avantcredit/onboarding/tree/master/simulations/more_infastructure)
 
