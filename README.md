@@ -67,7 +67,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * [Run a Syberia File](https://github.com/avantcredit/onboarding/tree/master/simulations/running_syberia_file/README.md)
 
-* [Learn about mungebits](https://github.com/avantcredit/onboarding/tree/master/simulations/mungebits/readme.md)
+* [Mungebits](https://github.com/avantcredit/onboarding/tree/master/simulations/mungebits/readme.md)
 
 * [The model card](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard)  -- TODO: Merge [modelcard_additions](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard_additions) into model card.
 
