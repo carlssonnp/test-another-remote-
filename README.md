@@ -89,12 +89,12 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 **Getting Data**
 
-* [Add new microvariables](https://github.com/avantcredit/onboarding/tree/master/simulations/microvariables)   [TODO]
+* [Add new microvariables](https://github.com/avantcredit/onboarding/tree/master/simulations/microvariables)   [TODO:Peter]
 
 
 **General**
 
-* [Follow the law](https://github.com/avantcredit/onboarding/tree/master/simulations/follow_the_rules)   [TODO]
+* [Follow the law](https://github.com/avantcredit/onboarding/tree/master/simulations/follow_the_rules)
 
 
 
@@ -102,9 +102,9 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 You've made it to the end.  Now you just need to read! :)
 
-* [History](https://github.com/avantcredit/onboarding/tree/master/simulations/history)   [TODO]
+* [History](https://github.com/avantcredit/onboarding/tree/master/simulations/history)   [TODO:Fei & RobK]
 
-* [Up your programmer productivity](https://github.com/avantcredit/avant-analytics/wiki/Programmer-Tips-&-Tricks) [TODO]
+* [Up your programmer productivity](https://github.com/avantcredit/avant-analytics/wiki/Programmer-Tips-&-Tricks)
 
 * How do we choose our project priorities? [TODO]
 
