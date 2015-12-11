@@ -106,7 +106,7 @@ You've made it to the end.  Now you just need to read! :)
 
 * How do we choose our project priorities? [TODO]
 
-* [Learn our team's history](https://github.com/avantcredit/onboarding/tree/master/simulations/history)   [TODO]
+* [History](https://github.com/avantcredit/onboarding/tree/master/simulations/history)   [TODO]
 
 * [Wrap up](https://github.com/avantcredit/onboarding/tree/master/simulations/wrap_up) [TODO]
 
