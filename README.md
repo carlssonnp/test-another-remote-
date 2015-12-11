@@ -74,7 +74,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 **Data Engineering**
 
-* [Deployment](https://github.com/avantcredit/analytics-onboarding/tree/master/simulations/deployment) [TODO]
+* [Deployment](https://github.com/avantcredit/analytics-onboarding/tree/master/simulations/deployment) 
 
 * Productionization [TODO]
 
