@@ -108,7 +108,7 @@ You've made it to the end.  Now you just need to read! :)
 
 * [History](https://github.com/avantcredit/onboarding/tree/master/simulations/history)   [TODO]
 
-* [Wrap up](https://github.com/avantcredit/onboarding/tree/master/simulations/wrap_up) [TODO]
+* [Wrap up](https://github.com/avantcredit/onboarding/tree/master/simulations/wrap_up)
 
 
 #### Other Ways to Learn
