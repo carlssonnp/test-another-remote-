@@ -30,7 +30,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * Meet the team [TODO]
 
-* Learn what people at Avant do [TODO]
+* [Learn what people at Avant do](https://github.com/avantcredit/avant-analytics/wiki/Bio-Page) [TODO]
 
 
 #### Computer Science
@@ -40,6 +40,8 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 * [Learn "Advanced R"](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/R_simulation_challenge.md)
 
 * [Learn our coding principles](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/code_principles.md)
+
+* **Exercise:** add yourself to the [who's who at Avant list](https://github.com/avantcredit/avant-analytics/wiki/Bio-Page)
 
 
 #### Math and Statistics
