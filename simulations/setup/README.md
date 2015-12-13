@@ -8,16 +8,16 @@ To get started with working on analytics at avant, begin with the following setu
 
 3. Open iTerm2 and type
    
-```bash
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew install libcurl-dev
-brew install postgres
-brew update
-brew install caskroom/cask/brew-cask
-brew cask install r
-```
+   ```bash
+   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+   brew install libcurl-dev
+   brew install postgres
+   brew update
+   brew install caskroom/cask/brew-cask
+   brew cask install r
+   ```
 
-If `brew install libcurl-dev` fails, try `brew install curl`
+   If `brew install libcurl-dev` fails, try `brew install curl`
 
 4. Install the [Xcode command line tools](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/). 
 
@@ -29,30 +29,30 @@ If `brew install libcurl-dev` fails, try `brew install curl`
 
 8. Set up your [Github oauth token](https://gist.github.com/robertzk/c6efef69a92cc3a03753) and put it in your `~/.bash_profile`:
       
-```
-export GITHUB_PAT=token_goes_here
-```
+   ```
+   export GITHUB_PAT=token_goes_here
+   ```
 
-Note there are no spaces around the `=`.
+   Note there are no spaces around the `=`.
       
 9. Reload your .bash_profile:
 
-```bash
-source ~/.bash_profile
-```
+   ```bash
+   source ~/.bash_profile
+   ```
 
 10. Open up R and run the following to install our dependencies:
 
-```r
-install.packages("devtools")
-devtools::install_github("robertzk/allthepackages")
-allthepackages::install_all()
-dir.create("~/dev", FALSE, TRUE); dir.create("~/tmp", FALSE, TRUE)
-setwd("~/dev")
-system("git clone git@github.com:avantcredit/avant.git")
-system("git clone git@github.com:avantcredit/avant-analytics.git")
-q()
-```
+   ```r
+   install.packages("devtools")
+   devtools::install_github("robertzk/allthepackages")
+   allthepackages::install_all()
+   dir.create("~/dev", FALSE, TRUE); dir.create("~/tmp", FALSE, TRUE)
+   setwd("~/dev")
+   system("git clone git@github.com:avantcredit/avant.git")
+   system("git clone git@github.com:avantcredit/avant-analytics.git")
+   q()
+   ```
 
 11. Get an `~/.Rprofile` from someone else.
 
@@ -60,31 +60,31 @@ q()
 
 13. In terminal, navigate to `~/dev/avant-analytics` and start R. If you eventually see the following, then you have successfully installed all the packages you need to start your journey across the Syberian Tundra.
 
-```r
-...
-Installing gbm 2.1.6 from github
-|++++++++++++++++++++++++++++++++++++++++++++++++++| 100%
-```
+   ```r
+   ...
+   Installing gbm 2.1.6 from github
+   |++++++++++++++++++++++++++++++++++++++++++++++++++| 100%
+   ```
       
 14. If you have trouble installing `gbm`, it's probably complaining about gfortran.  Try the instructions [here](http://thecoatlessprofessor.com/programming/rcpp-rcpparmadillo-and-os-x-mavericks-lgfortran-and-lquadmath-error/), *in your terminal*, i.e.:
       
-```
-curl -O http://r.research.att.com/libs/gfortran-4.8.2-darwin13.tar.bz2
-sudo tar fvxz gfortran-4.8.2-darwin13.tar.bz2 -C /
-```
+   ```
+   curl -O http://r.research.att.com/libs/gfortran-4.8.2-darwin13.tar.bz2
+   sudo tar fvxz gfortran-4.8.2-darwin13.tar.bz2 -C /
+   ```
 
 15. Setup you .s3cfg file. This setups up your credentials to read and write to AWS S3, our cloud storage space. 
 
-```bash
-brew install s3cmd
-```
+   ```bash
+   brew install s3cmd
+   ```
 
-Ask Rob K. or Tong Lu for credentials and then copy and paste [this](https://gist.github.com/peterhurford/023bcaee0a27fa77e814) into your `~/.s3cfg` file.
-Replace `{INSRET YOURS HERE}` with your credentials. Test out your connection with the following:
+   Ask Rob K. or Tong Lu for credentials and then copy and paste [this](https://gist.github.com/peterhurford/023bcaee0a27fa77e814) into your `~/.s3cfg` file.
+   Replace `{INSRET YOURS HERE}` with your credentials. Test out your connection with the following:
 
-```bash
-s3cmd ls s3://avantminer/tmp/
-```
+   ```bash
+   s3cmd ls s3://avantminer/tmp/
+   ```
 
 16. Be able to [log into an EC2 instance](https://github.com/avantcredit/avant-analytics/wiki/Configure-your-new-EC2-instance)
 
