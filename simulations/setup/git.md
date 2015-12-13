@@ -12,10 +12,8 @@ Additional avant requirements:
 
 
 **Exercise 3:** Add yourself to the [team list](https://github.com/avantcredit/avant/blob/master/R/team.R). Don't forget to "version" your contribution by updating the files `DESCRIPTION` and `CHANGELOG.md`, which means indicate your change with a version number (e.g., 0.3.15.9002) so that we can track changes.  Use this [PR](https://github.com/avantcredit/avant/pull/865/files) as a template.  You'll learn more about versioning later.
-
-** You do not need a Pivotal tracker ID for contributing to this repository.
+* You do not need a Pivotal tracker ID for contributing to this repository.
 
 
 **Exercise 4:** File a github Issue within Onboarding with any thoughts on setup process.  Maybe even contribute to this repository with some fixes by making a PR.
-
-** You do not need a Pivotal tracker ID for contributing to this repository.
+* You do not need a Pivotal tracker ID for contributing to this repository.
