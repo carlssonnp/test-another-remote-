@@ -24,16 +24,16 @@ Every simulation challenge is meant to be answered with a Pull Request to be rev
 The human follow up discussion you will will help you gain a deeper knowledge within a domain. You don't learn to paint by reading books so lets get down to it.
 
 
-#### Starting Out
+### Starting Out
 
 * [Get the necessary accounts and set up your machine.](https://github.com/avantcredit/onboarding/tree/master/simulations/setup/README.md)    
 
-* Meet the team [TODO]
+* [Meet the team](https://github.com/avantcredit/avant-analytics/wiki/Bio-Page) [TODO]
 
-* [Learn what people at Avant do](https://github.com/avantcredit/avant-analytics/wiki/Bio-Page) [TODO]
+* Learn what people at Avant do [TODO]
 
 
-#### Computer Science
+### Computer Science
 
 * [Learn Git](https://github.com/avantcredit/onboarding/blob/master/simulations/setup/git.md)
 
@@ -44,19 +44,19 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 * **Exercise:** add yourself to the [who's who at Avant list](https://github.com/avantcredit/avant-analytics/wiki/Bio-Page)
 
 
-#### Math and Statistics
+### Math and Statistics
 
 * [Learn the GBM](https://github.com/avantcredit/onboarding/blob/master/simulations/mathematical/gbm/readme.md).
 
 
-#### Domain Knowledge
+### Domain Knowledge
 
-**Business Analytics**
+#### **Business Analytics**
 
 * [Learn the Business of Avant](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/business) [TODO]
 
 
-**Business Intelligence**
+#### **Business Intelligence**
 
 * [Learn SQL](https://www.codecademy.com/learn/learn-sql)
 
@@ -65,7 +65,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 * [SQL Exercises](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/database_tables/readme.md)  
 
 
-**Data Science using Syberia**
+#### **Data Science using Syberia**
 
 * [Run a Syberia File](https://github.com/avantcredit/onboarding/tree/master/simulations/running_syberia_file/README.md)
 
@@ -74,7 +74,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 * [The model card](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard)  -- TODO: Merge [modelcard_additions](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard_additions) into model card.
 
 
-**Data Engineering**
+#### **Data Engineering**
 
 * [Deployment](https://github.com/avantcredit/analytics-onboarding/tree/master/simulations/deployment) 
 
@@ -89,18 +89,18 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 * Being a good developer [TODO]
 
 
-**Getting Data**
+#### **Getting Data**
 
 * [Add new microvariables](https://github.com/avantcredit/onboarding/tree/master/simulations/microvariables)   [TODO:Peter]
 
 
-**General**
+#### **General**
 
 * [Follow the law](https://github.com/avantcredit/onboarding/tree/master/simulations/follow_the_rules)
 
 
 
-#### Finish Line
+### Finish Line
 
 You've made it to the end.  Now you just need to read! :)
 
@@ -113,7 +113,7 @@ You've made it to the end.  Now you just need to read! :)
 * [Wrap up](https://github.com/avantcredit/onboarding/tree/master/simulations/wrap_up)
 
 
-#### Other Ways to Learn
+### Other Ways to Learn
 
 * After you complete the training material, you will begin work on your first real-life task!  Yay!
 
