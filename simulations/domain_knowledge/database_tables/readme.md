@@ -1,6 +1,4 @@
-Note: To complete the SQL exercises SQL Knowledge is assumed to be a prerequisite.
-If you dont know SQL =>
-  * [Learn SQL](https://www.codecademy.com/learn/learn-sql)
+First, [learn SQL](https://www.codecademy.com/learn/learn-sql) if you don't know it already.  Then do these exercises on our Avant data:
 
 ## SQL Exercises
 

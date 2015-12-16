@@ -53,7 +53,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * [Business](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/business) [TODO]
 
-* [SQL and Database Tables](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/database_tables/readme.md)  
+* [SQL and Database Tables](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/database_tables/readme.md) [TODO: Avant-specific tables]
 
 * [Tribal Knowledge](https://github.com/avantcredit/analytics-onboarding/tree/master/simulations/domain_knowledge/process_tribal_knowledge) [TODO]
 
