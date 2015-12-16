@@ -24,8 +24,7 @@ Every simulation challenge is meant to be answered with a Pull Request (PR) to b
 The human follow up discussion you will will help you gain a deeper knowledge within a domain. You don't learn to paint by reading books so lets get down to it.
 
 
-### Starting Out (*essential*)
-
+### Starting Out 
 * [Get the necessary accounts and set up your machine.](https://github.com/avantcredit/onboarding/tree/master/simulations/setup/README.md)    
 
 * [Meet the team](https://github.com/avantcredit/avant-analytics/wiki/Bio-Page) [TODO]
@@ -33,8 +32,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 * Learn what people at Avant do [TODO]
 
 
-### Computer Science (*essential*)
-
+### Computer Science 
 * [Learn Git](https://github.com/avantcredit/onboarding/blob/master/simulations/setup/git.md)
 
 * [Learn "Advanced R"](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/R_simulation_challenge.md)
@@ -44,7 +42,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 * **Exercise:** add yourself to the [who's who at Avant list](https://github.com/avantcredit/avant-analytics/wiki/Bio-Page)
 
 
-### Math and Statistics (*essential*)
+### Math and Statistics 
 
 Avant uses boosted trees as their predictive engines.  This section provides resources to bring yourself up to speed with boosted trees.
 * [Learn the GBM](https://github.com/avantcredit/onboarding/blob/master/simulations/mathematical/gbm/readme.md).
@@ -52,12 +50,12 @@ Avant uses boosted trees as their predictive engines.  This section provides res
 
 ### Domain Knowledge
 
-#### **Business Analytics** (*advanced*)
+#### **Business Analytics** 
 
 * [Learn the Business of Avant](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/business) [TODO]
 
 
-#### **Business Intelligence** (*essential*)
+#### **Business Intelligence** 
 
 * [Learn SQL](https://www.codecademy.com/learn/learn-sql)
 
@@ -66,7 +64,7 @@ Avant uses boosted trees as their predictive engines.  This section provides res
 * [SQL Exercises](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/database_tables/readme.md)  
 
 
-#### **Data Science using Syberia** (*essential*)
+#### **Data Science using Syberia** 
 
 * [Run a Syberia File](https://github.com/avantcredit/onboarding/tree/master/simulations/running_syberia_file/README.md)
 
@@ -75,7 +73,7 @@ Avant uses boosted trees as their predictive engines.  This section provides res
 * [The model card](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard)  -- TODO: Merge [modelcard_additions](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard_additions) into model card.
 
 
-#### **Data Engineering** (*advanced* for data scientists)
+#### **Data Engineering** 
 
 * [Deployment](https://github.com/avantcredit/analytics-onboarding/tree/master/simulations/deployment) 
 
@@ -90,12 +88,12 @@ Avant uses boosted trees as their predictive engines.  This section provides res
 * Being a good developer [TODO]
 
 
-#### **Getting Data** (*advanced*)
+#### **Getting Data** 
 
 * [Add new microvariables](https://github.com/avantcredit/onboarding/tree/master/simulations/microvariables)   [TODO:Peter]
 
 
-#### **General** (*essential*)
+#### **General** 
 
 * [Follow the law](https://github.com/avantcredit/onboarding/tree/master/simulations/follow_the_rules)
 
