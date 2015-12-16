@@ -2,7 +2,7 @@ First, [learn SQL](https://www.codecademy.com/learn/learn-sql) if you don't know
 
 ## SQL Exercises
 
-Answer the below using your SQL skills:
+Answer the below using your SQL skills (exercises by Rob Adler, BI):
 
 1) In what state have we issued the most principal? The greatest number of loans?  
 
