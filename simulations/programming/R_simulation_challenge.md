@@ -1,3 +1,5 @@
+Exercises: 
+1)
 Read the following chapters of "Advanced R" and complete all the exercises.
 
  * ["Data Structures"](http://adv-r.had.co.nz/Data-structures.html)
@@ -16,3 +18,18 @@ Read the following chapters of "Advanced R" and complete all the exercises.
 * ["Performance"](http://adv-r.had.co.nz/Performance.html)
 * ["Profiling"](http://adv-r.had.co.nz/Profiling.html)
 * ["Memory"](http://adv-r.had.co.nz/memory.html)
+
+
+2) Hadley co-authored [R for Data Science](http://r4ds.had.co.nz/)
+
+  * ["Data Transformation"](http://r4ds.had.co.nz/transform.html)
+  * ["Expressing yourself in code"](http://r4ds.had.co.nz/functions.html)
+
+**Optional** 
+
+  * ["Visualization"](http://r4ds.had.co.nz/visualize.html)
+  * ["More Lists"](http://r4ds.had.co.nz/lists.html) 
+    * Although lists are covered above it is such a fundamental datasctucture within R some more knowledge cant hurt
+  
+
+
