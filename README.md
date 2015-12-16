@@ -28,6 +28,8 @@ Every simulation challenge is meant to be answered with a Pull Request (PR) to b
 The human follow up discussion you will will help you gain a deeper knowledge within a domain. You don't learn to paint by reading books so lets get down to it.
 
 
+### Starting Out
+
 * [Get the necessary accounts and set up your machine.](https://github.com/avantcredit/onboarding/tree/master/simulations/setup/README.md)    
 
 * [Meet the team](https://github.com/avantcredit/avant-analytics/wiki/Bio-Page) [TODO]
@@ -47,9 +49,13 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * Writing an R Package [TODO] 
 
+
 ### Math and Statistics 
 
 * [GBM](https://github.com/avantcredit/onboarding/blob/master/simulations/mathematical/gbm/readme.md) [TODO].
+
+* TODO: Need more math and stats?  Chapters from ISL / ESL?
+
 
 ### Domain Knowledge
 
@@ -60,6 +66,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 * [Tribal Knowledge](https://github.com/avantcredit/analytics-onboarding/tree/master/simulations/domain_knowledge/process_tribal_knowledge) [TODO]
 
 * [Learn about Looker](http://www.looker.com/docs/video-library/exploring-data) TODO: add looker section with Q
+
 
 ### End to End Workflow Simulation 
 
@@ -86,6 +93,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * [Follow the law](https://github.com/avantcredit/onboarding/tree/master/simulations/follow_the_rules) [TODO]
 
+
 ### Finish Line
 
 You've made it to the end.  Now you just need to read! :)
@@ -96,7 +104,7 @@ You've made it to the end.  Now you just need to read! :)
 
 * How do we choose our project priorities? [TODO]
 
-* [Wrap up](https://github.com/avantcredit/onboarding/tree/master/simulations/wrap_up)
+* [Wrap up](https://github.com/avantcredit/onboarding/tree/master/simulations/wrap_up) [TODO]
 
 
 ### Other Ways to Learn 
