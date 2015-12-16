@@ -67,15 +67,20 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * [Testing](https://github.com/avantcredit/onboarding/tree/master/onboarding/simulations/testing/readme.md) [TODO]
 
-* [Our Infrastructure](https://github.com/avantcredit/onboarding/tree/master/simulations/more_infastructure) [TODO]
-
 * [Constructing model card](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard)  -- TODO: Merge [modelcard_additions](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard_additions) into model card.
 
 * [Deployment](https://github.com/avantcredit/analytics-onboarding/tree/master/simulations/deployment) 
 
 * [Add new microvariables](https://github.com/avantcredit/onboarding/tree/master/simulations/microvariables)   [TODO:Peter]
 
-* Productionization [TODO]
+
+### Infrastructure and Productionization
+
+* [Syberia Infrastructure](https://github.com/avantcredit/onboarding/tree/master/simulations/more_infastructure) [TODO]
+
+* Productionization (Avant-basic for Data Scientists!) [TODO]
+
+* The Avant package and other R packages [TODO]
 
 * [Follow the law](https://github.com/avantcredit/onboarding/tree/master/simulations/follow_the_rules)
 
@@ -101,5 +106,3 @@ You've made it to the end.  Now you just need to read! :)
 * You should also participate in our morning lectures and ask questions.  (Encouraged (optional))
 
 * You will also be invited to a Code Craftsmanship seminar to further hone your R knowledge. (Encouraged (optional))
-
-
