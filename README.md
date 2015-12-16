@@ -17,7 +17,7 @@ This is meant to simulate the end to end workflow of a Data Scientist / Data Eng
 
 <img src="http://www.ibm.com/developerworks/library/os-datascience/figure1.png" width="300" height="300">
 
-Complete the simulation challenges in the following order, from the top to the bottom. **This is a linear sequence of steps, not a choose your own adventure.**  To speed up the processess it is recommended that you run through the steps marked *essential* in your first go around.  Then tackle those marked as *advanced*.
+Complete the simulation challenges in the following order, from the top to the bottom. **This is a linear sequence of steps, not a choose your own adventure.**
 
 Every simulation challenge is meant to be answered with a Pull Request (PR) to be reviewed and discussed with your Guardian. 
 
