@@ -24,7 +24,6 @@ Every simulation challenge is meant to be answered with a Pull Request (PR) to b
 The human follow up discussion you will will help you gain a deeper knowledge within a domain. You don't learn to paint by reading books so lets get down to it.
 
 
-### Starting Out 
 * [Get the necessary accounts and set up your machine.](https://github.com/avantcredit/onboarding/tree/master/simulations/setup/README.md)    
 
 * [Meet the team](https://github.com/avantcredit/avant-analytics/wiki/Bio-Page) [TODO]
@@ -33,70 +32,54 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 
 ### Computer Science 
+
+* [Wrap up](https://github.com/avantcredit/onboarding/tree/master/simulations/wrap_up)
+  * *Yes Wrap Up. Follow Directions!*
+
 * [Learn Git](https://github.com/avantcredit/onboarding/blob/master/simulations/setup/git.md)
 
 * [Learn "Advanced R"](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/R_simulation_challenge.md)
 
 * [Learn our coding principles](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/code_principles.md)
 
-* **Exercise:** add yourself to the [who's who at Avant list](https://github.com/avantcredit/avant-analytics/wiki/Bio-Page)
+* Being a good developer [TODO]
 
-
+* Writing an R Package [TODO] 
 ### Math and Statistics 
 
-Avant uses boosted trees as their predictive engines.  This section provides resources to bring yourself up to speed with boosted trees.
-* [Learn the GBM](https://github.com/avantcredit/onboarding/blob/master/simulations/mathematical/gbm/readme.md).
-
+* [GBM](https://github.com/avantcredit/onboarding/blob/master/simulations/mathematical/gbm/readme.md).
 
 ### Domain Knowledge
 
-#### **Business Analytics** 
+* [Business](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/business) [TODO]
 
-* [Learn the Business of Avant](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/business) [TODO]
-
-
-#### **Business Intelligence** 
-
-* [Learn SQL](https://www.codecademy.com/learn/learn-sql)
+* [Database Tables](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/database_tables/readme.md)  
 
 * [Learn about Looker](http://www.looker.com/docs/video-library/exploring-data) 
 
-* [SQL Exercises](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/database_tables/readme.md)  
+TODO: add looker section with Q
+-------- 
 
-
-#### **Data Science using Syberia** 
+### End to End Workflow Simulation 
+TODO: ^ Title may not be necessary 
 
 * [Run a Syberia File](https://github.com/avantcredit/onboarding/tree/master/simulations/running_syberia_file/README.md)
 
 * [Mungebits](https://github.com/avantcredit/onboarding/tree/master/simulations/mungebits/readme.md)
 
-* [The model card](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard)  -- TODO: Merge [modelcard_additions](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard_additions) into model card.
-
-
-#### **Data Engineering** 
-
-* [Deployment](https://github.com/avantcredit/analytics-onboarding/tree/master/simulations/deployment) 
-
-* Productionization [TODO]
-
-* Writing an R Package [TODO] 
-
-* [Testing an R Package](https://github.com/avantcredit/onboarding/tree/master/onboarding/simulations/testing/readme.md) [TODO]
+* [Testing](https://github.com/avantcredit/onboarding/tree/master/onboarding/simulations/testing/readme.md) [TODO]
 
 * [Our Infrastructure](https://github.com/avantcredit/onboarding/tree/master/simulations/more_infastructure) [TODO]
 
-* Being a good developer [TODO]
+* [Constructing model card](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard)  -- TODO: Merge [modelcard_additions](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard_additions) into model card.
 
-
-#### **Getting Data** 
+* [Deployment](https://github.com/avantcredit/analytics-onboarding/tree/master/simulations/deployment) 
 
 * [Add new microvariables](https://github.com/avantcredit/onboarding/tree/master/simulations/microvariables)   [TODO:Peter]
 
-
-#### **General** 
+* Productionization [TODO]
 
 * [Follow the law](https://github.com/avantcredit/onboarding/tree/master/simulations/follow_the_rules)
-
 
 
 ### Finish Line
@@ -112,13 +95,26 @@ You've made it to the end.  Now you just need to read! :)
 * [Wrap up](https://github.com/avantcredit/onboarding/tree/master/simulations/wrap_up)
 
 
-### Other Ways to Learn (*optional*)
-
+### Other Ways to Learn 
 * After you complete the training material, you will begin work on your first real-life task!  Yay!
 
 * You will also have multiple **pairing sessions** (where someone else helps you with your work) and **shadowing sessions** (where you see the work of others).
 
-* You should also participate in our morning lectures and ask questions.
+* You should also participate in our morning lectures and ask questions.  (*optional*)
 
 * You will also be invited to a Code Craftsmanship seminar to further hone your R knowledge.
+
+section labels =>
+#### **Data Engineering** 
+### Starting Out 
+#### **Getting Data** 
+#### **Data Science using Syberia** 
+#### **Business Analytics** 
+#### **General** 
+#### **Business Intelligence** 
+
+* [Learn SQL](https://www.codecademy.com/learn/learn-sql)
+TODO: ^ Include within section
+
+
 
