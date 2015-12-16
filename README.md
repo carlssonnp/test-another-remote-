@@ -53,15 +53,13 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * [Business](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/business) [TODO]
 
-* [Database Tables](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/database_tables/readme.md)  
+* [SQL and Database Tables](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/database_tables/readme.md)  
 
-* [Tribal Knowledge](https://github.com/avantcredit/analytics-onboarding/tree/master/simulations/domain_knowledge/process_tribal_knowledge)  
+* [Tribal Knowledge](https://github.com/avantcredit/analytics-onboarding/tree/master/simulations/domain_knowledge/process_tribal_knowledge) [TODO]
 
 * [Learn about Looker](http://www.looker.com/docs/video-library/exploring-data) TODO: add looker section with Q
--------- 
 
 ### End to End Workflow Simulation 
-TODO: ^ Title may not be necessary 
 
 * [Run a Syberia File](https://github.com/avantcredit/onboarding/tree/master/simulations/running_syberia_file/README.md)
 
