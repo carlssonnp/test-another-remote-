@@ -55,9 +55,11 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * [Database Tables](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/database_tables/readme.md)  
 
-* [Tribal Knowledge](https://github.com/avantcredit/analytics-onboarding/tree/master/simulations/domain_knowledge/process_tribal_knowledge)  
+* [Tribal Knowledge](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/database_tables/readme.md)  
 
-* [Learn about Looker](http://www.looker.com/docs/video-library/exploring-data) TODO: add looker section with Q
+* [Learn about Looker](http://www.looker.com/docs/video-library/exploring-data) 
+
+TODO: add looker section with Q
 -------- 
 
 ### End to End Workflow Simulation 
@@ -102,5 +104,16 @@ You've made it to the end.  Now you just need to read! :)
 * You should also participate in our morning lectures and ask questions.  (Encouraged (optional))
 
 * You will also be invited to a Code Craftsmanship seminar to further hone your R knowledge. (Encouraged (optional))
+
+section labels =>
+#### **Data Engineering** 
+### Starting Out 
+#### **Getting Data** 
+#### **Data Science using Syberia** 
+#### **Business Analytics** 
+#### **General** 
+#### **Business Intelligence** 
+
+
 
 
