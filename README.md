@@ -6,6 +6,8 @@ However, the downside of this is that we will have the most complicated onboardi
 This repository should contain everything you need to know to get started.  **Budget about three weeks to complete all the exercises.**
 This is meant to simulate the end to end workflow of a Data Scientist / Data Engineer. Once complete you will have the foundation to "Hit The Ground Running". 
 
+While it may not add immediate business value, I encourage you to take the long-term view and think about how this three week investment will save you three months down the road as you go about your tasks as a knowledable data scientist.  If people are bugging you about doing "real work", kindly tell them that you are busy becoming superhuman and will work at 10x efficiency once the guide is complete.
+
 *"At the advanced levels Avant will be a libertarian and give you the paintbrush to paint your own masterpiece based upon your passions, skillset, etc. 
   On the fundamentals Avant will be a dictator as having a strong base & foundation is universally beneficial."* - [John Danaher @ 6 Min & 30 Sec](https://youtu.be/SpLKrhwGavU?t=390)
 
