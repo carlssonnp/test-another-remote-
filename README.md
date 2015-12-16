@@ -47,7 +47,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * Being a good developer [TODO]
 
-* Writing an R Package [TODO] 
+* [Writing an R Package](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/R_package.md)
 
 
 ### Math and Statistics 
