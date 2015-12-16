@@ -1,6 +1,6 @@
-Exercises: 
-1)
-Read the following chapters of "Advanced R" and complete all the exercises.
+## Exercises
+
+1) Read the following chapters of "Advanced R" and complete all the exercises.
 
  * ["Data Structures"](http://adv-r.had.co.nz/Data-structures.html)
  * ["Subsetting"](http://adv-r.had.co.nz/Subsetting.html)
@@ -10,7 +10,12 @@ Read the following chapters of "Advanced R" and complete all the exercises.
  * ["Functional Programming"](http://adv-r.had.co.nz/Functional-programming.html)
  * ["Functionals"](http://adv-r.had.co.nz/Functionals.html)
 
-**Optional** - Those who are working on R infrastructure should also complete the following:
+2) Hadley co-authored ["R for Data Science"](http://r4ds.had.co.nz/).  Read these two chapters:
+
+ * ["Data Transformation"](http://r4ds.had.co.nz/transform.html)
+ * ["Expressing yourself in code"](http://r4ds.had.co.nz/functions.html)
+
+3.) **Optional for DS, Mandatory for DE** - Those who are working on R infrastructure should go back to "Advanced R" and complete the following:
 
 * ["Function Operators"](http://adv-r.had.co.nz/Function-operators.html)
 * ["Non-standard evaluation"](http://adv-r.had.co.nz/Computing-on-the-language.html)
@@ -19,17 +24,8 @@ Read the following chapters of "Advanced R" and complete all the exercises.
 * ["Profiling"](http://adv-r.had.co.nz/Profiling.html)
 * ["Memory"](http://adv-r.had.co.nz/memory.html)
 
+4.) **Optional** These chapters in "R for Data Science" are useful, but not mandatory for our work:
 
-2) Hadley co-authored [R for Data Science](http://r4ds.had.co.nz/)
-
-  * ["Data Transformation"](http://r4ds.had.co.nz/transform.html)
-  * ["Expressing yourself in code"](http://r4ds.had.co.nz/functions.html)
-
-**Optional** 
-
-  * ["Visualization"](http://r4ds.had.co.nz/visualize.html)
-  * ["More Lists"](http://r4ds.had.co.nz/lists.html) 
-    * Although lists are covered above it is such a fundamental datasctucture within R some more knowledge cant hurt
-  
-
-
+* ["Visualization"](http://r4ds.had.co.nz/visualize.html) - Good way to learn about ggplot2!
+* ["Tidy data"](http://r4ds.had.co.nz/tidy.html) - While all data at Avant is already tidy, it's good to understand the "tidy data" philosophy.
+* ["More Lists"](http://r4ds.had.co.nz/lists.html) - Although lists are covered above it is such a fundamental datasctucture within R some more knowledge cant hurt.
