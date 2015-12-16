@@ -19,6 +19,8 @@ This is meant to simulate the end to end workflow of a Data Scientist / Data Eng
 
 Complete the simulation challenges in the following order, from the top to the bottom. **This is a linear sequence of steps, not a choose your own adventure.**
 
+Also, this guide is intended to be a dynamic, living document.  Please update it as you see fit!  Just make a PR! :)
+
 Every simulation challenge is meant to be answered with a Pull Request (PR) to be reviewed and discussed with your Guardian. 
 
 The human follow up discussion you will will help you gain a deeper knowledge within a domain. You don't learn to paint by reading books so lets get down to it.
@@ -32,9 +34,6 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 
 ### Computer Science 
-
-* [Wrap up](https://github.com/avantcredit/onboarding/tree/master/simulations/wrap_up)
-  * *Yes Wrap Up. Follow Directions!*
 
 * [Learn Git](https://github.com/avantcredit/onboarding/blob/master/simulations/setup/git.md)
 
