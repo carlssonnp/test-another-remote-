@@ -47,7 +47,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 ### Math and Statistics 
 
-* [GBM](https://github.com/avantcredit/onboarding/blob/master/simulations/mathematical/gbm/readme.md).
+* [GBM](https://github.com/avantcredit/onboarding/blob/master/simulations/mathematical/gbm/readme.md) [TODO].
 
 ### Domain Knowledge
 
