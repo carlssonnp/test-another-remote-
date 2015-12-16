@@ -81,7 +81,6 @@ TODO: ^ Title may not be necessary
 
 * [Follow the law](https://github.com/avantcredit/onboarding/tree/master/simulations/follow_the_rules)
 
-
 ### Finish Line
 
 You've made it to the end.  Now you just need to read! :)
@@ -100,9 +99,9 @@ You've made it to the end.  Now you just need to read! :)
 
 * You will also have multiple **pairing sessions** (where someone else helps you with your work) and **shadowing sessions** (where you see the work of others).
 
-* You should also participate in our morning lectures and ask questions.  (*optional*)
+* You should also participate in our morning lectures and ask questions.  (Encouraged (optional))
 
-* You will also be invited to a Code Craftsmanship seminar to further hone your R knowledge.
+* You will also be invited to a Code Craftsmanship seminar to further hone your R knowledge. (Encouraged (optional))
 
 section labels =>
 #### **Data Engineering** 
@@ -113,8 +112,6 @@ section labels =>
 #### **General** 
 #### **Business Intelligence** 
 
-* [Learn SQL](https://www.codecademy.com/learn/learn-sql)
-TODO: ^ Include within section
 
 
 

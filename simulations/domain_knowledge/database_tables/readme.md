@@ -1,3 +1,7 @@
+Note: To complete the SQL exercises SQL Knowledge is assumed to be a prerequisite.
+If you dont know SQL =>
+  * [Learn SQL](https://www.codecademy.com/learn/learn-sql)
+
 ## SQL Exercises
 
 Answer the below using your SQL skills:
@@ -24,3 +28,4 @@ Answer the below using your SQL skills:
 9) How many times was a customer declined in January 2015 for bankruptcy-related reasons? What was the average model decline score? What was the worst decline score?  
 
 10) How many notes were logged last week with a complaint-related activity?
+
