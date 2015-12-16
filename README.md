@@ -8,8 +8,8 @@ This is meant to simulate the end to end workflow of a Data Scientist / Data Eng
 
 While it may not add immediate business value, I encourage you to take the long-term view and think about how this three week investment will save you three months down the road as you go about your tasks as a knowledable data scientist.  If people are bugging you about doing "real work", kindly tell them that you are busy becoming superhuman and will work at 10x efficiency once the guide is complete.
 
-*"At the advanced levels Avant will be a libertarian and give you the paintbrush to paint your own masterpiece based upon your passions, skillset, etc. 
-  On the fundamentals Avant will be a dictator as having a strong base and foundation is universally beneficial." - [John Danaher @ 6 Min & 30 Sec](https://youtu.be/SpLKrhwGavU?t=390)
+*"At the advanced levels Avant will be a libertarian and give you the paintbrush to paint your own masterpiece based upon your passions, skillset, etc.
+  On the fundamentals Avant will be a dictator as having a strong base and foundation is universally beneficial."* - [John Danaher @ 6 Min & 30 Sec](https://youtu.be/SpLKrhwGavU?t=390)
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/AC97-0295-13_a.jpeg" alt="alt text" width="300" height="300">
 
