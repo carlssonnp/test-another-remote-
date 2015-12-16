@@ -3,7 +3,7 @@ The `Boosted Trees` Paper provides an in depth mathematical grounding for one to
 algorithim. (Most Frequently used model) Please Read the Paper & Create a PR to answer the subsequent Questions. 
 
 [Boosted Trees - TQChen](http://homes.cs.washington.edu/~tqchen/pdf/BoostedTree.pdf)
-  * [Fei's Talk on paper](https://www.youtube.com/watch?v=031j956LzII)(helpfull)
+  * [Fei's Talk on paper](https://www.youtube.com/watch?v=031j956LzII)(helpful)
 
 #### Helpful Additional references
   * [xgboost algorithim](https://www.youtube.com/watch?v=X47SGnTMZIU) by an author (Tong He)
@@ -18,5 +18,4 @@ algorithim. (Most Frequently used model) Please Read the Paper & Create a PR to 
    Can be a detailed mathematical proof or a simple diagram, human explanation, analogy, etc.  
 6) When do you stop training each tree and adding more trees to the forest?
 7) What are the hyper parameters to tune for tree-based method?
-  
-TODO: Ask FEI Fei Ye for a few good Q to show deep understanding. 
+8) Derive carefully the gradient and hessian of the binary classification entropy loss function.
