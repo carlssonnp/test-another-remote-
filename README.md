@@ -63,15 +63,15 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 ### End to End Workflow Simulation 
 
-* [Run a Syberia File](https://github.com/avantcredit/onboarding/tree/master/simulations/running_syberia_file/README.md)
+* [Run a Syberia File](https://github.com/avantcredit/onboarding/tree/master/simulations/running_syberia_file/README.md) [TODO]
 
-* [Mungebits](https://github.com/avantcredit/onboarding/tree/master/simulations/mungebits/readme.md)
+* [Mungebits](https://github.com/avantcredit/onboarding/tree/master/simulations/mungebits/readme.md) [TODO]
 
 * [Testing](https://github.com/avantcredit/onboarding/tree/master/onboarding/simulations/testing/readme.md) [TODO]
 
 * [Constructing model card](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard)  -- TODO: Merge [modelcard_additions](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard_additions) into model card.
 
-* [Deployment](https://github.com/avantcredit/analytics-onboarding/tree/master/simulations/deployment) 
+* [Deployment](https://github.com/avantcredit/analytics-onboarding/tree/master/simulations/deployment) [TODO]
 
 * [Add new microvariables](https://github.com/avantcredit/onboarding/tree/master/simulations/microvariables)   [TODO:Peter]
 
@@ -84,15 +84,15 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * The Avant package and other R packages [TODO]
 
-* [Follow the law](https://github.com/avantcredit/onboarding/tree/master/simulations/follow_the_rules)
+* [Follow the law](https://github.com/avantcredit/onboarding/tree/master/simulations/follow_the_rules) [TODO]
 
 ### Finish Line
 
 You've made it to the end.  Now you just need to read! :)
 
-* [History](https://github.com/avantcredit/onboarding/tree/master/simulations/history)   [TODO:Fei & RobK]
+* [History](https://github.com/avantcredit/onboarding/tree/master/simulations/history) [TODO:Fei & RobK]
 
-* [Up your programmer productivity](https://github.com/avantcredit/avant-analytics/wiki/Programmer-Tips-&-Tricks)
+* [Up your programmer productivity](https://github.com/avantcredit/avant-analytics/wiki/Programmer-Tips-&-Tricks) [TODO]
 
 * How do we choose our project priorities? [TODO]
 
