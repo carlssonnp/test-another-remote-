@@ -2,7 +2,7 @@
 
 Additional avant requirements:
 * Each Pull Request (PR) to merge your changes to the master branch for 'avant-analytics' repo must have a corresponding Pivotal tracker ID (and/or link).  If you skip this step, Peter's bot will yell at you.
-* Don't know about [Pivotal](https://www.pivotaltracker.com/dashboard) you say.  Work with you guardian to understand how Avant organizes and uses Pivtoal.
+* Don't know about [Pivotal](https://www.pivotaltracker.com/dashboard) you say.  Work with you guardian to understand how Avant organizes and uses Pivotal.
 
 **Exercise 1:** [Go through the Try Git Guide](ttps://try.github.io)
 
