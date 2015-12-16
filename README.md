@@ -44,6 +44,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 * Being a good developer [TODO]
 
 * Writing an R Package [TODO] 
+
 ### Math and Statistics 
 
 * [GBM](https://github.com/avantcredit/onboarding/blob/master/simulations/mathematical/gbm/readme.md).
