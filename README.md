@@ -35,11 +35,11 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 ### Computer Science 
 
-* [Learn Git](https://github.com/avantcredit/onboarding/blob/master/simulations/setup/git.md)
+* [Git](https://github.com/avantcredit/onboarding/blob/master/simulations/setup/git.md)
 
-* [Learn "Advanced R"](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/R_simulation_challenge.md)
+* ["Advanced R"](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/R_simulation_challenge.md)
 
-* [Learn our coding principles](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/code_principles.md)
+* [Our coding principles](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/code_principles.md)
 
 * Being a good developer [TODO]
 
