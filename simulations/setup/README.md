@@ -88,4 +88,6 @@ To get started with working on analytics at avant, begin with the following setu
 
 16. Be able to [log into an EC2 instance](https://github.com/avantcredit/avant-analytics/wiki/Configure-your-new-EC2-instance)
 
-17. Set up Pivotal Tracker
+17. Set up Pivotal Tracker.  Ask Justin Hou for access.
+
+18. Get access to the [BI Hackpad](https://businessintelligence.hackpad.com).  Ask Justin Hou and/or Will Wolfson.
