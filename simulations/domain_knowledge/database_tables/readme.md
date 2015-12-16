@@ -1,4 +1,8 @@
-First, [learn SQL](https://www.codecademy.com/learn/learn-sql) if you don't know it already.  Then do these exercises on our Avant data:
+First, [learn SQL](https://www.codecademy.com/learn/learn-sql) if you don't know it already.
+
+Then read about [our Avant database tables](https://businessintelligence.hackpad.com/Table-Descriptions-mFTasgXNNkR) and [table naming conventions](https://businessintelligence.hackpad.com/Table-Naming-Conventions-IdoLDNyUwzi).
+
+Then do these exercises on our Avant data:
 
 ## SQL Exercises
 
