@@ -1,6 +1,12 @@
+First, [learn SQL](https://www.codecademy.com/learn/learn-sql) if you don't know it already.
+
+Then read about [our Avant database tables](https://businessintelligence.hackpad.com/Table-Descriptions-mFTasgXNNkR) and [table naming conventions](https://businessintelligence.hackpad.com/Table-Naming-Conventions-IdoLDNyUwzi).
+
+Then do these exercises on our Avant data:
+
 ## SQL Exercises
 
-Answer the below using your SQL skills:
+Answer the below using your SQL skills (exercises by Rob Adler, BI):
 
 1) In what state have we issued the most principal? The greatest number of loans?  
 
@@ -24,3 +30,4 @@ Answer the below using your SQL skills:
 9) How many times was a customer declined in January 2015 for bankruptcy-related reasons? What was the average model decline score? What was the worst decline score?  
 
 10) How many notes were logged last week with a complaint-related activity?
+
