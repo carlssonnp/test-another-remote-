@@ -94,6 +94,7 @@ You've made it to the end.  Now you just need to read! :)
 
 
 ### Other Ways to Learn 
+
 * After you complete the training material, you will begin work on your first real-life task!  Yay!
 
 * You will also have multiple **pairing sessions** (where someone else helps you with your work) and **shadowing sessions** (where you see the work of others).
