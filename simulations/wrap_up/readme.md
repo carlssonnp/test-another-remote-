@@ -3,7 +3,5 @@ Therefore the state of the onboarding guide needs to correspondly adapt Dynamica
 Provide some suggestions on what it is missing and how it can be Improved. Ok those suggestions are probably good, now just 
 Update the Onboarding Program with any knowledge gaps. (Can be as simple as Exercises need to be in a different order as there are knowledge contingencies)
 
-Note: If you are just starting the onboarding challenge than Fill in Knowledge or text gaps as you go!
-
 If you are departing us then congratulations and thanks for flying the Onboarding Guide. 
  
