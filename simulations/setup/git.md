@@ -22,7 +22,8 @@ Additional avant requirements:
 * You do not need a Pivotal tracker ID for contributing to this repository.
 
 **Exercise 4:** (Hint: `log` video tutorial)
-   * how do you see the files changed within each commit from git log?
-   * how do you see the contents of what changed within each file from the git log?
+   * How do you see the files changed within each commit from git log?
+   * How do you see the contents of what changed within each file from the git log?
+   * What does `HEAD` refer to in the context of git? (Not to be confused with the "HEAD<<<<" one observes within merge conflict)
 
 **Exercise 5:** *(Optional)* Contribute a PR to this repo improving the onboarding guide.  Send it to your Gaurdian for review. You do not need a Pivotal tracker ID for contributing to this repository.
