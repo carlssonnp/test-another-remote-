@@ -2,7 +2,7 @@
 
 Github Training & Guide: Watch the following small video snippets. They are useful! 
   * [First Look](https://www.youtube.com/watch?v=SCZF6I-Rc4I)
-  * [Setup](https://www.youtube.com/watch?v=7Inc0G0wutk&feature=iv&src_vid=FyfwLX4HAxM&annotation_id=annotation_549442395) (dont worry GUI setup)
+  * [Setup](https://www.youtube.com/watch?v=7Inc0G0wutk&feature=iv&src_vid=FyfwLX4HAxM&annotation_id=annotation_549442395) (dont worry about GUI setup)
   * [commit](https://www.youtube.com/watch?v=A-Cll9jEnnM&feature=iv&src_vid=WxMFZncm12s&annotation_id=annotation_2715859739)
   * [log](https://www.youtube.com/watch?v=A-Cll9jEnnM&feature=iv&src_vid=WxMFZncm12s&annotation_id=annotation_2715859739)
   * [Remove](https://www.youtube.com/watch?v=jtuHOIlfS2Q)
