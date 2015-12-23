@@ -32,9 +32,9 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * [Get the necessary accounts and set up your machine.](https://github.com/avantcredit/onboarding/tree/master/simulations/setup/README.md)    
 
-* [Meet the team](https://github.com/avantcredit/avant-analytics/wiki/Bio-Page) [TODO]
+* [Meet the team](https://github.com/avantcredit/avant-analytics/wiki/Bio-Page)
 
-* Learn what people at Avant do [TODO]
+* [Learn what the team does](https://github.com/avantcredit/onboarding/tree/master/simulations/team/README.md)
 
 
 ### Computer Science 
