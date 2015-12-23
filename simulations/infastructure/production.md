@@ -57,4 +57,38 @@ Answer using ActiveRecord, not SQL:
 
 ## Scoring Customers
 
-TODO: Fill in
+Now it's time to do a common task for verifying models -- score models in production.
+
+When you deploy your model, after a bit more work done by data engineers, it will also have a representation in the production console.  (Your example model won't be in the production console yet because no one hs done this extra work yet.)
+
+For example, we can use the model "default/transunion/2.1".
+
+In Ruby, we can inspect the model like this:
+
+```Ruby
+model = ModelSwitch.version("default/transunion/2.1")
+```
+
+We then can use it to score loans:
+
+```Ruby
+model.score(Loan.find(615750))
+```
+
+Sometimes we might want to score a loan without using the Ruby cache, to get the *true* data. (Ideally the cache will match the true data, but this is a good verification check):
+
+```Ruby
+Modeling.without_cache { model.score(Loan.find(615750)) }
+```
+
+You can compare this to the production model score from R:
+
+```R
+model = production_model("default/transunion/2.1")
+data = batch_data(615750, "default/transunion/2.1")
+model$predict(data, list(on_train = TRUE))
+```
+
+Hopefully all three of these numbers (Ruby with cache, Ruby without cache, R) should match!
+
+This kind of test is done automatically with the alpha-beta check, but a manual spot check might be required for additional verification when trying to put a model into active production.  And now you can do it from the production console yourself!
