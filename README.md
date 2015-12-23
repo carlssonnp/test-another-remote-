@@ -45,8 +45,6 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * [Our coding principles](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/code_principles.md)
 
-* Being a good developer [TODO]
-
 * [Writing an R Package](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/R_package.md)
 
 
@@ -98,9 +96,17 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 You've made it to the end.  Now you just need to read! :)
 
-* [History](https://github.com/avantcredit/onboarding/tree/master/simulations/history) [TODO:Fei & RobK]
+**Being the Best Developer You Can Be**
+
+* [Recognize good code](http://engineering.intenthq.com/2015/03/what-is-good-code-a-scientific-definition/)
+
+* [Make your code readable](https://gist.github.com/peterhurford/3ad9f48071bd2665a8af)
 
 * [Up your programmer productivity](https://github.com/avantcredit/avant-analytics/wiki/Programmer-Tips-&-Tricks) [TODO]
+
+**Knowing Our Team**
+
+* [History of the team](https://github.com/avantcredit/onboarding/tree/master/simulations/history) [TODO:Fei & RobK]
 
 * How do we choose our project priorities? [TODO]
 
