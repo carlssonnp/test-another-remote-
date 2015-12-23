@@ -66,9 +66,9 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 ### End to End Workflow Simulation 
 
-* [Run a Syberia File](https://github.com/avantcredit/onboarding/tree/master/simulations/running_syberia_file/README.md) [TODO]
+* [Run a Syberia File](https://github.com/avantcredit/onboarding/tree/master/simulations/running_syberia_file/README.md)
 
-* [Mungebits](https://github.com/avantcredit/onboarding/tree/master/simulations/mungebits/readme.md) [TODO]
+* [Mungebits](https://github.com/avantcredit/onboarding/tree/master/simulations/mungebits/readme.md)
 
 * [Testing](https://github.com/avantcredit/onboarding/tree/master/onboarding/simulations/testing/readme.md) [TODO]
 
