@@ -76,16 +76,16 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * [Deployment](https://github.com/avantcredit/analytics-onboarding/tree/master/simulations/deployment/readme.md)
 
-* [Add new microvariables](https://github.com/avantcredit/onboarding/tree/master/simulations/microvariables)   [TODO:Peter]
-
 
 ### Infrastructure and Productionization
 
-* [Syberia Infrastructure](https://github.com/avantcredit/onboarding/tree/master/simulations/more_infastructure) [TODO]
+* [Syberia Infrastructure](https://github.com/avantcredit/onboarding/tree/master/simulations/infastructure/readme.md)
 
 * Productionization (Avant-basic for Data Scientists!) [TODO]
 
 * Where does data come from? [TODO]
+
+* [Add new microvariables](https://github.com/avantcredit/onboarding/tree/master/simulations/microvariables)   [TODO:Peter]
 
 * The Avant package and other R packages [TODO]
 
