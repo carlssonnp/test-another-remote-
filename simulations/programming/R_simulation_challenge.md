@@ -6,7 +6,7 @@
  * ["Subsetting"](http://adv-r.had.co.nz/Subsetting.html)
  * ["Functions"](http://adv-r.had.co.nz/Functions.html)
  * ["OO Field Guide"](http://adv-r.had.co.nz/OO-essentials.html)
- * ["Debugging"](http://adv-r.had.co.nz/Exceptions-Debugging.html)
+ * ["Debugging"](http://adv-r.had.co.nz/Exceptions-Debugging.html) (Also look at [bettertrace](https://github.com/robertzk/bettertrace))
  * ["Functional Programming"](http://adv-r.had.co.nz/Functional-programming.html)
  * ["Functionals"](http://adv-r.had.co.nz/Functionals.html)
 
