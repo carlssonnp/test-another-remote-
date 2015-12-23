@@ -85,7 +85,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * [Working in production](https://github.com/avant/analytics-onboarding/tree/master/simulations/infrastructure/production.md)
 
-* [Microvariables](simulations/microvariables)   [TODO:Peter]
+* [Microvariables](simulations/microvariables)
 
 * The Avant package and other R packages [TODO]
 
