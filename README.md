@@ -61,7 +61,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * [SQL and Database Tables](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/database_tables/readme.md)
 
-* [Learn about Looker](http://www.looker.com/docs/video-library/exploring-data) TODO: add looker section with Q
+* [Learn about Looker](http://www.looker.com/docs/video-library/exploring-data) [TODO: add exercise questions]
 
 
 ### End to End Workflow Simulation 
