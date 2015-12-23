@@ -83,7 +83,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * [Where does data come from?](https://github.com/avantcredit/analytics-onboarding/tree/master/simulations/infastructure/data.md)
 
-* [Working in production]
+* [Working in production](https://github.com/avant/analytics-onboarding/tree/master/simulations/infastructure/production.md)
 
 * [Microvariables](https://github.com/avantcredit/onboarding/tree/master/simulations/microvariables)   [TODO:Peter]
 
