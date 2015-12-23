@@ -81,13 +81,13 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * [Syberia Infrastructure](simulations/infrastructure/readme.md)
 
+* [The Avant package and other R packages](simulations/infrastructure/packages.md)
+
 * [Where does data come from?](simulations/infrastructure/data.md)
 
 * [Working in production](https://github.com/avant/analytics-onboarding/tree/master/simulations/infrastructure/production.md)
 
 * [Microvariables](simulations/microvariables)
-
-* The Avant package and other R packages [TODO]
 
 * [Follow the law](simulations/follow_the_rules) [TODO]
 

@@ -9,7 +9,7 @@ Data starts out in our Ruby application, called [avant-basic](github.com/avantcr
 * Skim [some slides about how data goes from the Ruby app into our R consoles](https://docs.google.com/presentation/d/1xii3buvX1QCSPH8TBdemaT3xnxvikjGEYdITiXwA9js).  It's not pretty and it is likely going to change a lot in early 2015.
 
 
-## Exercise
+## Exercises
 
 * Try calling batch_source to get transunion313 data for a random customer.  What is the size of the dataframe you get back?
 * What is the role of `request_operation` in getting data?
