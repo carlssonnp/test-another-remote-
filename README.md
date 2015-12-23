@@ -50,9 +50,9 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 ### Math and Statistics 
 
-* [GBM](https://github.com/avantcredit/onboarding/blob/master/simulations/mathematical/gbm/readme.md)
+* Complete problems 1, 2, 5, and 6 from Chapter 2 of [Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20Sixth%20Printing.pdf) (p52 - 53).
 
-* TODO: Need more math and stats?  Chapters from ISL / ESL?
+* [GBM](https://github.com/avantcredit/onboarding/blob/master/simulations/mathematical/gbm/readme.md)
 
 
 ### Domain Knowledge
