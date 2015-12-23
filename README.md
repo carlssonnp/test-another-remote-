@@ -79,11 +79,11 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 ### Infrastructure and Productionization
 
-* [Syberia Infrastructure](simulations/infastructure/readme.md)
+* [Syberia Infrastructure](simulations/infrastructure/readme.md)
 
-* [Where does data come from?](simulations/infastructure/data.md)
+* [Where does data come from?](simulations/infrastructure/data.md)
 
-* [Working in production](https://github.com/avant/analytics-onboarding/tree/master/simulations/infastructure/production.md)
+* [Working in production](https://github.com/avant/analytics-onboarding/tree/master/simulations/infrastructure/production.md)
 
 * [Microvariables](simulations/microvariables)   [TODO:Peter]
 

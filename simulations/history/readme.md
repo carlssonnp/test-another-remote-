@@ -7,7 +7,7 @@ GBM:
    
 TODO: ^ FEI is this true or revisionist history?
 
-Syberia Infastructure:
+Syberia Infrastructure:
   Originally there was no structured Framework. Large Monolothic Block of Speghetti Code with countless hacks.
   TODO: RobK fill in with his version of story and github links
 
