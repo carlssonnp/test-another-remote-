@@ -85,6 +85,8 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * Productionization (Avant-basic for Data Scientists!) [TODO]
 
+* Where does data come from? [TODO]
+
 * The Avant package and other R packages [TODO]
 
 * [Follow the law](https://github.com/avantcredit/onboarding/tree/master/simulations/follow_the_rules) [TODO]
@@ -117,6 +119,6 @@ You've made it to the end.  Now you just need to read! :)
 
 * You will also have multiple **pairing sessions** (where someone else helps you with your work) and **shadowing sessions** (where you see the work of others).
 
-* You should also participate in our morning lectures and ask questions.  (Encouraged (optional))
+* You should also participate in our morning lectures and ask questions.
 
-* You will also be invited to a Code Craftsmanship seminar to further hone your R knowledge. (Encouraged (optional))
+* You will also be invited to a Code Craftsmanship seminar to further hone your R knowledge.
