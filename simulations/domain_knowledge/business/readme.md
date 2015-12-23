@@ -1,9 +1,22 @@
-Avant has thoughtfully also created a comprehensive on-boarding document.
-* [Avant Onboarding](https://s3.amazonaws.com/uploads.hipchat.com/30224/257317/fZNqmAwzDBnkz0Y/AvantOnBoarding.pdf)
-This guide has comprehensive information (with exercises) on how Avant works as a corporation.  (Note: You may skip the 'git' and 'R' exercises in the above guide if you are following the exercises in this repository.)
+## Reading
 
-Exercise: Answer the following questions.
-* What are Product Areas Avant is currently Active Within?
-* What Product areas are on the horizon for avant to attack?   
-* What Geographies does Avant operate Within?   
-* Outside of our direct unsecured loans lending business list 3 other units/avanues avant seeks to make money within?
+* Read [about Avant](https://www.avant.com/about_us).
+* Read about [loan uses](https://www.avant.com/personal-loans).
+* Read the [Business Analytics Onboarding Document](https://s3.amazonaws.com/uploads.hipchat.com/30224/984353/UwQWiAPIyzdZs3A/OnboardingAbridged.pdf) by Stefan Hansel (abridged).
+
+## Exercises
+
+* Who is David Pickel?
+* How many employees do we have?
+* When was Avant founded?
+* Which countries are we in?
+* What is "debt consolidation"? Why would someone want to do that?
+* How is an Avant loan different from a home equity loan?
+* How is an Avant loan different from a payday loan?
+* What is "the waterfall"?
+* Name thre variables we cannot legally use to score a customer.
+* Name two factors of your FICO score.
+* How long will a bankruptcy affect your credit score?
+* Why might someone not have a FICO score?
+* What is the difference between hard fraud and soft fraud?
+* When do we issue a loan as a WebBank loan and when do we issue a loan as an Avant loan?
