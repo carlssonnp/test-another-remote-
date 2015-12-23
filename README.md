@@ -72,7 +72,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * [Testing](https://github.com/avantcredit/onboarding/tree/master/onboarding/simulations/testing/readme.md)
 
-* [Constructing model card](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard)  -- TODO: Merge [modelcard_additions](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard_additions) into model card.
+* [Constructing model card](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard/readme.md)  -- TODO: Merge [modelcard_additions](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard_additions) into model card.
 
 * [Deployment](https://github.com/avantcredit/analytics-onboarding/tree/master/simulations/deployment) [TODO]
 
