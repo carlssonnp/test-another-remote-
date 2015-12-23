@@ -57,7 +57,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 ### Domain Knowledge
 
-* [Business](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/business) [TODO]
+* [Business](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/business)
 
 * [SQL and Database Tables](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/database_tables/readme.md)
 
