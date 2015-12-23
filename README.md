@@ -30,11 +30,11 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 ### Starting Out
 
-* [Get the necessary accounts and set up your machine.](https://github.com/avantcredit/onboarding/tree/master/simulations/setup/README.md)    
+* [Get the necessary accounts and set up your machine.](simulations/setup/README.md)    
 
 * [Meet the team](https://github.com/avantcredit/avant-analytics/wiki/Bio-Page)
 
-* [Learn what the team does](https://github.com/avantcredit/onboarding/tree/master/simulations/team/README.md)
+* [Learn what the team does](simulations/team/README.md)
 
 
 ### Computer Science 
@@ -57,39 +57,39 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 ### Domain Knowledge
 
-* [Business](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/business)
+* [Business](simulations/domain_knowledge/business)
 
-* [SQL and Database Tables](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/database_tables/readme.md)
+* [SQL and Database Tables](simulations/domain_knowledge/database_tables/readme.md)
 
 * [Learn about Looker](http://www.looker.com/docs/video-library/exploring-data) [TODO: add exercise questions]
 
 
 ### End to End Workflow Simulation 
 
-* [Run a Syberia File](https://github.com/avantcredit/onboarding/tree/master/simulations/running_syberia_file/README.md)
+* [Run a Syberia File](simulations/running_syberia_file/README.md)
 
-* [Mungebits](https://github.com/avantcredit/onboarding/tree/master/simulations/mungebits/readme.md)
+* [Mungebits](simulations/mungebits/readme.md)
 
-* [Testing](https://github.com/avantcredit/onboarding/tree/master/onboarding/simulations/testing/readme.md)
+* [Testing](onboarding/simulations/testing/readme.md)
 
-* [Constructing model card](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard/readme.md)
+* [Constructing model card](simulations/modelcard/readme.md)
 
-* [Deployment](https://github.com/avantcredit/analytics-onboarding/tree/master/simulations/deployment/readme.md)
+* [Deployment](simulations/deployment/readme.md)
 
 
 ### Infrastructure and Productionization
 
-* [Syberia Infrastructure](https://github.com/avantcredit/onboarding/tree/master/simulations/infastructure/readme.md)
+* [Syberia Infrastructure](simulations/infastructure/readme.md)
 
-* [Where does data come from?](https://github.com/avantcredit/analytics-onboarding/tree/master/simulations/infastructure/data.md)
+* [Where does data come from?](simulations/infastructure/data.md)
 
 * [Working in production](https://github.com/avant/analytics-onboarding/tree/master/simulations/infastructure/production.md)
 
-* [Microvariables](https://github.com/avantcredit/onboarding/tree/master/simulations/microvariables)   [TODO:Peter]
+* [Microvariables](simulations/microvariables)   [TODO:Peter]
 
 * The Avant package and other R packages [TODO]
 
-* [Follow the law](https://github.com/avantcredit/onboarding/tree/master/simulations/follow_the_rules) [TODO]
+* [Follow the law](simulations/follow_the_rules) [TODO]
 
 
 ### Finish Line
@@ -106,11 +106,11 @@ You've made it to the end.  Now you just need to read! :)
 
 **Knowing Our Team**
 
-* [History of the team](https://github.com/avantcredit/onboarding/tree/master/simulations/history) [TODO:Fei & RobK]
+* [History of the team](simulations/history) [TODO:Fei & RobK]
 
 * How do we choose our project priorities? [TODO]
 
-* [Wrap up](https://github.com/avantcredit/onboarding/tree/master/simulations/wrap_up) [TODO]
+* [Wrap up](simulations/wrap_up) [TODO]
 
 
 ### Other Ways to Learn 
