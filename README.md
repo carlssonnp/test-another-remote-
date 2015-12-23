@@ -89,7 +89,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * [Microvariables](simulations/microvariables/readme.md)
 
-* [Follow the law](simulations/follow_the_rules) [TODO]
+* [Follow the law](simulations/follow_the_rules)
 
 
 ### Finish Line
