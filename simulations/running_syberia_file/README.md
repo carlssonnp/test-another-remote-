@@ -1,17 +1,17 @@
 Syberia model files are the essential elements for training predictive models for Avant.  Understanding how these predictive models are built starts with a through understanding of syberia model files and how to use them.
 
-**Exercise 1:** (*essential*) Watch [Introductory Tutorial on Running a Sbyeria File](https://www.youtube.com/watch?v=mpo8T6TiBvk) (Verify you are signed in through Avant. If one cannot access notify Igor Veksler.)
+**Exercise 1:** (*essential*) Watch [Introductory Tutorial on Running a Syberia File](https://www.youtube.com/watch?v=mpo8T6TiBvk) (Verify you are signed in through Avant. If one cannot access notify Igor Veksler.)
 
 NOTE: The notation has changed as of time of filming with the addition of data source specific munging.  Therefore to run within specific substage one needs to specifiy additional stage.  To run the first stage of Data Stage, you must `run("demo", to = "data/2/1")` instead of `run("demo", to = "data/1")`.
 
-**Exercise 2:** (*essential*) Read [the documentation on models](https://github.com/avantcredit/avant-analytics/blob/master/models/README.md).
+**Exercise 2:** (*essential*) Read [the documentation on models](https://github.com/avantcredit/avant-analytics/blob/master/models/README.md). Also [read about the avantformula](https://github.com/avantcredit/avantformula/blob/master/README.md).
 
 Test your knowledge:
-* What is an indicator?  
+* What is an indicator?
 * How many columns of data are produced by the indicator?
 * Where is the R code for the following found in 'avant' or 'avant-analytics' repos?
 ** indicators
-** munge bits
+** mungebits
 ** models
 * What is the source of data when both an s3key and data sources are specified in the import stage?
 * How does the syberia model file pick up the default parameter values for a model?
