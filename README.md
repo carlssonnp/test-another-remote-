@@ -74,7 +74,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * [Constructing model card](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard/readme.md)
 
-* [Deployment](https://github.com/avantcredit/analytics-onboarding/tree/master/simulations/deployment) [TODO]
+* [Deployment](https://github.com/avantcredit/analytics-onboarding/tree/master/simulations/deployment/readme.md)
 
 * [Add new microvariables](https://github.com/avantcredit/onboarding/tree/master/simulations/microvariables)   [TODO:Peter]
 
