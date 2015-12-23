@@ -22,10 +22,9 @@ Test your knowledge:
 **Exercise 4:** (*advanced*) Install [Python XGBoost](https://github.com/dmlc/xgboost/tree/master/python-package)
 NOTE: This does not work without additional requirements.  Besides, this is only necessary when one wishes to **train** xgb models.  It is not necessary for **predictions**.   Instead, one needs to learn how to use the `beauty` or the `beast` to train their models, where xgb is preinstalled and preconfigured.
 
-**Exercise 5:** (*essential*) Apply this knowledge to run the following [syberia file](https://github.com/avantcredit/avant-analytics/blob/master/models/examples/demo/demo.R)  
-NOTE: You must use the `beauty` or the `beast` to finish this exercise.
+**Exercise 5:** (*essential*) Apply this knowledge to run the following [syberia file](https://github.com/avantcredit/avant-analytics/blob/master/models/examples/demo/demo.R). You must use the Beauty or the Beast EC2 instances to finish this exercise.  Prior to using the `run` command, set `options(avant.limit = 500)` so you don't run on every single loan and waste a lot of time.
 
-* create a new branch and new directory `demo_<yourname>` 
+* Create a new branch and new directory `demo_<yourname>` 
 
 * Within the export stage change `a` to your name as to create a new model to not overwrite an existing model: `s3 = "model/example/demo/<yourname>"`  
 
