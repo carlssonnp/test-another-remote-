@@ -87,7 +87,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * [Working in production](https://github.com/avant/analytics-onboarding/tree/master/simulations/infrastructure/production.md)
 
-* [Microvariables](simulations/microvariables)
+* [Microvariables](simulations/microvariables/readme.md)
 
 * [Follow the law](simulations/follow_the_rules) [TODO]
 
