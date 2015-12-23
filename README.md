@@ -102,7 +102,7 @@ You've made it to the end.  Now you just need to read! :)
 
 * [Make your code readable](https://gist.github.com/peterhurford/3ad9f48071bd2665a8af)
 
-* [Up your programmer productivity](https://github.com/avantcredit/avant-analytics/wiki/Programmer-Tips-&-Tricks) [TODO]
+* [Up your programmer productivity](https://github.com/avantcredit/avant-analytics/wiki/Programmer-Tips-&-Tricks)
 
 **Knowing Our Team**
 
