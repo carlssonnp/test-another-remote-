@@ -1,21 +1,21 @@
+## GBM
 
-The `Boosted Trees` Paper provides an in depth mathematical grounding for one to understand the underlying xgb(gradient boosting tree)
-algorithim. (Most Frequently used model) Please Read the Paper & Create a PR to answer the subsequent Questions. 
+Our data science team makes ample use of "Gradient Boosting Machines" (GBMs).
 
-[Boosted Trees - TQChen](http://homes.cs.washington.edu/~tqchen/pdf/BoostedTree.pdf)
-  * [Fei's Talk on paper](https://www.youtube.com/watch?v=031j956LzII)(helpful)
+T. Q. Chen's paper ["Boosted Trees"](http://homes.cs.washington.edu/~tqchen/pdf/BoostedTree.pdf) explains the GBM pretty well with an in-depth mathematical grounding. (You may also like to watch [Fei's Talk on the paper](https://www.youtube.com/watch?v=031j956LzII).)
 
-#### Helpful Additional references
-  * [xgboost algorithim](https://www.youtube.com/watch?v=X47SGnTMZIU) by an author (Tong He)
+Also watch this video on the [xgboost algorithm](https://www.youtube.com/watch?v=X47SGnTMZIU) by Tong He.
 
-*Simulation Challenge* (Create a PR with answers to be reviewed by guardian). Reference Fei Ye on PR or can use as resource  
-1) Are Trees sensetive to scaling or monotonic transformations? (Why or why Not)  
-2) Explain how the trees are grown in the context of Information Gain  
-3) Where within the GBM algorithim does one Impose an L1/L2 Regularization.  
-4) Explain how the Gradient & Hassien is used within the algorithim.    
-5) Within the Helper Sheet try to aid others technical understanding of the algorithim. 
-   Add any Insights you found especially useful that yielded a breakthrough in your understanding. 
-   Can be a detailed mathematical proof or a simple diagram, human explanation, analogy, etc.  
-6) When do you stop training each tree and adding more trees to the forest    
-7) What are the hyper parameters to tune for tree-based method?    
-8) Derive carefully the gradient and hessian of the binary classification entropy loss function.
+
+## Exercise Questions
+
+Completeing all these questions is not required but it is a good idea to take a stab at it if you can. Feel free to ask your gaurdian or Fei for help.
+
+1) What are the hyper parameters to tune for tree-based method?    
+2) Are trees sensitive to scaling or monotonic transformations? Why or why not?  
+3) Explain how trees are grown in the context of *information gain*.
+4) What is L1/L2 Regularization? Where within the GBM algorithim does one impose it?
+6) When do you stop training each tree and add more trees to the forest?
+5) Explain how the gradient and hassien is used within the algorithim.    
+7) Derive the gradient and hessian of the binary classification entropy loss function.
+8) Any useful notes to add?

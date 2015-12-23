@@ -50,7 +50,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 ### Math and Statistics 
 
-* [GBM](https://github.com/avantcredit/onboarding/blob/master/simulations/mathematical/gbm/readme.md) [TODO].
+* [GBM](https://github.com/avantcredit/onboarding/blob/master/simulations/mathematical/gbm/readme.md)
 
 * TODO: Need more math and stats?  Chapters from ISL / ESL?
 
