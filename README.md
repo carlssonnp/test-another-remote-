@@ -106,7 +106,7 @@ You've made it to the end.  Now you just need to read! :)
 
 **Knowing Our Team**
 
-* [History of the team](simulations/history) [TODO:Fei & RobK]
+* [History of the team](simulations/history/readme.md)
 
 * How do we choose our project priorities? [TODO]
 
