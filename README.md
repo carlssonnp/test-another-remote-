@@ -39,20 +39,20 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 ### Computer Science 
 
-* [Git](https://github.com/avantcredit/onboarding/blob/master/simulations/setup/git.md)
+* [Git](simulations/setup/git.md)
 
-* ["Advanced R"](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/R_simulation_challenge.md)
+* ["Advanced R"](simulations/programming/R_simulation_challenge.md)
 
-* [Our coding principles](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/code_principles.md)
+* [Our coding principles](simulations/programming/code_principles.md)
 
-* [Writing an R Package](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/R_package.md)
+* [Writing an R Package](simulations/programming/R_package.md)
 
 
 ### Math and Statistics 
 
 * Complete problems 1, 2, 5, and 6 from Chapter 2 of [Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20Sixth%20Printing.pdf) (p52 - 53).
 
-* [GBM](https://github.com/avantcredit/onboarding/blob/master/simulations/mathematical/gbm/readme.md)
+* [GBM](simulations/mathematical/gbm/readme.md)
 
 
 ### Domain Knowledge
@@ -70,7 +70,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * [Mungebits](simulations/mungebits/readme.md)
 
-* [Testing](onboarding/simulations/testing/readme.md)
+* [Testing](simulations/testing/readme.md)
 
 * [Constructing model card](simulations/modelcard/readme.md)
 
@@ -85,7 +85,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * [Where does data come from?](simulations/infrastructure/data.md)
 
-* [Working in production](https://github.com/avant/analytics-onboarding/tree/master/simulations/infrastructure/production.md)
+* [Working in production](simulations/infrastructure/production.md)
 
 * [Microvariables](simulations/microvariables/readme.md)
 
