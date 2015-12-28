@@ -110,7 +110,7 @@ You've made it to the end.  Now you just need to read! :)
 
 * How do we choose our project priorities? [TODO]
 
-* [Wrap up](simulations/wrap_up) [TODO]
+* [Wrap up](simulations/wrap_up/readme.md)
 
 
 ### Other Ways to Learn 
