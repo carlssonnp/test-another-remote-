@@ -22,4 +22,4 @@ One does not need to create the corresponding ruby code as this will be automati
 
 5. Does your microvariable add lift?  Compare your model with and without that variable using a lift chart to find out.
 
-6. What is the difference between a UK microvariable and a US microvariable?
+6. How is the process for adding a UK microvariable different from adding a US microvariable?
