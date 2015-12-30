@@ -20,9 +20,9 @@ The Data Science team is split into two parts: Data Science and Data Engineering
 
 * Tong Lu, Lead Data Scientist, oversees all the Data Science teams.
 
-* **Data Science R&D** - Fei Ye, lead (CHI) + Eddie Herman (CHI) + Matt Meng (LA).  This team focuses on cutting-edge statistics work to improve model performance, such as trying out new classifiers.  A lot of their work to date has focused on the cash flow model.
+* **Data Science R&D** - Fei Ye, lead (CHI) + Eddie Herman (CHI) + Matt Meng (LA).  This team focuses on cutting-edge statistics work to improve model performance, such as trying out new classifiers.
 
-* **Data Science, Core Business** - Yuchen Yang, lead (CHI) and David Nguyen, lead (LA). This team does the core work needed to get models out.  These models include the 48 models discussed previously, across all the products, geographies, and business areas.
+* **Data Science, Core Business** - Yuchen Yang, lead (CHI) and David Nguyen, lead (LA). This team does the core work needed to get models out.  These models include the 48+ models discussed previously, across all the products, geographies, and business areas.
 
 
 ## Data Engineering Teams
