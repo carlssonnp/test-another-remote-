@@ -18,7 +18,7 @@ But what other R packages do we use?
 
 #### Exercises
 
-* How do I use the `s3cmd` command line tool to find the size of an S3 object?  How do I use `pryr::object_size` to see the size of that object in R?  Why might these two numbers be different?
+* How do I use the `s3cmd` command line tool to find the size of an S3 object?  How does one display in a human readable form? How do I use `pryr::object_size` to see the size of that object in R?  Why might these two numbers be different?
 
 * How do I write a test to check that the "cache" table exists in my database?
 
