@@ -102,6 +102,8 @@ You've made it to the end.  Now you just need to read! :)
 
 * [Make your code readable](https://gist.github.com/peterhurford/3ad9f48071bd2665a8af)
 
+* [Write in a functional style](http://maryrosecook.com/blog/post/a-practical-introduction-to-functional-programming)
+
 * [Refactoring](simulations/programming/refactoring.md)
 
 * [Programmer productivity tips & tricks](https://github.com/avantcredit/avant-analytics/wiki/Programmer-Tips-&-Tricks)
