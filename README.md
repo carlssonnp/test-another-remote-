@@ -50,7 +50,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 ### Math and Statistics 
 
-* Complete problems 1, 2, 5, and 6 from Chapter 2 of [Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20Sixth%20Printing.pdf) (p52 - 53).
+* [Introduction to Statistical Learning](simulations/mathematical/isl.md)
 
 * [GBM](simulations/mathematical/gbm/readme.md)
 
