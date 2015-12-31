@@ -128,6 +128,8 @@ You've made it to the end.  Now you just need to read! :)
 
 * You will also be invited to a Code Craftsmanship seminar to further hone your R knowledge.
 
-* Also, you will have one day for a full-day Operations training session where you will see the inside workings of our Operations Center (call center), to further your business knowledge.
+* You will have one day for a full-day Operations training session where you will see the inside workings of our Operations Center (call center), to further your business knowledge.
+
+* You will have quarterly mandated Banker's Edge training to improve your knowledge of the relevant laws affecting the lending industry (e.g., Truth in Lending Act).
 
 * Lastly, look out for regular training classes on your Avant calendar.
