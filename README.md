@@ -128,4 +128,6 @@ You've made it to the end.  Now you just need to read! :)
 
 * You will also be invited to a Code Craftsmanship seminar to further hone your R knowledge.
 
-* Also look out for regular training classes on your Avant calendar.
+* Also, you will have one day for a full-day Operations training session where you will see the inside workings of our Operations Center (call center), to further your business knowledge.
+
+* Lastly, look out for regular training classes on your Avant calendar.
