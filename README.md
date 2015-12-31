@@ -127,3 +127,5 @@ You've made it to the end.  Now you just need to read! :)
 * You should also participate in our morning lectures and ask questions.
 
 * You will also be invited to a Code Craftsmanship seminar to further hone your R knowledge.
+
+* Also look out for regular training classes on your Avant calendar.
