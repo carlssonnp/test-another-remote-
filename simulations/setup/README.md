@@ -2,7 +2,7 @@ We're a pretty secure company, so you'll need access to various things.  This wi
 
 To get started with working on analytics at avant, begin with the following setup. We assume you have a Mac and are using OS X.
 
-1. Set up HipChat.  You should have received a link to configure hipChat in e-mail.  If not, contact Guadian & IT.  Join the rooms: `Analytics` and `Analytics General`.  Also join `LA data science`.
+1. Set up HipChat.  You should have received a link to configure hipChat in e-mail.  If not, contact Guadian and IT.  Join the rooms: `Analytics` and `Analytics General`.  Also join `LA data science`.  (You make requests to IT through the [ServiceNow portal](https://avantcreditcorp.service-now.com/navpage.do).)
  
 2. Install [iTerm2](https://iterm2.com/downloads.html) and move it to your Applications folder.
 
@@ -58,7 +58,9 @@ To get started with working on analytics at avant, begin with the following setu
 
 12. Get Amazon S3 credentials and a `database.yml` file from Rob K.  Install your `database.yml` file in `~/dev/avant-analytics/config/database.yml`.  This will let you connect to all our databases and caching layers.
 
-13. In terminal, navigate to `~/dev/avant-analytics` and start R. If you eventually see the following, then you have successfully installed all the packages you need to start your journey across the Syberian Tundra.
+13. Get a `looker.yml` file from your Gaurdian for connecting to Looker.  Install this in `config/looker.yml`
+
+14. In terminal, navigate to `~/dev/avant-analytics` and start R. If you eventually see the following, then you have successfully installed all the packages you need to start your journey across the Syberian Tundra.
 
    ```r
    ...
@@ -66,14 +68,14 @@ To get started with working on analytics at avant, begin with the following setu
    |++++++++++++++++++++++++++++++++++++++++++++++++++| 100%
    ```
       
-14. If you have trouble installing `gbm`, it's probably complaining about gfortran.  Try the instructions [here](http://thecoatlessprofessor.com/programming/rcpp-rcpparmadillo-and-os-x-mavericks-lgfortran-and-lquadmath-error/), *in your terminal*, i.e.:
+15. If you have trouble installing `gbm`, it's probably complaining about gfortran.  Try the instructions [here](http://thecoatlessprofessor.com/programming/rcpp-rcpparmadillo-and-os-x-mavericks-lgfortran-and-lquadmath-error/), *in your terminal*, i.e.:
       
    ```
    curl -O http://r.research.att.com/libs/gfortran-4.8.2-darwin13.tar.bz2
    sudo tar fvxz gfortran-4.8.2-darwin13.tar.bz2 -C /
    ```
 
-15. Setup you .s3cfg file. This setups up your credentials to read and write to AWS S3, our cloud storage space. 
+16. Setup you .s3cfg file. This setups up your credentials to read and write to AWS S3, our cloud storage space. 
 
    ```bash
    brew install s3cmd
@@ -86,8 +88,14 @@ To get started with working on analytics at avant, begin with the following setu
    s3cmd ls s3://avantminer/tmp/
    ```
 
-16. Be able to [log into an EC2 instance](https://github.com/avantcredit/avant-analytics/wiki/Configure-your-new-EC2-instance)
+17. Be able to [log into an EC2 instance](https://github.com/avantcredit/avant-analytics/wiki/Configure-your-new-EC2-instance)
 
-17. Set up Pivotal Tracker.  Ask Justin Hou for access.
+18. Set up Pivotal Tracker.  Ask Justin Hou for access.
 
-18. Get access to the [BI Hackpad](https://businessintelligence.hackpad.com).  Ask Justin Hou and/or Will Wolfson.
+19. Get access to the [BI Hackpad](https://businessintelligence.hackpad.com).  Ask Justin Hou and/or Will Wolfson.
+
+20. Clone our Ruby app, [avant-basic](github.com/avantcredit/avant-basic) to your computer.  Ask your Gaurdian for a copy of the `config/database.yml` file (this is different than the one for avant-analytics).  Edit the `database.yml` to reflect your username rather than that of your Gaurdian.
+
+21. [Ask IT](https://avantcreditcorp.service-now.com/navpage.do) for access to "analytics-variable-server" on Heroku.
+
+22. Clone [the microvariable server](https://github.com/avantcredit/analytics-microvariable-server) and ask your Gaurdian to give you the `config/database.yml` (yes, a third file different from the other two).

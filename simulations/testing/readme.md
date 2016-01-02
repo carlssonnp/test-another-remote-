@@ -1,19 +1,18 @@
-You didnt think you were done just by writing the mungebit function did you? 
-We hope you offcourse verfified that it works. Howevever how would one do this
-on a more systematic & ongoing basis? How does one anticipate a-priori that your function will integrate correctly with large dynamic infastructure that
-interacts with your function? 
+You didn't think you were done just by writing the mungebit function did you?
+
+Hopefully you verified your mungebit works.  But it's preferable to be able to verify this in a systematic and ongoing basis so future developers don't have to manually run dozens of mungebits to ensure their accuracy.  How do we do this
 Glad you asked! ... Synergy. Errr Testing! 
+
 Code that is easily testable is often well structured and well written code and therefore we will have you write some tests for your custom mungebit. 
 
-Testing is a large subject in and of itself. Its a good thing you have the time. Read Subsequent Links. 
-  * [Testing in R](http://r-pkgs.had.co.nz/tests.html)
-  * [Testing within Avant](https://github.com/avantcredit/talks/blob/master/mds/kirill_testing_pres.md) by Kirill Sevastyanenko
+## Learning
 
-One of the tenants of [TDD](https://en.wikipedia.org/wiki/Test-driven_development) is to write tests a-priori. 
-This may not be your prefered workflow, but what matters to Avant is that you actually write tests. TODO: Verify with RobK this is true? 
-   
-**Challenge(s):**   
-1) In the context of this challenge we will write tests for the custom mungebit your created.    
-   Write atleast 3 tests for your custom mungebit.     
-   You will need to follow this format to write a mungebit [test within Avant Analytics](https://github.com/avantcredit/avant-analytics/tree/master/test)    
-2) Append The DS checklist to PR and check relavant boxes
+* [Understand the philosophy of automated tests](https://medium.com/javascript-scene/what-every-unit-test-needs-f6cd34d9836d#.gvu7uqszv)
+* [Testing in R](http://r-pkgs.had.co.nz/tests.html)
+* [How we test within Avant Analytics](https://github.com/avantcredit/avant-analytics/tree/master/test/README.md)
+* [R CMD CHECK](http://r-pkgs.had.co.nz/check.html) tests for other things that can go wrong in a package, in addition to automated test failures.
+
+## Exercises
+
+* Write at least three tests for your custom mungebit. 
+* Append The DS checklist to PR and check relavant boxes

@@ -30,81 +30,92 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 ### Starting Out
 
-* [Get the necessary accounts and set up your machine.](https://github.com/avantcredit/onboarding/tree/master/simulations/setup/README.md)    
+* [Get the necessary accounts and set up your machine.](simulations/setup/README.md)    
 
-* [Meet the team](https://github.com/avantcredit/avant-analytics/wiki/Bio-Page) [TODO]
+* [Meet the team](https://github.com/avantcredit/avant-analytics/wiki/Bio-Page)
 
-* Learn what people at Avant do [TODO]
+* [Learn what the team does](simulations/team/README.md)
 
 
 ### Computer Science 
 
-* [Git](https://github.com/avantcredit/onboarding/blob/master/simulations/setup/git.md)
+* [Git](simulations/setup/git.md)
 
-* ["Advanced R"](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/R_simulation_challenge.md)
+* ["Advanced R"](simulations/programming/R_simulation_challenge.md)
 
-* [Our coding principles](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/code_principles.md)
+* [Our coding principles](simulations/programming/code_principles.md)
 
-* Being a good developer [TODO]
-
-* [Writing an R Package](https://github.com/avantcredit/onboarding/blob/master/simulations/programming/R_package.md)
+* [Writing an R Package](simulations/programming/R_package.md)
 
 
 ### Math and Statistics 
 
-* [GBM](https://github.com/avantcredit/onboarding/blob/master/simulations/mathematical/gbm/readme.md) [TODO].
+* [Introduction to Statistical Learning](simulations/mathematical/isl.md)
 
-* TODO: Need more math and stats?  Chapters from ISL / ESL?
+* [GBM](simulations/mathematical/gbm/readme.md)
 
 
 ### Domain Knowledge
 
-* [Business](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/business) [TODO]
+* [Business](simulations/domain_knowledge/business)
 
-* [SQL and Database Tables](https://github.com/avantcredit/onboarding/tree/master/simulations/domain_knowledge/database_tables/readme.md)
+* [SQL and Database Tables](simulations/domain_knowledge/database_tables/readme.md)
 
-* [Tribal Knowledge](https://github.com/avantcredit/analytics-onboarding/tree/master/simulations/domain_knowledge/process_tribal_knowledge) [TODO]
-
-* [Learn about Looker](http://www.looker.com/docs/video-library/exploring-data) TODO: add looker section with Q
+* [Learn about Looker](http://www.looker.com/docs/video-library/exploring-data) [TODO: add exercise questions]
 
 
 ### End to End Workflow Simulation 
 
-* [Run a Syberia File](https://github.com/avantcredit/onboarding/tree/master/simulations/running_syberia_file/README.md) [TODO]
+* [Run a Syberia File](simulations/running_syberia_file/README.md)
 
-* [Mungebits](https://github.com/avantcredit/onboarding/tree/master/simulations/mungebits/readme.md) [TODO]
+* [Mungebits](simulations/mungebits/readme.md)
 
-* [Testing](https://github.com/avantcredit/analytics-onboarding/tree/master/simulations/testing) [TODO]
+* [Testing](simulations/testing/readme.md)
 
-* [Constructing model card](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard)  -- TODO: Merge [modelcard_additions](https://github.com/avantcredit/onboarding/tree/master/simulations/modelcard_additions) into model card.
+* [Constructing model card](simulations/modelcard/readme.md)
 
-* [Deployment](https://github.com/avantcredit/analytics-onboarding/tree/master/simulations/deployment) [TODO]
-
-* [Add new microvariables](https://github.com/avantcredit/onboarding/tree/master/simulations/microvariables)   [TODO:Peter]
+* [Deployment](simulations/deployment/readme.md)
 
 
 ### Infrastructure and Productionization
 
-* [Syberia Infrastructure](https://github.com/avantcredit/onboarding/tree/master/simulations/more_infastructure) [TODO]
+* [Syberia Infrastructure](simulations/infrastructure/readme.md)
 
-* Productionization (Avant-basic for Data Scientists!) [TODO]
+* [The Avant package and other R packages](simulations/infrastructure/packages.md)
 
-* The Avant package and other R packages [TODO]
+* [Where does data come from?](simulations/infrastructure/data.md)
 
-* [Follow the law](https://github.com/avantcredit/onboarding/tree/master/simulations/follow_the_rules) [TODO]
+* [Working in production](simulations/infrastructure/production.md)
+
+* [Microvariables](simulations/microvariables/readme.md)
+
+* [Follow the law](simulations/follow_the_rules)
 
 
 ### Finish Line
 
 You've made it to the end.  Now you just need to read! :)
 
-* [History](https://github.com/avantcredit/onboarding/tree/master/simulations/history) [TODO:Fei & RobK]
+**Being the Best Developer You Can Be**
 
-* [Up your programmer productivity](https://github.com/avantcredit/avant-analytics/wiki/Programmer-Tips-&-Tricks) [TODO]
+* [Recognize good code](http://engineering.intenthq.com/2015/03/what-is-good-code-a-scientific-definition/)
+
+* [Make your code readable](https://gist.github.com/peterhurford/3ad9f48071bd2665a8af)
+
+* [Write in a functional style](http://maryrosecook.com/blog/post/a-practical-introduction-to-functional-programming)
+
+* [Refactoring](simulations/programming/refactoring.md)
+
+* [Programmer productivity tips & tricks](https://github.com/avantcredit/avant-analytics/wiki/Programmer-Tips-&-Tricks)
+  * [Workflow Hacks](https://github.com/avantcredit/talks)(Peter & Robk talks)
+
+**Knowing Our Team**
+
+* [History of the team](simulations/history/readme.md)
 
 * How do we choose our project priorities? [TODO]
 
-* [Wrap up](https://github.com/avantcredit/onboarding/tree/master/simulations/wrap_up) [TODO]
+* [Wrap up](simulations/wrap_up/readme.md)
 
 
 ### Other Ways to Learn 
@@ -113,6 +124,12 @@ You've made it to the end.  Now you just need to read! :)
 
 * You will also have multiple **pairing sessions** (where someone else helps you with your work) and **shadowing sessions** (where you see the work of others).
 
-* You should also participate in our morning lectures and ask questions.  (Encouraged (optional))
+* You should also participate in our morning lectures and ask questions.
 
-* You will also be invited to a Code Craftsmanship seminar to further hone your R knowledge. (Encouraged (optional))
+* You will also be invited to a Code Craftsmanship seminar to further hone your R knowledge.
+
+* You will have one day for a full-day Operations training session where you will see the inside workings of our Operations Center (call center), to further your business knowledge.
+
+* You will have quarterly mandated Banker's Edge training to improve your knowledge of the relevant laws affecting the lending industry (e.g., Truth in Lending Act).
+
+* Lastly, look out for regular training classes on your Avant calendar.
