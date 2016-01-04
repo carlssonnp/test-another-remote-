@@ -103,6 +103,7 @@ You've made it to the end.  Now you just need to read! :)
 * [Make your code readable](https://gist.github.com/peterhurford/3ad9f48071bd2665a8af)
 
 * [Write in a functional style](http://maryrosecook.com/blog/post/a-practical-introduction-to-functional-programming)
+  * [What is the essence of functional programming?](http://blog.jenkster.com/2015/12/what-is-functional-programming.html)
 
 * [Refactoring](simulations/programming/refactoring.md)
 
