@@ -31,7 +31,7 @@ Then, the Avant package was built on 8 April 2014.  The very [first function add
 ## History of GBM
 
  * [Yoav Freund](https://en.wikipedia.org/wiki/Yoav_Freund) & [Robert Schapire](https://en.wikipedia.org/wiki/Robert_Schapire) are credited with the adaBoost algorithim that serves as the foundation of GBM.
- * [Jerome Friedmand](https://statweb.stanford.edu/~jhf/) is largely credited as the driving force behind full-fledged GBM algorithim.
+ * [Jerome Friedman](https://statweb.stanford.edu/~jhf/) is largely credited as the driving force behind full-fledged GBM algorithim.
    * 10 minute [video](https://www.youtube.com/watch?v=79tR7BvYE6w) where he is interviewd by [Tibshirani](http://statweb.stanford.edu/~tibs/) & [Hastie](http://web.stanford.edu/~hastie/) on genesis of tree based methods. 
    
 
