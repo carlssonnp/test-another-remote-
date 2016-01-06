@@ -123,7 +123,7 @@ You've made it to the end.  Now you just need to read! :)
 
 * After you complete the training material, you will begin work on your first real-life task!  Yay!
 
-* You will also have multiple **pairing sessions** (where someone else helps you with your work) and **shadowing sessions** (where you see the work of others).
+* You will also have multiple **pairing sessions** (where someone else helps you with your work) and **shadowing sessions** (where you see the work of others). (See [notes on pairing sessions](https://devmynd.com/blog/2015-1-pairing-with-junior-developers/))
 
 * You should also participate in our morning lectures and ask questions.
 
