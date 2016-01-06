@@ -21,7 +21,7 @@ Attributes and Factors
 ======================
 1. An early draft used this code to illustrate structure():
 structure(1:5, comment = "my attribute")
-#> [1] 1 2 3 4 5
+[1] 1 2 3 4 5
 But when you print that object you don’t see the comment attribute. Why? Is the attribute missing, or is there something else special about it? (Hint: try using help.)
 
 2. What happens to a factor when you modify its levels?
