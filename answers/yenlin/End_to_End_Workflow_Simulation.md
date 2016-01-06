@@ -24,14 +24,6 @@ avant-analytics/lib/shared/
 
 ==============
 Exercise 5: 
-Apply this knowledge to run the following syberia file. You must use the Beauty or the Beast EC2 instances to finish this exercise. Prior to using the run command, set options(avant.limit = 500) so you don't run on every single loan and waste a lot of time.
+Done!
+The dimensions of the training dataframe is nrow=362 and ncol=1274.
 
-Create a new branch and new directory demo_<yourname>
-
-Within the export stage change a to your name as to create a new model to not overwrite an existing model: s3 = "model/example/demo/<yourname>"
-
-Submit any errors you experience as an issue within avant-analytics-scraps and tag Elaine Lee. It is important you are able to successfully run end to end as the subsequent simulations will use this model as a foundation.
-
-Run the demo model completely.
-
-After "Drop single valued variables" what are the dimensions of the training dataframe? (Hint: use the dim monitor.)
