@@ -41,3 +41,80 @@ The logic of -1 < FALSE is -1 < 0, which is true.
 Ans: In the example, using c with a character NA coerces everyting to character. Logical is a the "bottom" of the heirarchy, so it can't drag anything else up to its level.
 
 
+#
+####Attributes and Factors
+
+#####1.An early draft used this code to illustrate structure(): 
+```{r}
+structure(1:5, comment = "my attribute")
+```
+#####But when you print that object you don’t see the comment attribute. Why? Is the attribute missing, or is there something else special about it? (Hint: try using help.)
+
+Ans:
+Choosing attribute tags that are not comment print fine. `comment` is a special case that is not printed.
+
+
+#####2. What happens to a factor when you modify its levels? 
+```{r}
+f1 <- factor(letters) 
+levels(f1) <- rev(levels(f1))
+```
+
+Ans:
+Reversing the factor levels reversed both the vector and its levels.
+
+
+#####3. What does this code do? How do f2 and f3 differ from f1? 
+```{r}
+f2 <- rev(factor(letters))
+f3 <- factor(letters, levels = rev(letters))
+```
+
+Ans: `f2` reverses the vector, but not the levels. `f3` reserves the levels of the vector but not the vector.
+
+
+#
+####Matrices and arrays
+
+#####1.What does `dim()` return when applied to a vector?
+
+Ans: NULL
+
+
+#####2. If `is.matrix(x)` is TRUE, what will `is.array(x)` return?
+
+Ans: It will return `TRUE` because a matrix is an array.
+
+
+#####3. How would you describe the following three objects? What makes them different to 1:5? 
+```{r}
+x1 <- array(1:5, c(1, 1, 5))
+x2 <- array(1:5, c(1, 5, 1))
+x3 <- array(1:5, c(5, 1, 1))
+```
+
+Ans:
+`x1` is 1 row by 1 column by 5 deep.
+`x2` is 1 row by 5 columns by 1 deep. 
+`x3` is 5 rows by 1 column by 1 deep.
+They are different from 1:5 because of their dimensionality.
+
+
+#
+####Data Frame
+
+#####1. What attributes does a data frame possess?
+
+Ans: `names`, `row.names`, `class`
+
+
+#####2. What does `as.matrix()` do when applied to a data frame with columns of different types?
+
+Ans: Coercion into the same type following the coercion rules.
+
+
+#####3. Can you have a data frame with 0 rows? What about 0 columns?
+
+Ans: Yes, an empty data frame is allowed.
+
+
