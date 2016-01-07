@@ -4,7 +4,7 @@ Ultimately it is an R markdown document where one can embed code with text markd
 
 ## Read
 * [R Studio R Markdown](http://rmarkdown.rstudio.com/)   
-* [R Markdown cheatsheet](http://rmarkdown.rstudio.com://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)  
+* [R Markdown cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)  
 * [knitr showcase](http://yihui.name/knitr/demo/showcase/)
 * [Getting started with Avant models and data](https://github.com/avantcredit/avant-analytics/wiki/Getting-started-with-Avant-models-and-data)
 
