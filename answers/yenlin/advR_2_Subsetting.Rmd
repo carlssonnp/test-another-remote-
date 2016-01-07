@@ -1,0 +1,119 @@
+
+####Exercises - Part 1
+
+#####1. Fix each of the following common data frame subsetting errors.
+
+Ans:
+```{r, results="hide"}
+# mtcars[mtcars$cyl = 4, ]
+mtcars[mtcars$cyl == 4, ]
+
+# mtcars[-1:4, ]
+mtcars[-c(1:4), ]
+
+# mtcars[mtcars$cyl <= 5]
+mtcars[mtcars$cyl <= 5, ]
+
+# mtcars[mtcars$cyl == 4 | 6, ]
+mtcars[mtcars$cyl %in% c(4, 6), ]
+```
+
+
+#####2. Why does `x <- 1:5; x[NA]` yield five missing values? (Hint: why is it different from `x[NA_real_]`?)
+
+Ans: NA is a logical vector of lenggth one, thus, it is recycled to the length of x.
+
+
+
+#####3. What does upper.tri() return? How does subsetting a matrix with it work? Do we need any additional subsetting rules to describe its behaviour?
+```{r}
+x <- outer(1:5, 1:5, FUN = "*")
+x[upper.tri(x)]
+```
+
+Ans: It returns `TRUE` in the upper triangle of the matrix so subsetting with it returns the values in the upper triangle, column by column.
+
+
+#####4. Why does `mtcars[1:20]` return an error? How does it differ from the similar `mtcars[1:20, ]`?
+
+Ans: Because `mtcars` is a data.frame, you have to tell it which columes to select.
+
+
+#####5. Implement your own function that extracts the diagonal entries from a matrix (it should behave like diag(x) where x is a matrix).
+
+Ans:
+```{r}
+fn_diag <- function(x) {
+  stopifnot(is.matrix(x), nrow(x) == ncol(x))
+  n <- nrow(x)
+  return(x[matrix(seq_len(n), nrow = n, ncol = 2)])
+}
+```
+
+
+#####6. What does `df[is.na(df)] <- 0` do? How does it work?
+
+Ans:
+It sets NA values in df to 0.
+
+
+#
+####Exercises - Part 2
+
+#####1. Given a linear model, e.g., `mod <- lm(mpg ~ wt, data = mtcars)`, extract the residual degrees of freedom. Extract the R squared from the model summary (summary(mod))
+
+Ans:
+
+mod$df.residual
+
+summary(mod)$r.squared
+
+
+#
+####Exercises - Part 3
+
+#####1. How would you randomly permute the columns of a data frame? (This is an important technique in random forests.) Can you simultaneously permute the rows and columns in one step?
+
+Ans:
+
+```{r}
+(df <- data.frame(matrix(1:25, ncol = 5)))
+
+fn_permute <- function(x) {
+  nr <- nrow(x)
+  nc <- ncol(x)
+  x[] <- x[, sample(nc)]
+  return (x)
+}
+
+# permute df
+df[sample(nrow(df)), sample(ncol(df))]
+```
+
+
+#####2. How would you select a random sample of m rows from a data frame? What if the sample had to be contiguous (i.e., with an initial row, a final row, and every row in between)?
+
+Ans:
+```{r}
+fn_random_rows <- function(df, m) {
+  df[sample(nrow(df), size = m), ]
+}
+
+fn_random_rows(df, m = 3)
+```
+
+If the sample had to be contiguous:
+```{r}
+fn_sample_contig_rows <- function(df) {
+  row_nums <- sample(nrow(df), size = 2)
+  df[min(row_nums):max(row_nums), ]
+}
+
+fn_sample_contig_rows(df)
+```
+
+
+#####3. How could you put the columns in a data frame in alphabetical order?
+
+Ans:
+`df[, order(names(df))]`
