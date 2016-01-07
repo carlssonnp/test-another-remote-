@@ -3,9 +3,7 @@
 
 #####1. What function allows you to tell if an object is a function? What function allows you to tell if a function is a primitive function?
 
-Ans:
-
-`is.function` tells if an object is a function. `is.primitive` tells if a function is a primitive function.
+Ans: `is.function` tells if an object is a function. `is.primitive` tells if a function is a primitive function.
 
 
 #####2. This code makes a list of all functions in the base package.
@@ -67,9 +65,7 @@ c <- 10
 c(c = c)
 ```
 
-Ans: 
-
-The above performs a combine function (first c) to create a vector with an item named c (second c) with value 10 (third c).
+Ans: The above performs a combine function (first c) to create a vector with an item named c (second c) with value 10 (third c).
 
 
 #####2. What are the four principles that govern how R looks for values?
@@ -90,7 +86,7 @@ f <- function(x) {
 }
 ```
 
-The function goes down to the lowest level and find x ^ 2, which results in f(x) <- 100. Afterwards, R goes to the command f(x) + 1 and get 100 + 1 = 101, followed by multiplying by two to get 202.
+Answer: The function goes down to the lowest level and find x ^ 2, which results in f(x) <- 100. Afterwards, R goes to the command f(x) + 1 and get 100 + 1 = 101, followed by multiplying by two to get 202.
 
 ```{r}
 f(10)
