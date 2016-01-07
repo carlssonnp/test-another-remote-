@@ -26,6 +26,24 @@ behaviour?
 
 1. Which S4 generic has the most methods defined for it? Which S4 class has the most methods associated with it?
 
+I don't know how to list all S4 generics.
+
 2. What happens if you define a new S4 class that doesn’t “contain” an existing class? (Hint: read about virtual classes in ?Classes.)
 
-3. What happens if you pass an S4 object to an S3 generic? What happens if you pass an S3 object to an S4 generic? (Hint: read ?setOldClass for the second case.)
+`> setClass("Person",
++          slots = list(name = "character", age = "numeric"))
+> getClass("Person")@contains
+list()`
+
+From documentation for `?setClass`, the default value for `contains` is `character()`.
+
+3. What happens if you pass an S4 object to an S3 generic? What happens if you pass an S3 object to an S4 generic? (Hint: read `?setOldClass` for the second case.)
+
+If you pass an S4 object to an S3 generic, R will try to "coerce" the S4 object into a valid object for the method. (from documentation of Class definitions)
+
+If you pass an S3 object to and S4 generic, (?)
+
+However, you can register an S3 class as an S4 class using `setOldClass()`.
+
+
+**OO Field Guide: RC**
