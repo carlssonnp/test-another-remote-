@@ -1,7 +1,5 @@
 
-**Advanced R, Subsetting: Data Frames**
-
-**Exercises**
+**Subsetting: Data Frames**
 
 1.
 Replace `=` with `==`: `mtcars[mtcars$cyl == 4, ]`
@@ -17,9 +15,6 @@ Add `mtcars$cyl == ` before `6`: `mtcars[mtcars$cyl == 4 | mtcars$cyl == 6, ]`
 
 
 
-**Advanced R, Subsetting: Operators**
-
-**Exercises**
-
+**Subsetting: Operators**
 
 1. `function(model) {model$df.residual}`

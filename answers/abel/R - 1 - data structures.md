@@ -1,7 +1,4 @@
-
-**Advanced R, Data Structures: Vectors**
-
-**Exercises**
+**Data Structures: Vectors**
 
 1. The six types of atomic vector are logical, integer, double, character, raw, and complex. A list is heterogeneous (i.e. elements in a list can be of different types), a vector is not.
 
@@ -24,9 +21,7 @@ c(TRUE, 1L) becomes `1L, 1L`
 
 
 
-**Advanced R, Data Structures: Attributes**
-
-**Exercises**
+**Data Structures: Attributes**
 
 1. `comment()` is a special attribute, and it has restrictions on the values it can take. (see documentation for attributes)
 
@@ -38,9 +33,7 @@ the code for `f3` computes is levels from the reversed alphabet. so the levels a
 
 
 
-**Advanced R, Data Structures: Matrices and Arrays**
-
-**Exercises**
+**Data Structures: Matrices and Arrays**
 
 1. `dim()` returns `NULL` for a vector, unless you assign it a value
 
@@ -50,9 +43,7 @@ the code for `f3` computes is levels from the reversed alphabet. so the levels a
 
 
 
-**Advanced R, Data Structures: Data Frames**
-
-**Exercises**
+**Data Structures: Data Frames**
 
 1. `names()` which are `colnames()`, `rownames()`, `length()` which is `ncol()`, and `nrow()`.
 
