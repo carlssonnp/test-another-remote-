@@ -153,6 +153,25 @@ The argument choice for `replicate()` emphasizes the number of repetitions, so t
 
 2. There’s no equivalent to split() + vapply(). Should there be? When would it be useful? Implement one yourself.
 
+
+`split_vapply <- function(x, group, f, FUN.VALUE, ..., simplify = TRUE) {
+ pieces <- split(x, group)
+ vapply(pieces, f, FUN.VALUE, simplify = simplify)
+}`
+
+# example for testing
+`pulse <- round(rnorm(22, 70, 10 / 3)) + rep(c(0, 5), c(10, 12))
+group <- rep(c("A", "B"), c(10, 12))
+split_vapply(pulse,group,mean,0)`
+
+
 3. Implement a pure R version of split(). (Hint: use unique() and subsetting.) Can you do it without a for loop?
+
+rudimentary implementation without a `for` loop:
+`splitR <- function(x,titles){
+ list_x <- as.list(x)
+ names(list_x) <- titles
+ lapply(titles, function(alpha){list_x[names(list_x) == alpha]})
+}`
 
 4. What other types of input and output are missing? Brainstorm before you look up some answers in the plyr paper.
