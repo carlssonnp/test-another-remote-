@@ -6,12 +6,12 @@
 #
 #####What is an indicator?
 
-Ans: Indicator contains one of the external Github depdendencies and the join key (e.g., customer_id).
+Ans: Indicator contains load_id and one dependent variable.
 
 #
 #####How many columns of data are produced by the indicator?
 
-Ans: Two columns. One is id and the other is a dependency.
+Ans: Two columns. One is loan_id and the other is dependent variable.
 
 #
 #####Where is the R code for the following found in 'avant' or 'avant-analytics' repos? ** indicators ** mungebits ** models
@@ -21,7 +21,7 @@ Indicators: avant-analytics/lib/indicators/
 
 mungebits: avant-analytics/lib/mungebits/ 
 
-models: avant-analytics/models/
+models: avant-analytics/lib/classifiers/
 
 #
 #####What is the source of data when both an s3key and data sources are specified in the import stage?
@@ -31,7 +31,7 @@ Ans: s3key is the source of data.
 #
 #####How does the syberia model file pick up the default parameter values for a model?
 
-Ans: This is defined in the model stage. The source can be found at avant-analytics/lib/shared/
+Ans: This is defined in the model stage. The source can be found at avant-analytics/lib/classifiers/
 
 #
 #####Exercise 5: 
@@ -146,12 +146,21 @@ concatene_char_col1(df1,
 df1
 
 # create multiple columns
+## using for-loop
 list_a <- list(c("a", "d"), c("b", "e"), c("c", "f"))
+list_b <- list()
+for (i in seq_along(list_a)) {
+  list_b[[i]] <- paste(list_a[[i]][1], list_a[[i]][2], sep = ".")
+}
+
 for (i in seq_along(list_a)) {
   concatene_char_col1(df1, 
                       c(list_a[[i]][1], list_a[[i]][2]),
-                      paste(list_a[[i]][1], list_a[[i]][2], sep = "."))
+                      unlist(list_b[[i]]))
 }
+
+#Map(function(list_a, list_b) concatene_char_col1(df1, list_a, list_b), list_a, list_b)
+
 ```
 
 
