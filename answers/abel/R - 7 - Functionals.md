@@ -138,21 +138,57 @@ The argument choice for `replicate()` emphasizes the number of repetitions, so t
 
 6. Implement a combination of Map() and vapply() to create an lapply() variant that iterates in parallel over all of its inputs and stores its outputs in a vector (or a matrix). What arguments should the function take?
 
+Here's a prototype using two vector inputs.
+
+`Map_vapply <- function(vector_1, vector_2, fun, fun_value) {
+
+ mapped_function <- function(position) {
+  unlist(Map(fun, vector_1[position], vector_2[position]))
+ }
+
+ vapply(seq_along(vector_1), mapped_function, fun_value)
+}`
+
+# input: list of vectors/Matrices
+# input: function of several (scalar) variables
+
+#idea: mapped_function uses Map to run through the list of inputs, vapply runs through the positions, creating parallel iteration over the inputs.
+
+# test
+`Map_vapply(c(1, 2), c(10, 20), function(x, y) {x^2 + y^2}, 0)`
 
 
 7. Implement mcsapply(), a multicore version of sapply(). Can you implement mcvapply(), a parallel version of vapply()? Why or why not?
 
-(not sure what the question is asking for.)
+(don't know how to do this. come back after reading about parallelisation?)
 
 
 
 
 **Manipulating Matrices and Data Frames**
 
-1. How does apply() arrange the output? Read the documentation and perform some experiments.
+1. How does `apply()` arrange the output? Read the documentation and perform some experiments.
 
-2. There’s no equivalent to split() + vapply(). Should there be? When would it be useful? Implement one yourself.
+# sample array to play with `array`
+`x <- c(1:12, 100*c(1:12))
+dim(x) <- c(4,3,2)`
 
+# this application of the apply function
+`apply(x,1,sum)`
+# 1515 1818 2121 2424
+
+# is the same as
+`output <- vector(mode = "list", length = dim(x)[1])
+for (i in 1:dim(x)[1]) {
+ output[i] <- sum(x[i,,])
+}
+output <- unlist(output)
+output`
+
+
+2. There’s no equivalent to `split() + vapply()`. Should there be? When would it be useful? Implement one yourself.
+
+Might be useful in terms of performance - `vapply` gets performance gains from pre-determined output type.
 
 `split_vapply <- function(x, group, f, FUN.VALUE, ..., simplify = TRUE) {
  pieces <- split(x, group)
@@ -162,7 +198,7 @@ The argument choice for `replicate()` emphasizes the number of repetitions, so t
 # example for testing
 `pulse <- round(rnorm(22, 70, 10 / 3)) + rep(c(0, 5), c(10, 12))
 group <- rep(c("A", "B"), c(10, 12))
-split_vapply(pulse,group,mean,0)`
+split_vapply(pulse,group,mean,1000)`
 
 
 3. Implement a pure R version of split(). (Hint: use unique() and subsetting.) Can you do it without a for loop?
@@ -175,3 +211,5 @@ rudimentary implementation without a `for` loop:
 }`
 
 4. What other types of input and output are missing? Brainstorm before you look up some answers in the plyr paper.
+
+Not sure what the question is asking.
