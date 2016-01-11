@@ -1,3 +1,254 @@
 
 # 
-#### Exercises - 
+#### Exercises - Dplyr verbs
+
+#
+#####1. Find all the flights that:
+```{r, message=FALSE}
+library(nycflights13)
+library(dplyr)
+```
+
+  + Departed in summer.
+```{r}
+filter(flights, month %in% c(7, 8, 9))
+```
+
+  + That flew to Houston (IAH or HOU).
+```{r}
+filter(flights, dest %in% c("IAH", "HOU"))
+```
+
+  + There were operated by United (UA), American (AA), or Delta (DL).
+```{r}
+filter(flights, carrier %in% c("UA", "AA", "DL"))
+```
+  
+  + That were delayed by more two hours.
+```{r}
+filter(flights, dep_delay > 120, arr_delay > 120)
+```
+
+  + That arrived more than two hours late, but didn’t leave late.
+```{r}
+filter(flights, arr_delay > 120 & dep_delay <= 0)
+```
+
+  + We delayed by at least an hour, but made up over 30 minutes in flight.
+```{r}
+filter(flights, dep_delay >= 60 & dep_delay - arr_delay > 30)
+```
+
+  + Departed between midnight (0000) and 6am (600).
+```{r}
+filter(flights, dep_time > 0, dep_time <= 600)
+```
+
+
+
+#
+#####2. How many flights have a missing dep_time? What other variables are missing? What might these rows represent?
+```{r}
+(df <- filter(flights, is.na(dep_time)))
+nrow(df)
+```
+
+There were 8255 flights having a missing dep_time. The variables of `dep_delay`, `arr_time`, `arr_delay` and `air_time` were also missing. These rows might represent the cancelled flights.
+
+
+#
+#### Exercise - Arrange rows with arrange()
+
+#
+#####1. How could use arrange() to sort all missing values to the start? (Hint: use is.na()).
+```{r}
+df <- data_frame(x = c(5, 2, 3, 8, 1, NA))
+
+arrange(df, !is.na(x), x)
+arrange(df, !(is.na(x)), desc(x))
+```
+
+
+#
+#####2. Sort flights to find the most delayed flights. Find the flights that left earliest.
+```{r}
+# find the most delayed flights
+head(arrange(flights, desc(arr_delay)), 1)
+
+# flights that left earliest
+head(arrange(flights, dep_delay), 1)
+```
+
+
+
+#
+#### Exercises - Select columns with select()
+
+#
+#####1. Brainstorm as many ways as possible to select dep_time, dep_delay, arr_time, and arr_delay from flights.
+```{r}
+head(select(flights, dep_time, dep_delay, arr_time, arr_delay), 1)
+head(select(flights, dep_time:arr_delay), 1)
+head(select(flights, contains("dep"), starts_with("arr")), 1)
+head(select(flights, matches("dep."), starts_with("arr")), 1)
+head(select(flights, one_of("dep_time", "dep_delay", "arr_time", "arr_delay")), 1)
+```
+
+
+#
+#### Exercises - Add new variable with mutate()
+
+#
+##### 1. Currently dep_time() and arr_time() are convenient to look at, but hard to compute with because they’re not really continuous numbers. Convert them to a more convenient represention of number of minutes since midnight.
+```{r}
+transmute(flights, 
+       dep_time_min = dep_time / 60,
+       arr_time_min = arr_time / 60)
+```
+
+
+#
+#####2. Compute the scheduled time by adding dep_delay to dep_time. Plot the distribution of departure times. What do you think causes the interesting pattern?
+```{r}
+transmute(flights,
+          scheduled_time = dep_time + dep_delay)
+```
+
+???????????????????????
+
+#
+#####3. Compare airtime with arr_time - dep_time. What do you expect to see? What do you see? Why?
+```{r}
+transmute(flights, 
+          air_time,
+          air_time2 = arr_time - dep_time)
+```
+`air_time2` is not really air time of the flights. You have to convert `arr_time` and `dep_time` from HHMM format to minutes, then compute the air time by  differencing.
+
+
+#
+#####4. Find the 10 most delayed flights each day using a ranking function. How do you want to handle ties? Carefully read the documentation for min_rank().
+```{r}
+worst <- flights %>%
+         group_by(year, month, day) %>%
+         select(arr_delay, dep_delay) %>%
+         mutate(rank_arr_delay = rank(desc(arr_delay)),
+                rank_dep_delay = rank(desc(dep_delay))) %>%
+         filter(min_rank(desc(rank_arr_delay)) <= 10)
+```
+
+  
+  
+#
+#### Exercises - Grouped summaries with summarise()
+
+# 
+#####1. Brainstorm at least 5 different ways to assess the typically delay characteristics of a group of flights. Consider the following scenarios:
+
+  + A flight is 15 minutes early 50% of the time, and 15 minutes late 50% of the time.
+
+  + A flight is always 10 minutes late.
+  
+  + A flight is 30 minutes early 50% of the time, and 30 minutes late 50% of the time.
+
+  + 99% of the time a flight is on time. 1% of the time it’s 2 hours late.
+
+#####Which is more important: arrival delay or departure delay?
+
+
+#
+#####2. Look at the number of cancelled flights per day. Is there are pattern? Is the proportion of cancelled flights related to the average delay?
+```{r}
+cancelled_flights <- flights %>%
+  group_by(year, month, day) %>%
+  filter(is.na(air_time), is.na(dep_time), is.na(arr_time)) 
+
+hflights <- flights %>%
+  group_by(year, month, day) %>%
+  filter(!is.na(dep_time))
+
+
+(avg_delay_per_year <- summarise(flights, avg_delay_time_by_year = mean(arr_delay + dep_delay, na.rm = TRUE)))
+avg_delay_by_day <- summarise(hflights, avg_daily_delay_time = mean(arr_delay + dep_delay, na.rm = TRUE))
+per_day   <- summarise(cancelled_flights, num_cancelled_flights = n())
+
+cancel_flights <- merge(avg_delay_by_day, per_day, by=c("year", "month", "day"))
+head(cancel_flights)
+cor(cancel_flights$avg_daily_delay_time, cancel_flights$num_cancelled_flights)
+```
+
+The correlation coefficient between the average delay time by day and total cancellation of flights by day was 0.62, indicating a median correlation.
+
+
+#
+#####3. Which carrier has the worst delays? Challenge: can you disentangle the effects of bad airports vs. bad carriers? Why/why not? (Hint: think about flights %>% group_by(carrier, dest) %>% summarise(n()))
+```{r}
+worst_carrier <- flights %>% 
+  group_by(carrier) %>% 
+  summarise(n_flights = n(),
+            n_cancel = sum(is.na(dep_delay)),
+            percent_cancel = mean(is.na(dep_delay)) * 100,
+            avg_delay = mean(dep_delay + arr_delay, na.rm = TRUE)) %>%
+  arrange(desc(avg_delay))
+
+filter(worst_carrier, avg_delay == max(avg_delay))
+filter(worst_carrier, percent_cancel == max(percent_cancel))
+```
+Carrier F9 had the worst average delay time. Carrier OO has the highest cancellation rate. 
+
+```{r}
+flights %>% 
+  group_by(carrier, dest) %>% 
+  summarise(n_flights = n(),
+            n_cancel = sum(is.na(dep_delay)),
+            percent_cancel = mean(is.na(dep_delay)) * 100,
+            avg_delay = mean(dep_delay + arr_delay, na.rm = TRUE)) %>%
+  arrange(desc(avg_delay))
+```
+Carrier 9E + CLE airport had the worst delay time. 
+
+
+#
+####Exerciese - Grouped mutates (and filters)
+
+#
+#####1. Refer back to the table of useful mutate and filtering functions. Describe how each operation changes when you combine it with grouping.
+
+#
+#####2. Which plane (tailnum) has the worst on-time record?
+```{r}
+flights %>%
+  group_by(tailnum) %>%
+  filter(!is.na(dep_delay), !is.na(arr_delay)) %>%
+  summarise(avg_delay_time = mean(dep_delay + arr_delay)) %>%
+  filter(avg_delay_time == max(avg_delay_time))
+```
+N844MH had the worst on-time record.
+
+
+#
+#####3. What time of day should you fly if you want to avoid delays as much as possible?
+```{r}
+flights %>%
+  group_by(hour) %>%
+  summarise(avg_delay = mean(dep_delay, na.rm = TRUE)) %>%
+  arrange(avg_delay)
+```
+To avoid delays as much as possible, selecting flights departure at 4:00-6:00am would be good choice.
+
+
+#
+#####4. Delays are typically temporarily correlated: even once the problem that caused the initial delay has been resolved, later flights are delayed to allow earlier flights to leave. Using lag() explore how the delay of a flight is related to the delay of the flight that left just before.
+```{r}
+flights %>%
+  group_by(year, month, day, tailnum) %>%
+  filter(!is.na(dep_delay)) %>%
+  mutate(dep_delay_delta = dep_delay > lag(dep_delay))
+```
+
+
+#
+#####5. Look at each destination. Can you find flights that are suspiciously fast? (i.e. flights that represent a potential data entry error). Compute the air time a flight relative to the shortest flight to that destination. Which flights were most delayed in the air?
+
+#
+#####6. Find all destinations that are flown by at least two carriers. Use that information to rank the carriers.
