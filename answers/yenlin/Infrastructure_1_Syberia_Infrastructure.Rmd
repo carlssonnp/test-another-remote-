@@ -1,0 +1,43 @@
+####Exercises
+
+#
+#####1. Run the example Syberia file. Did it work?
+
+
+#
+#####2. What is a "stagerunner"?
+
+Ans: Stagerunner is a object for running models that records the list of steps being executed.  
+
+
+#
+#####3. What is a "tundraContainer"?
+
+Ans: `tundraContainer` is an object containing `train` and `predict` methods. It not only contains the native model object and pre-processing methods used for generating the model, but also can be used to run the production stage via passing the   pre-processing parameters and the model prediction parameters saved in the parent environment.
+
+
+#
+#####4. What is the point of the config folder?
+
+Ans: The config folder is used for files that are used for configuring the project ot otherwise providing global setting.
+
+
+#
+#####5. What is a "resource"? How is it different from base::source?
+
+Ans: `resource()` is function and is used in syberia files. It functions similarly as `base::source()`. The difference between them is is scopping issue: `base:source()` calls the R file and stores it in a new environment; `resource()`, however, calls the R file and stores its functions/parameters in the same environment as the running syberial file. 
+
+
+#
+#####6. What is a "controller"? How are controllers used when running a Syberia model?
+
+Ans: "controller", basically is a function to define how to compile things from their individual files into the complete objects.
+
+
+#
+#####7. How would one run a subset of the mungeprocedure on arbitrary data given a TundraContainer?
+Ans:
+
+syberia_models('2.1.3')
+run(, '2/2/1', '2/2/10')
+
