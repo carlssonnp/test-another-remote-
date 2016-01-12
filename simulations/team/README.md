@@ -33,6 +33,6 @@ The Data Science team is split into two parts: Data Science and Data Engineering
 
 * **Deployment** - Kirill Sevastyanenko, lead (CHI). This team (currently a team of one) focuses on the R infrastructure and DevOps needed to productionize Syberia models and give scores to the Ruby side.
 
-* **APIs and Tooling** - Peter Hurford, lead (CHI) + Khalid Harun (CHI) + Elaine Lee (CHI) + Abel Castillo (CHI) + Daniel Braithwaite (CHI). This team does everything else that isn't coveed by Infrasturuce or Deployment. This usually means a focus on R programming around APIs that bring data into building models as well as some work on the Syberia framework for building models in development.  This team also handles a lot of the QA and data integrity monitoring to make sure things don't break.
+* **APIs and Tooling** - Peter Hurford, lead (CHI) + Khalid Harun (CHI) + Elaine Lee (CHI) + Abel Castillo (CHI) + Daniel Braithwaite (CHI). This team does everything else that isn't covered by Infrastructure or Deployment. This usually means a focus on R programming around APIs that bring data into building models as well as some work on the Syberia framework for building models in development.  This team also handles a lot of the QA and data integrity monitoring to make sure things don't break.
 
 * **LA Team** - Ryan Naughton, lead (LA) + Dave Boren (LA). This team works in LA and helps out the other DE teams as needed.
