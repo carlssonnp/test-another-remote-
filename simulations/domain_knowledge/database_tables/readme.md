@@ -1,4 +1,7 @@
 First, [learn SQL](https://www.codecademy.com/learn/learn-sql) if you don't know it already.
+Avant hosts Internal Training Sessions. SQL & Avant table training is hosted by Business Intelligence.  
+
+Browse <Insert Calendar> (alternatively ask William Wolfson) & attend SQL Training. This will give you greater context to solve challenges below.  
 
 Then read about [our Avant database tables](https://businessintelligence.hackpad.com/Table-Descriptions-mFTasgXNNkR) and [table naming conventions](https://businessintelligence.hackpad.com/Table-Naming-Conventions-IdoLDNyUwzi).
 
