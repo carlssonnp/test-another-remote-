@@ -1,5 +1,9 @@
 First, [learn SQL](https://www.codecademy.com/learn/learn-sql) if you don't know it already.
 
+Also, Avant hosts internal training sessions. SQL & Avant table training is hosted by Business Intelligence.  
+
+Check on [the corporate calendar](https://www.google.com/calendar/embed?src=avantcredit.com_14k1u58r10e6vk69pm02i5j230%40group.calendar.google.com&ctz=America/Chicago) (alternatively ask William Wolfson) and attend SQL Training. This will give you greater context to solve challenges below.  
+
 Then read about [our Avant database tables](https://businessintelligence.hackpad.com/Table-Descriptions-mFTasgXNNkR) and [table naming conventions](https://businessintelligence.hackpad.com/Table-Naming-Conventions-IdoLDNyUwzi).
 
 Then do these exercises on our Avant data:
