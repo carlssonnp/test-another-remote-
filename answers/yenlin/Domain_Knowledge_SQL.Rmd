@@ -1,0 +1,129 @@
+
+#
+####SQL Exercises
+
+
+#
+#####1. In what state have we issued the most principal? The greatest number of loans?
+```
+run_query("
+select state, count(*), sum(amount_cents) / 100 as principal_issued
+from loans
+group by state
+order by principal_issued desc
+limit 1
+")
+```
+
+We have issued the most principal in CA:
+```
+  state  count principal_issued
+1    CA 222996       1615028361
+```
+
+
+
+#
+#####2. In what state have we issued the most principal in WebBank-owned loans? The greatest number of WebBank-owned loans?
+
+```
+run_query("
+select l.state, count(*), sum(l.amount_cents) / 100 as principal_issued
+from loans l
+inner join product_owners po
+on l.id = po.id
+where po.owner = 'webbank'
+group by l.state
+order by principal_issued desc
+limit 1
+")
+```
+
+
+We have issued the most principal in WebBank-owned loans in CA that is $12096730.30.
+```
+  state  count principal_issued
+1    CA 181166       1209673030
+```
+
+
+
+#
+#####3. How many loans did we issue in September 2014 in the US? In the UK? (hint: US and UK are on separate databases/Looker models)
+
+In the US:
+```
+run_query("
+select count(*) from loans l
+inner join loan_tasks lt
+on l.id = lt.loan_id
+where lt.status = 'completed' and lt.eff_date between '2014-09-01' and '2014-09-30'
+")
+```
+
+```
+   count
+1 172883
+```
+
+
+In th UK:
+```
+run_query_uk("
+select count(*) from loans l
+inner join loan_tasks lt
+on l.id = lt.loan_id
+where lt.status = 'completed' and lt.eff_date between '2014-09-01' and '2014-09-30'
+")
+```
+
+```
+  count
+1 11284
+```
+
+
+
+#
+#####4. How many customers do we have whose first name starts with the letter S?
+```
+run_query("
+select count(*) from
+(select first_name 
+from customers c
+inner join people p
+on c.id = p.id
+where lower(first_name) like 's%') as a
+")
+```
+
+```
+   count
+1 127595
+```
+
+
+#
+#####5. On what date did we break $100MM in total principal funded?
+```
+run_query("
+select t1.installment_date, 
+       t1.principal_cents, 
+      sum(t2.principal_cents) as cumulative_principal_funded
+from 
+  (select installment_date, principal_cents 
+  from installments 
+  order by installment_date) as t1
+inner join 
+  (select installment_date, principal_cents 
+  from installments 
+  order by installment_date) t2 
+on t1.installment_date >= t2.installment_date
+
+where cumulative_principal_funded >= 100000000
+group by t1.installment_date, t1.principal_cents
+order by t1.installment_date
+limit 10
+")
+```
+
