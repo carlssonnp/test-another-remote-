@@ -32,49 +32,54 @@ one_string_g <- function(x) {
 
 you need an input that forces deparse(substitute(.)) to return a length 2 vector. From Peter's solutions,
 
-pairwise.t.test(
+`pairwise.t.test(
   c(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
   c(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1)
-)
+)`
 
-will do it.
-
-
+will do it. The function will exectute, but the output object will be corrupted.
 
 
-4. f(), defined above, just calls substitute(). Why can’t we use it to define g()? In other words, what will the following code return? First make a prediction. Then run the code and think about the results.
 
-f <- function(x) substitute(x)
+
+4. f(), defined below, just calls substitute(). Why can’t we use it to define g()? In other words, what will the following code return? First make a prediction. Then run the code and think about the results.
+
+`f <- function(x) substitute(x)
 g <- function(x) deparse(f(x))
 g(1:10)
 g(x)
-g(x + y ^ 2 / z + exp(a * sin(b)))
+g(x + y ^ 2 / z + exp(a * sin(b)))`
 
 prediction: the output in each case will be the string "f(x)"
 outcome: the output was actually the string "x",
 is this due to lazy evaluation?
 
-for the desired output change the way scoping happens with this:
+for the desired output, change the way scoping happens with this:
 
-h <- function (x) {
+`h <- function (x) {
   y <- substitute(x)
   deparse(y)
-}
-
-
-
+}`
 
 
 
 **Nonstandard Evaluation: Nonstandard Evaluation in Subsets**
 
 
-
 1. Predict the results of the following lines of code:
 
-eval(quote(eval(quote(eval(quote(2 + 2))))))
-eval(eval(quote(eval(quote(eval(quote(2 + 2)))))))
-quote(eval(quote(eval(quote(eval(quote(2 + 2)))))))
+eval(quote(  eval(quote(  eval(quote(2 + 2))))))
+# 4
+
+
+eval(  eval(quote(  eval(quote(  eval(quote(2 + 2)))))))
+# 4
+
+quote(
+  eval(quote(  eval(quote(   eval(quote(2 + 2))))))
+  )
+# eval(quote(  eval(quote(   eval(quote(2 + 2)))))), a language object
+
 
 2. subset2() has a bug if you use it with a single column data frame. What should the following code return? How can you modify subset2() so it returns the correct type of object?
 
@@ -97,7 +102,7 @@ need output to be a data frame with same names() as input.
 
 
 
-use !is.na to turn NA into FALSE
+# use !is.na to turn NA into FALSE
 
 `subset4 <- function(x, condition) {
   condition_call <- substitute(condition)
@@ -183,21 +188,21 @@ both contain the following conditional statement:
 character.only is an argument that defaults to FALSE, creating the escape hatch for the user.
 
 
-substitute()
+* substitute()
 
-substitute points to a primitive function. I can't find the built-in escape hatch from the documentation.
-
-
+substitute points to a primitive function. I can't find the built-in escape hatch, and it doesn't seem like it should have one since it is at the heart of non-standard evaluation.
 
 
-data()
+
+
+* data()
 
 from documentation: the data sets to be loaded can be specified as a set of character strings or names, or as the character vector 'list', or as both.
 
 so, similar to rm.
 
 
-data.frame()
+* data.frame()
 
 data.frame uses NSE to capture row names, but you can input those yourself using the row.names argument.
 
@@ -240,6 +245,8 @@ following Peter's solution
 
 
 
+
+
 8. The version of subset2_q() I presented is a simplification of real code. Why is the following version better?
 
 subset2_q <- function(x, cond, env = parent.frame()) {
@@ -248,7 +255,7 @@ subset2_q <- function(x, cond, env = parent.frame()) {
 }
 Rewrite subset2() and subscramble() to use this improved version.
 
-
+This version of subset2_q allows for use of a different environment
 
 
 **Nonstandard Evaluation: Substitute**
@@ -267,10 +274,12 @@ How does pryr::named_dots() work? Read the source.
 
 **Nonstandard Evaluation: Downsides**
 
-What does the following function do? What’s the escape hatch? Do you think that this is an appropriate use of NSE?
+1. What does the following function do? What’s the escape hatch? Do you think that this is an appropriate use of NSE?
 
 nl <- function(...) {
   dots <- named_dots(...)
   lapply(dots, eval, parent.frame())
 }
-Instead of relying on promises, you can use formulas created with ~ to explicitly capture an expression and its environment. What are the advantages and disadvantages of making quoting explicit? How does it impact referential transparency?
+
+
+2. Instead of relying on promises, you can use formulas created with ~ to explicitly capture an expression and its environment. What are the advantages and disadvantages of making quoting explicit? How does it impact referential transparency?
