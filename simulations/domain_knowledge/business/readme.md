@@ -7,7 +7,7 @@
 
 ## Exercises
 
-* Who is David Pickel?
+* Who is David Pickel? Who is John Danaher? 
 * How many employees do we have?
 * When was Avant founded?
 * Which countries are we in?
