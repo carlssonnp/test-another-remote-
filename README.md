@@ -110,7 +110,7 @@ You've made it to the end.  Now you just need to read! :)
 * [Programmer productivity tips & tricks](https://github.com/avantcredit/avant-analytics/wiki/Programmer-Tips-&-Tricks)
   * [Workflow Hacks](https://github.com/avantcredit/talks)(Peter & Robk talks)
 
-* [DataRobot](https://github.com/avantcredit/analytics-onboarding/tree/add_DR_SQL_training/simulations/datarobot) 
+* [DataRobot](https://github.com/avantcredit/analytics-onboarding/tree/master/simulations/datarobot) 
   
 
 **Knowing Our Team**
