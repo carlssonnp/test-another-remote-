@@ -101,5 +101,5 @@ Ans: WebBank loans means the loans issued by WebBank, of which the APR is rangin
 #
 #####14. On which step of the Five Step App do we pull Iovation data?
 
-Ans: Step 2
+Ans: After customer ffinish Step 2.
 
