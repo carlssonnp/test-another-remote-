@@ -95,7 +95,7 @@ Ans: Hard fraud is identity theft who use actual people's identity to fraud. Har
 #
 #####13. When do we issue a loan as a WebBank loan and when do we issue a loan as an Avant loan?
 
-Ans: 
+Ans: WebBank loans means the loans issued by WebBank, of which the APR is ranging from 9%-36%. Avantcredit loans means the loans issued by Avant, of which the APR is above 36%.
 
 
 #
