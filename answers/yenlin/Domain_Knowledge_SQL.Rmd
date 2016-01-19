@@ -107,23 +107,31 @@ where lower(first_name) like 's%') as a
 #####5. On what date did we break $100MM in total principal funded?
 ```
 run_query("
-select t1.installment_date, 
-       t1.principal_cents, 
-      sum(t2.principal_cents) as cumulative_principal_funded
+select t1.funding_date, t1.amount_cents, sum(t2.amount_cents) as cumulative_principal_funded
 from 
-  (select installment_date, principal_cents 
-  from installments 
-  order by installment_date) as t1
+  (select l.funding_date, l.amount_cents
+  from loans l
+  order by l.funding_date) as t1
 inner join 
-  (select installment_date, principal_cents 
-  from installments 
-  order by installment_date) t2 
-on t1.installment_date >= t2.installment_date
-
-where cumulative_principal_funded >= 100000000
-group by t1.installment_date, t1.principal_cents
-order by t1.installment_date
-limit 10
+  (select l.funding_date, l.amount_cents
+  from loans l
+  order by l.funding_date) t2
+on t1.funding_date <= t2.funding_date
+group by t1.funding_date, t1.amount_cents
+order by t1.funding_date
+limit 5
 ")
 ```
+
+```
+   funding_date amount_cents principal_issued_dollars
+1    2014-05-01       320000               1410152408
+2    2014-05-01       250000               1410402408
+3    2014-05-01       760000               1411162408
+4    2014-05-01       250000               1411412408
+5    2014-05-01       104000               1411516408
+```
+
+We broke $100MM in total principal funded on 5/1/2014.
+
 
