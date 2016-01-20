@@ -8,6 +8,7 @@
 ## Exercises
 
 * Who is David Pickel?
+* Who is John Danaher & why is he relavant to onboarding? (Hint: Search Analytics-Onboarding Readme) 
 * How many employees do we have?
 * When was Avant founded?
 * Which countries are we in?
