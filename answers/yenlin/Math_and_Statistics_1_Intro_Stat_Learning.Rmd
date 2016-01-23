@@ -62,6 +62,6 @@ It could be better to adopt a inflexible model when the sample variance is large
 #
 #####6.  Describe the differences between a parametric and a non-parametric statistical learning approach. What are the advantages of a parametric approach to regression or classification (as opposed to a nonparametric approach)? What are its disadvantages?
 
-Ans: The main difference betewwen parametric and non-parametric methods is that the former generates parameters which giv extra information explaining the linear relationship between the dep_var and each individual independent variables (<- the advantage of parametric methods). One of the disadvantages of parametric mothods is that parametric mothods can not handle the situation when the dep_var is not linearly separable (i.e., dep_var and independent variables as low correlation coefficients). In addition, normally parametric mothods can't handle outliers or missing values in the sample. 
+Ans: The main difference beteween parametric and non-parametric methods is that the former generates parameters which gives extra information explaining the linear relationship between the dep_var and each individual independent variables (<- the advantage of parametric methods). One of the disadvantages of parametric mothods is that parametric mothods can not handle the situation when the dep_var is not linearly separable (i.e., dep_var and independent variables as low correlation coefficients). In addition, normally parametric mothods can't handle outliers or missing values in the sample. 
 
 
