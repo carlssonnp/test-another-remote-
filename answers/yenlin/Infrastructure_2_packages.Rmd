@@ -1,4 +1,4 @@
-
+ 
 #
 ####Exercises 
 
@@ -34,6 +34,10 @@ as.numeric(as.character(pryr::object_size(item)))
 
 Ans:
 
+list_data_sources()
+
+"transunion313" %in% list_data_sources()$name
+
   
 #  
 #####3. How do I write a test that executes as if it was one day prior to right now?
@@ -60,6 +64,6 @@ vi lockfile_local.yml
 
 
 in R:
-lockbox::lockbox("lockfile_local.ymll")
+lockbox::lockbox("lockfile_local.yml")
 
 
