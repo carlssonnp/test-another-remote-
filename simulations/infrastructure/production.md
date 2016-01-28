@@ -84,8 +84,8 @@ Modeling.without_cache { model.score(Loan.find(615750)) }
 You can compare this to the production model score from R:
 
 ```R
-model = production_model("default/transunion/2.1")
-data = batch_data(615750, "default/transunion/2.1")
+model <- production_model("default/transunion/2.1")
+data <- batch_data(615750, "default/transunion/2.1")
 model$predict(data, list(on_train = TRUE))
 ```
 
