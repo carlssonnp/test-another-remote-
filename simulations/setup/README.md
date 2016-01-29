@@ -58,7 +58,9 @@ To get started with working on analytics at avant, begin with the following setu
 
 12. Get Amazon S3 credentials and a `database.yml` file from Rob K.  Install your `database.yml` file in `~/dev/avant-analytics/config/database.yml`.  This will let you connect to all our databases and caching layers.
 
-13. Get a `looker.yml` file from your Gaurdian for connecting to Looker.  Install this in `config/looker.yml`
+13. Ensure that the `config/looker.yml` exists in your
+    `avant-analytics` repo. Ask your guardian for one if not and put
+    it there.
 
 14. In terminal, navigate to `~/dev/avant-analytics` and start R. If you eventually see the following, then you have successfully installed all the packages you need to start your journey across the Syberian Tundra.
 
