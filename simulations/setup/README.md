@@ -94,7 +94,7 @@ To get started with working on analytics at avant, begin with the following setu
 
 18. Set up Pivotal Tracker.  Ask Justin Hou for access.
 
-19. Get access to the [BI Hackpad](https://businessintelligence.hackpad.com).  Ask Justin Hou and/or Will Wolfson.
+19. Get access to the [BI Hackpad](https://businessintelligence.hackpad.com).  Ask Will Wolfson.  Also get access to the [Analytics Hackpad](avantdatascience.hackpad.com).  Ask Justin Hou.
 
 20. Clone our Ruby app, [avant-basic](github.com/avantcredit/avant-basic) to your computer.  Ask your Gaurdian for a copy of the `config/database.yml` file (this is different than the one for avant-analytics).  Edit the `database.yml` to reflect your username rather than that of your Gaurdian.
 
