@@ -96,8 +96,8 @@ To get started with working on analytics at avant, begin with the following setu
 
 19. Get access to the [BI Hackpad](https://businessintelligence.hackpad.com).  Ask Will Wolfson.  Also get access to the [Analytics Hackpad](avantdatascience.hackpad.com).  Ask Justin Hou.
 
-20. Clone our Ruby app, [avant-basic](https://www.github.com/avantcredit/avant-basic) to your computer.  Ask your Gaurdian for a copy of the `config/database.yml` file (this is different than the one for avant-analytics).  Edit the `database.yml` to reflect your username rather than that of your Gaurdian.
+20. Clone our Ruby app, [avant-basic](https://www.github.com/avantcredit/avant-basic) to your computer.  Ask your Gaurdian for a copy of the `config/database.yml` file (this is different than the one for avant-analytics).  Edit the `database.yml` to reflect your computer account username rather than that of your Gaurdian.
 
-21. [Ask IT](https://avantcreditcorp.service-now.com/navpage.do) for access to "analytics-variable-server" on Heroku.
+21. [Ask IT](https://avantcreditcorp.service-now.com/navpage.do) for access to "analytics-microvariable-server" on Heroku.
 
 22. Clone [the microvariable server](https://github.com/avantcredit/analytics-microvariable-server) and ask your Gaurdian to give you the `config/database.yml` (yes, a third file different from the other two).
