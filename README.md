@@ -48,22 +48,6 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 * [Writing an R Package](simulations/programming/R_package.md)
 
 
-### Math and Statistics 
-
-* [Introduction to Statistical Learning](simulations/mathematical/isl.md)
-
-* [GBM](simulations/mathematical/gbm/readme.md)
-
-
-### Domain Knowledge
-
-* [Business](simulations/domain_knowledge/business)
-
-* [SQL and Database Tables](simulations/domain_knowledge/database_tables/readme.md)
-
-* [Learn about Looker](http://www.looker.com/docs/video-library/exploring-data) [TODO: add exercise questions]
-
-
 ### End to End Workflow Simulation 
 
 * [Run a Syberia File](simulations/running_syberia_file/README.md)
@@ -75,6 +59,13 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 * [Constructing model card](simulations/modelcard/readme.md)
 
 * [Deployment](simulations/deployment/readme.md)
+
+
+### Math and Statistics 
+
+* [Introduction to Statistical Learning](simulations/mathematical/isl.md)
+
+* [GBM](simulations/mathematical/gbm/readme.md)
 
 
 ### Infrastructure and Productionization
@@ -90,6 +81,20 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 * [Microvariables](simulations/microvariables/readme.md)
 
 * [Follow the law](simulations/follow_the_rules)
+
+
+### Business
+
+**This is a great section to do on the same day you have to go to the Ops center for training.**
+
+* [Business](simulations/domain_knowledge/business)
+
+
+### SQL and Databases
+
+* [SQL and Database Tables](simulations/domain_knowledge/database_tables/readme.md)
+
+* [Learn about Looker](http://www.looker.com/docs/video-library/exploring-data) [TODO: add exercise questions]
 
 
 ### Finish Line
