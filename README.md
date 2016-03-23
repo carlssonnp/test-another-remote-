@@ -85,7 +85,7 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 ### Business
 
-**This is a great section to do on the same day you have to go to the Ops center for training.**
+*This is a great section to do on the same day you have to go to the Ops center for training.*
 
 * [Business](simulations/domain_knowledge/business)
 
