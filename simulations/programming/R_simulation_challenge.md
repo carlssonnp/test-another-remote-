@@ -17,21 +17,23 @@
  * ["Data Transformation"](http://r4ds.had.co.nz/transform.html)
  * ["Expressing yourself in code"](http://r4ds.had.co.nz/functions.html)
 
-4.) **Optional for DS, Mandatory for DE** - Those who are working on R infrastructure should go back to "Advanced R" and complete exercises for the following:
+4.) Read on magrittr (`%>%`) [here](https://github.com/smbache/magrittr/blob/master/README.md) and [here](https://github.com/smbache/magrittr/blob/master/vignettes/magrittr.Rmd).
+
+5.) **Optional for DS, Mandatory for DE** - Those who are working on R infrastructure should go back to "Advanced R" and complete exercises for the following:
 
 * ["Function Operators"](http://adv-r.had.co.nz/Function-operators.html)
 * ["Non-standard evaluation"](http://adv-r.had.co.nz/Computing-on-the-language.html)
 
-5.) Skim these "Advanced R" chapters without doing the exercises:
+6.) Skim these "Advanced R" chapters without doing the exercises:
 
 * ["Performance"](http://adv-r.had.co.nz/Performance.html)
 * ["Profiling"](http://adv-r.had.co.nz/Profiling.html)
 * ["Memory"](http://adv-r.had.co.nz/memory.html)
 
-6.) **Optional** These chapters in "R for Data Science" are useful, but not mandatory for our work:
+7.) **Optional** These chapters in "R for Data Science" are useful, but not mandatory for our work:
 
-* ["Visualization"](http://r4ds.had.co.nz/visualize.html) - Good way to learn about ggplot2!
-* ["Tidy data"](http://r4ds.had.co.nz/tidy.html) - While all data at Avant is already tidy, it's good to understand the "tidy data" philosophy.
-* ["More Lists"](http://r4ds.had.co.nz/lists.html) - Although lists are covered above it is such a fundamental datasctucture within R some more knowledge cant hurt.
+* ["Visualization"](http://r4ds.had.co.nz/data-visualisation.html) - Good way to learn about ggplot2!
+* ["Transform"](http://r4ds.had.co.nz/transform.html) - Good way to learn about dplyr!
+* ["Tidy data"](http://r4ds.had.co.nz/tidy-data.html) - While all data at Avant is already tidy, it's good to understand the "tidy data" philosophy.
 
-6.) **Optional** Read on [R6 classes](https://cran.r-project.org/web/packages/R6/vignettes/Introduction.html). Try constructing a bank account class with deposit, check balance, and withdraw methods.
+8.) **Optional** Read on [R6 classes](https://cran.r-project.org/web/packages/R6/vignettes/Introduction.html). Try constructing a bank account class with deposit, check balance, and withdraw methods.
