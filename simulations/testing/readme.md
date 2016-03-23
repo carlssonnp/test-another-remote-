@@ -10,9 +10,12 @@ Code that is easily testable is often well structured and well written code and 
 * [Understand the philosophy of automated tests](https://medium.com/javascript-scene/what-every-unit-test-needs-f6cd34d9836d#.gvu7uqszv)
 * [Testing in R](http://r-pkgs.had.co.nz/tests.html)
 * [How we test within Avant Analytics](https://github.com/avantcredit/avant-analytics/tree/master/test/README.md)
-* [R CMD CHECK](http://r-pkgs.had.co.nz/check.html) tests for other things that can go wrong in a package, in addition to automated test failures.
+* **Optional:** Learn about [R CMD CHECK](http://r-pkgs.had.co.nz/check.html), which tests for other things that can go wrong in a package, in addition to automated test failures.
+* **Optional:** Learn about [verifications and quickcheck](github.com/peterhurford/checkr).
 
 ## Exercises
 
-* Write at least three tests for your custom mungebit. 
-* Append The DS checklist to PR and check relavant boxes
+* Add some tests to your mean imputation package to make sure that it (a) successfully imputes one NA, that it (b) successfully imputes 2+ NAs, (c) that it works if there are no NAs, and (d) that it works if there are all NAs.
+* Write at least three tests for your custom mungebit. Append The DS checklist to PR and check relavant boxes.
+* **Optional:** Quickcheck your imputation function in your package.
+* **Optional:** Quickcheck your custom mungebit.
