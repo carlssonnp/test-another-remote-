@@ -133,12 +133,6 @@ You've made it to the end.  Now you just need to read! :)
 
 * You will also have multiple **pairing sessions** (where someone else helps you with your work) and **shadowing sessions** (where you see the work of others). (See [notes on pairing sessions](https://devmynd.com/blog/2015-1-pairing-with-junior-developers/))
 
-* You should also participate in our morning lectures and ask questions.
-
-* You will also be invited to a Code Craftsmanship seminar to further hone your R knowledge.
-
-* You will have one day for a full-day Operations training session where you will see the inside workings of our Operations Center (call center), to further your business knowledge.
-
 * You will have quarterly mandated Banker's Edge training to improve your knowledge of the relevant laws affecting the lending industry (e.g., Truth in Lending Act).
 
-* Lastly, look out for regular training classes on your Avant calendar.
+* Lastly, look out for regular training classes and team lectures on your Avant calendar.
