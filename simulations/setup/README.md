@@ -2,11 +2,43 @@ We're a pretty secure company, so you'll need access to various things.  This wi
 
 To get started with working on analytics at avant, begin with the following setup. We assume you have a Mac and are using OS X.
 
+# General setup
+
 1. Set up HipChat.  You should have received a link to configure hipChat in e-mail.  If not, contact Guadian and IT.  Join the rooms: `Analytics` and `Analytics General`.  Also join `LA data science`.  (You make requests to IT through the [ServiceNow portal](https://avantcreditcorp.service-now.com/navpage.do).)
  
 2. Install [iTerm2](https://iterm2.com/downloads.html) and move it to your Applications folder.
 
-3. Open iTerm2 and type
+3. Install the [Xcode command line tools](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/). 
+
+4. Install [Java 6](https://support.apple.com/kb/dl1572?locale=en_US).
+
+5. Set up Pivotal Tracker.  Ask Justin Hou for access.
+
+6. Get access to the [BI Hackpad](https://businessintelligence.hackpad.com).  Ask Will Wolfson.  Also get access to the [Analytics Hackpad](avantdatascience.hackpad.com).  Ask Justin Hou.
+
+# Github access
+
+7. Set up your [git ssh key](https://help.github.com/articles/generating-ssh-keys/).
+
+8. Have Rob K add your github account to the credit-model group of the avantcredit organization.
+
+9. Set up your [Github oauth token](https://gist.github.com/robertzk/c6efef69a92cc3a03753) and put it in your `~/.bash_profile`:
+      
+   ```
+   export GITHUB_PAT=token_goes_here
+   ```
+
+   Note there are no spaces around the `=`.
+      
+10. Reload your .bash_profile:
+
+   ```bash
+   source ~/.bash_profile
+   ```
+
+# R installation and setup
+
+11. Open iTerm2 and type
    
    ```bash
    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -19,29 +51,7 @@ To get started with working on analytics at avant, begin with the following setu
 
    If `brew install libcurl-dev` fails, try `brew install curl`
 
-4. Install the [Xcode command line tools](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/). 
-
-5. Install [Java 6](https://support.apple.com/kb/dl1572?locale=en_US).
-
-6. Set up your [git ssh key](https://help.github.com/articles/generating-ssh-keys/).
-
-7. Have Rob K add your github account to the credit-model group of the avantcredit organization.
-
-8. Set up your [Github oauth token](https://gist.github.com/robertzk/c6efef69a92cc3a03753) and put it in your `~/.bash_profile`:
-      
-   ```
-   export GITHUB_PAT=token_goes_here
-   ```
-
-   Note there are no spaces around the `=`.
-      
-9. Reload your .bash_profile:
-
-   ```bash
-   source ~/.bash_profile
-   ```
-
-10. Open up R and run the following to install our dependencies:
+12. Open up R and run the following to install our dependencies:
 
    ```r
    install.packages("devtools")
@@ -54,30 +64,26 @@ To get started with working on analytics at avant, begin with the following setu
    q()
    ```
 
-11. Get an `~/.Rprofile` from someone else.
+13. Get an `~/.Rprofile` from someone else. You should have two `Rprofile`s, one at `~/.Rprofile` and the other at `~/dev/avant-analytics/.Rprofile`. They're different and you want both of them!
 
-12. Get Amazon S3 credentials and a `database.yml` file from Rob K.  Install your `database.yml` file in `~/dev/avant-analytics/config/database.yml`.  This will let you connect to all our databases and caching layers.
-
-13. Ensure that the `config/looker.yml` exists in your
+14. Ensure that the `config/looker.yml` exists in your
     `avant-analytics` repo. Ask your guardian for one if not and put
     it there.
 
-14. In terminal, navigate to `~/dev/avant-analytics` and start R. If you eventually see the following, then you have successfully installed all the packages you need to start your journey across the Syberian Tundra.
+15. In terminal, navigate to `~/dev/avant-analytics` and start R. If you eventually see the following, then you have successfully installed all the packages you need to start your journey across the Syberian Tundra.
 
-   ```r
-   ...
-   Installing gbm 2.1.6 from github
-   |++++++++++++++++++++++++++++++++++++++++++++++++++| 100%
-   ```
-      
-15. If you have trouble installing `gbm`, it's probably complaining about gfortran.  Try the instructions [here](http://thecoatlessprofessor.com/programming/rcpp-rcpparmadillo-and-os-x-mavericks-lgfortran-and-lquadmath-error/), *in your terminal*, i.e.:
+16. If you have trouble installing `gbm`, it's probably complaining about gfortran.  Try the instructions [here](http://thecoatlessprofessor.com/programming/rcpp-rcpparmadillo-and-os-x-mavericks-lgfortran-and-lquadmath-error/), *in your terminal*, i.e.:
       
    ```
    curl -O http://r.research.att.com/libs/gfortran-4.8.2-darwin13.tar.bz2
    sudo tar fvxz gfortran-4.8.2-darwin13.tar.bz2 -C /
    ```
 
-16. Setup you .s3cfg file. This setups up your credentials to read and write to AWS S3, our cloud storage space. 
+# S3, EC2, and Microvariables
+
+17. Get Amazon S3 credentials and a `database.yml` file from Rob K.  Install your `database.yml` file in `~/dev/avant-analytics/config/database.yml`.  This will let you connect to all our databases and caching layers.
+
+18. Setup you .s3cfg file. This setups up your credentials to read and write to AWS S3, our cloud storage space. 
 
    ```bash
    brew install s3cmd
@@ -90,14 +96,14 @@ To get started with working on analytics at avant, begin with the following setu
    s3cmd ls s3://avantminer/tmp/
    ```
 
-17. Be able to [log into an EC2 instance](https://github.com/avantcredit/avant-analytics/wiki/Configure-your-new-EC2-instance)
+19. Be able to [log into an EC2 instance](https://github.com/avantcredit/avant-analytics/wiki/Configure-your-new-EC2-instance)
 
-18. Set up Pivotal Tracker.  Ask Justin Hou for access.
+20. [Ask IT](https://avantcreditcorp.service-now.com/navpage.do) for access to "analytics-microvariable-server" on Heroku.
 
-19. Get access to the [BI Hackpad](https://businessintelligence.hackpad.com).  Ask Will Wolfson.  Also get access to the [Analytics Hackpad](avantdatascience.hackpad.com).  Ask Justin Hou.
+21. Clone [the microvariable server](https://github.com/avantcredit/analytics-microvariable-server) and ask your Gaurdian to give you the `config/database.yml` (yes, a third file different from the other two).
 
-20. Clone our Ruby app, [avant-basic](https://www.github.com/avantcredit/avant-basic) to your computer.  Ask your Gaurdian for a copy of the `config/database.yml` file (this is different than the one for avant-analytics).  Edit the `database.yml` to reflect your computer account username rather than that of your Gaurdian.
+# Set up avant-basic
 
-21. [Ask IT](https://avantcreditcorp.service-now.com/navpage.do) for access to "analytics-microvariable-server" on Heroku.
+22. Clone our Ruby app, [avant-basic](https://www.github.com/avantcredit/avant-basic) to your computer.  Ask your Gaurdian for a copy of the `config/database.yml` file (this is different than the one for avant-analytics).  Edit the `database.yml` to reflect your computer account username rather than that of your Gaurdian.
 
-22. Clone [the microvariable server](https://github.com/avantcredit/analytics-microvariable-server) and ask your Gaurdian to give you the `config/database.yml` (yes, a third file different from the other two).
+23. Install [avant-basic](https://github.com/avantcredit/analytics-onboarding/blob/master/simulations/infrastructure/production.md).
