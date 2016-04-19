@@ -31,11 +31,17 @@ test: &test
 
 4.) [Install rvm](http://rvm.io/).
 
-5.) Download and run [Postgres.app](http://postgresapp.com/). To match up with avant-basic you need to use the old **9.4.5** version, which [you can download from their GitHub page](https://github.com/PostgresApp/PostgresApp/releases/tag/9.4.5.0) (download Postgres-9.4.5.0.zip, open it, and run the installer).
+5a.) Install Redis: `brew install redis`.
 
-6.) Make sure the `psql` command works. If not, you might have to modify your `$PATH` to include the correct location of your postgres app. You can check your current path for psql with `which psql`.
+5b.) Then add Redis to your startup list with `ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents`.
 
-7.) Open the Postgres console (type `psql`) and then:
+5c.) Then start Redis with `launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist`.
+
+6a.) Download and run [Postgres.app](http://postgresapp.com/). To match up with avant-basic you need to use the old **9.4.5** version, which [you can download from their GitHub page](https://github.com/PostgresApp/PostgresApp/releases/tag/9.4.5.0) (download Postgres-9.4.5.0.zip, open it, and run the installer).
+
+6b.) Make sure the `psql` command works. If not, you might have to modify your `$PATH` to include the correct location of your postgres app. You can check your current path for psql with `which psql`.
+
+6c.) Open the Postgres console (type `psql`) and then:
 
 ```
 CREATE ROLE <your username> WITH LOGIN;
@@ -48,25 +54,25 @@ GRANT ALL PRIVILEGES ON DATABASE avant_basic_test TO <your username>;
 
 This will set up all the databases you need to work locally.
 
-8.) Within `avant-basic`, run `bundle install`.  Hopefully it will work the first time, but you may encounter errors.  Try to spend fifteen minutes reading the stacktrace of each error and using Google to solve your own problem before asking for help, but don't get stuck on each issue for too long.
+7a.) Within `avant-basic`, run `bundle install`.  Hopefully it will work the first time, but you may encounter errors.  Try to spend fifteen minutes reading the stacktrace of each error and using Google to solve your own problem before asking for help, but don't get stuck on each issue for too long.
 
-9.) Once you have successfully bundled, run `bundle exec rake db:migrate`.  This will create your development database.
+7b.) Once you have successfully bundled, run `bundle exec rake db:migrate`.  This will create your development database.
 
-10.) Next run `bundle exec rake db:test:prepare`.  This will create your test database.
+7c.) Next run `bundle exec rake db:test:prepare`.  This will create your test database.
 
-11.) Then run `bundle exec rake db:seed`.  This will prepopulate your database with some initial objects needed to work.
+7d.) Then run `bundle exec rake db:seed`.  This will prepopulate your database with some initial objects needed to work.
 
-12.) Start a web server with `bin/start_development`.  Navigate to http://localhost:4000 and you can see a copy of the Avant website on your own computer!
+8.) Start a web server with `bin/start_development`.  Navigate to http://localhost:4000 and you can see a copy of the Avant website on your own computer!
 
 ## Prod Console
 
-13.) Kill your server.  Now let's open the prod console!
+9a.) Kill your server.  Now let's open the prod console!
 
-14.) Run `avant console us`.
+9b.) Run `avant console us`.
 
-15.) After awhile, you will be in a production console.  You can then interact with our database using Rails's ActiveRecord instead of SQL.
+9c.) After awhile, you will be in a production console.  You can then interact with our database using Rails's ActiveRecord instead of SQL.
 
-16.) Skim [some docs on ActiveRecord](https://github.com/rails/rails/blob/master/activerecord/README.rdoc).  [Read a bit more about interacting with ActiveRecord](http://www.giantflyingsaucer.com/blog/?p=1891).
+10.) Skim [some docs on ActiveRecord](https://github.com/rails/rails/blob/master/activerecord/README.rdoc).  [Read a bit more about interacting with ActiveRecord](http://www.giantflyingsaucer.com/blog/?p=1891).
 
 #### Exercises
 
