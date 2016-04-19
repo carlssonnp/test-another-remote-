@@ -14,6 +14,10 @@ To get started with working on analytics at avant, begin with the following setu
 
 5. Set up Pivotal Tracker.  Ask Justin Hou for access.
 
+6a. Make an account on [Heroku](www.heroku.com) with your Avant email address.
+
+6b. [Ask IT](https://avantcreditcorp.service-now.com/navpage.do) for access to "analytics-microvariable-server" and "avant-basic" on Heroku.
+
 # Github access
 
 7. Set up your [git ssh key](https://help.github.com/articles/generating-ssh-keys/).
@@ -96,6 +100,4 @@ To get started with working on analytics at avant, begin with the following setu
 
 19. Be able to [log into an EC2 instance](https://github.com/avantcredit/avant-analytics/wiki/Configure-your-new-EC2-instance)
 
-20. [Ask IT](https://avantcreditcorp.service-now.com/navpage.do) for access to "analytics-microvariable-server" on Heroku.
-
-21. Clone [the microvariable server](https://github.com/avantcredit/analytics-microvariable-server) and ask your Gaurdian to give you the `config/database.yml` (yes, a third file different from the other two).
+20. Clone [the microvariable server](https://github.com/avantcredit/analytics-microvariable-server) and ask your Gaurdian to give you the `config/database.yml` (yes, a third file different from the other two).
