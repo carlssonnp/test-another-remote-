@@ -101,9 +101,3 @@ To get started with working on analytics at avant, begin with the following setu
 20. [Ask IT](https://avantcreditcorp.service-now.com/navpage.do) for access to "analytics-microvariable-server" on Heroku.
 
 21. Clone [the microvariable server](https://github.com/avantcredit/analytics-microvariable-server) and ask your Gaurdian to give you the `config/database.yml` (yes, a third file different from the other two).
-
-# Set up avant-basic
-
-22. Clone our Ruby app, [avant-basic](https://www.github.com/avantcredit/avant-basic) to your computer.  Ask your Gaurdian for a copy of the `config/database.yml` file (this is different than the one for avant-analytics).  Edit the `database.yml` to reflect your computer account username rather than that of your Gaurdian.
-
-23. Install [avant-basic](https://github.com/avantcredit/analytics-onboarding/blob/master/simulations/infrastructure/production.md).
