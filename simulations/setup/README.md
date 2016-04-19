@@ -14,8 +14,6 @@ To get started with working on analytics at avant, begin with the following setu
 
 5. Set up Pivotal Tracker.  Ask Justin Hou for access.
 
-6. Get access to the [BI Hackpad](https://businessintelligence.hackpad.com).  Ask Will Wolfson.  Also get access to the [Analytics Hackpad](avantdatascience.hackpad.com).  Ask Justin Hou.
-
 # Github access
 
 7. Set up your [git ssh key](https://help.github.com/articles/generating-ssh-keys/).
