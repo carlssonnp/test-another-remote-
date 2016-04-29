@@ -70,14 +70,14 @@ To get started with working on analytics at avant, begin with the following setu
 
 15. Get Amazon S3 credentials and a `database.yml` file from Rob K.  Install your `database.yml` file in `~/dev/avant-analytics/config/database.yml`.  This will let you connect to all our databases and caching layers.
 
-16. Setup you .s3cfg file. This setups up your credentials to read and write to AWS S3, our cloud storage space. 
+16. Setup your .s3cfg file. This sets up your credentials to read from and write to AWS S3, our cloud storage space. 
 
    ```bash
    brew install s3cmd
    ```
 
-   Ask Rob K. or Tong Lu for credentials and then copy and paste [this](https://gist.github.com/peterhurford/023bcaee0a27fa77e814) into your `~/.s3cfg` file.
-   Replace `{INSRET YOURS HERE}` with your credentials. Test out your connection with the following:
+   Ask Rob K or Tong Lu for credentials and then copy and paste [this](https://gist.github.com/peterhurford/023bcaee0a27fa77e814) into your `~/.s3cfg` file.
+   Replace `{INSERT YOURS HERE}` with your credentials. Test out your connection with the following:
 
    ```bash
    s3cmd ls s3://avantminer/tmp/
