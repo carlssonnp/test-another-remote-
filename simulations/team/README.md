@@ -22,14 +22,14 @@ The Data Science team is split into two parts: Data Science and Data Engineering
 
 * **Data Science R&D** - Eddie Herman (CHI) + John Thomas (CHI) + Matt Meng (LA), lead TBD.  This team focuses on cutting-edge statistics work to improve model performance, such as trying out new classifiers.
 
-* **Data Science, Core Business** - Yuchen Yang, lead (CHI) and David Nguyen, lead (LA) + many additional individual contributors. This team does the core work needed to get models out.  These models include the 48+ models discussed previously, across all the products, geographies, and business areas.
+* **Data Science, Core Business** - David Nguyen, lead (LA) + TBD, lead (CHI) + many additional individual contributors. This team does the core work needed to get models out.  These models include the 48+ models discussed previously, across all the products, geographies, and business areas.
 
 
 ## Data Engineering Teams
 
-* Ignacio Thayer, Lead Data Engineer, oversees all the Data Engineering teams.
+* Ignacio Thayer oversees all the non-R&D Data Engineering teams.
 
-* **Infrastructure** - David Feldman, lead (CHI) + Jack Schultz (CHI) + Ryan Naughton (LA). This team builds the Ruby infrastructure needed to interface with the front-lines, getting data from customers and ensuring customers are getting scored.
+* **Infrastructure** - David Feldman, lead (CHI) + Jack Schultz (CHI) + Jun-young Kwak (LA). This team builds the Ruby infrastructure needed to interface with the front-lines, getting data from customers and ensuring customers are getting scored.
 
 * **Deployment** - Alex Benison (LA). This team (currently a team of one) focuses on the DevOps needed to productionize Syberia models and give scores to the Ruby side.
 
