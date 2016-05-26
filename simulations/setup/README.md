@@ -55,7 +55,15 @@ To get started with working on analytics at avant, begin with the following setu
 
 12. Get an `~/.Rprofile` from someone else. You should have two `Rprofile`s, one at `~/.Rprofile` and the other at `~/dev/avant-analytics/.Rprofile`. They're different and you want both of them!
 
-13. Ensure that the `config/looker.yml` exists in your `avant-analytics` repo. Ask your guardian for one if not and put it there.
+13. Ensure that you have:
+
+```
+export LOOKER_URL="https://avant.looker.com:19999/"
+export LOOKER_ID="yourid"
+export LOOKER_SECRET="yoursecret"
+```
+
+...somewhere in your `~/.bash_profile` (or equivalent). To get your looker credentials, please reach out to Ignacio Thayer or your Gaurdian.
 
 14a. In terminal, navigate to `~/dev/avant-analytics` and start R. If you eventually see the following, then you have successfully installed all the packages you need to start your journey across the Syberian Tundra.
 
