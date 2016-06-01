@@ -27,7 +27,7 @@ test: &test
   database: avant_basic_test
 ```
 
-3.) [Install bundler](http://bundler.io/) if you don't have it.
+3.) [Install bundler](http://bundler.io/) if you don't have it. Make sure you have version 1.11.2.
 
 4.) [Install rvm](http://rvm.io/).
 
