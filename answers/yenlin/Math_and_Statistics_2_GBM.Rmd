@@ -1,0 +1,37 @@
+
+#
+#####1. What are the hyper parameters to tune for tree-based method?
+
+Ans: `nrounds`: maximum number of iterations. `eta`: learning step (shrinkage parameter). `max.depth`: maximum depth of the grown tree. `gamma`: minimum loss reduction required to make a further partition on a leaf node of the tree. `min_child_weight`: minimum sum of instance weight needed in a child. `subsample`: subsample ratio of the training set. `colsample_bytree`: subsample ratio of columns when constructing each tree.
+
+
+
+#
+#####2. Are trees sensitive to scaling or monotonic transformations? Why or why not?
+
+Ans: No, trees are not sensitive to scaling transformation. "Classification trees are invariant under all monotone transformations of individual ordered variables. The reason is that classification trees split nodes by thresholding. Monotone transformations cannot change the possible ways of dividing data points by thresholding." *Advantages of the Tree-Structured Approach*
+
+
+
+3. Explain how trees are grown in the context of information gain. 
+
+Ans:
+
+The information gain is based on the decrease in entropy after a dataset is split on an attribute. Constructing a decision tree is all about finding attribute that returns the highest information gain
+
+
+
+4) What is L1/L2 Regularization? Where within the GBM algorithim does one impose it? 
+
+
+
+#
+#####5. When do you stop training each tree and add more trees to the forest? 
+
+Ans: When overfitting is occurred.
+
+
+
+5) Explain how the gradient and hassien is used within the algorithim.
+
+7) Derive the gradient and hessian of the binary classification entropy loss function. 

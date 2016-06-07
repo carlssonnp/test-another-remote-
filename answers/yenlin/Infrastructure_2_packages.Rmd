@@ -1,0 +1,69 @@
+ 
+#
+####Exercises 
+
+#
+#####1. How do I use the s3cmd command line tool to find the size of an S3 object? 
+
+Ans:
+  
+s3cmd ls --human s3://avantminer/tmp/models/examples/demo/yenlin
+
+  
+#####How does one display in a human readable form? 
+
+Ans:
+  
+s3cmd ls --human s3://avantminer/tmp/models/examples/demo/yenlin
+s3cmd ls -H s3://avantminer/tmp/models/examples/demo/yenlin
+
+
+#
+#####How do I use pryr::object_size to see the size of that object in R? 
+
+Ans: 
+  
+as.numeric(as.character(pryr::object_size(item)))
+
+
+#####Why might these two numbers be different?
+
+
+#
+#####2. How do I write a test to check that the "cache" table exists in my database?
+
+Ans:
+
+list_data_sources()
+
+"transunion313" %in% list_data_sources()$name
+
+  
+#  
+#####3. How do I write a test that executes as if it was one day prior to right now?
+
+Ans:
+
+
+#  
+#####4. What does stop = TRUE do in batchman?
+
+Ans: Batchman will stop going when encountering an error.
+
+
+#####5. How do I use lockbox to install a package from my local directory?
+
+Ans:
+
+vi lockfile_local.yml
+
+    name: yourpkg
+    version: 0.1.0
+    remote: local
+    dir: /your/pkg
+
+
+in R:
+lockbox::lockbox("lockfile_local.yml")
+
+

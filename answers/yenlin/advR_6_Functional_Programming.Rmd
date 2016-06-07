@@ -1,0 +1,134 @@
+
+#
+####Exercises - Anonymous functions
+
+#
+#####1. Given a function, like "mean", match.fun() lets you find a function. Given a function, can you find its name? Why doesn’t that make sense in R?
+
+Ans: Because functions in R allow not being bound to a name, e.g., anonymous functions.
+```{r}
+match.fun(mean)
+```
+
+
+#
+#####2. Use lapply() and an anonymous function to find the coefficient of variation (the standard deviation divided by the mean) for all columns in the mtcars dataset.
+```{r}
+data(mtcars)
+unlist(lapply(mtcars, function(x) sd(x)/mean(x)))
+```
+
+
+#
+#####3. Use integrate() and an anonymous function to find the area under the curve for the following functions. Use Wolfram Alpha to check your answers.
+
+```{r}
+# y = x ^ 2 - x, x in [0, 10]
+integrate(function(x) x^2 - x, 0, 10)
+
+# y = sin(x) + cos(x), x in [-pi, pi]
+integrate(function(x) sin(x) + cos(x), -pi, pi)
+
+# y = exp(x) / x, x in [10, 20]
+integrate(function(x) exp(x) / x, 10, 20)
+```
+
+
+#####4. A good rule of thumb is that an anonymous function should fit on one line and shouldn’t need to use {}. Review your code. Where could you have used an anonymous function instead of a named function? Where should you have used a named function instead of an anonymous function?
+
+Ans:
+
+
+#
+####Exercises - Closures
+
+#####1. Why are functions created by other functions called closures?
+
+Ans: Because they enclose the environment of the parent environment.
+
+
+#
+#####2. What does the following statistical function do? What would be a better name for it? (The existing name is a bit of a hint.)
+```{r}
+bc <- function(lambda) {
+  if (lambda == 0) {
+    function(x) log(x)
+  } else {
+    function(x) (x ^ lambda - 1) / lambda
+  }
+}
+```
+
+Ans: It's a function factory that returns a different function depending on the value of the lambda.
+
+
+#
+#####3. What does approxfun() do? What does it return?
+
+Ans: `approxfun()` is a function, which returns a function that linearly interpolate given data points.
+
+
+#
+#####4. What does ecdf() do? What does it return?
+
+Ans:`ecdf()` is function factory, which returns an empirical cumulative distribution function that computes the values of empirical cumulative distribution function of given data points.
+
+
+#
+#####5. Create a function that creates functions that compute the ith central moment of a numeric vector. You can test it by running the following code:
+```{r}
+moment <- function(order) {
+  function(x) {
+    m <- (1 / length(x)) * ((sum(x - mean(x)))^order)
+    return(m)
+  } 
+}
+
+m1 <- moment(1)
+m2 <- moment(2)
+
+x <- runif(100)
+stopifnot(all.equal(m1(x), 0))
+#stopifnot(all.equal(m2(x), var(x) * 99 / 100))
+```
+
+
+#
+#####6. Create a function pick() that takes an index, i, as an argument and returns a function with an argument x that subsets x with i.
+```{r}
+pick <- function(i) function(x) x[[i]]
+
+unlist(lapply(mtcars, pick(5)))
+# should do the same as this
+#unlist(lapply(mtcars, function(x) x[[5]]))
+```
+
+
+
+#
+####Exercises - Lists of functions
+
+#########################1. Implement a summary function that works like base::summary(), but uses a list of functions. Modify the function so it returns a closure, making it possible to use it as a function factory.
+```{r}
+summary2 <- function(x) {
+  funs <- list(min,
+               function(x, ...) quantile(x, probs = 0.25, ...),
+               median, 
+               mean, 
+               function(x, ...) quantile(x, probs = 0.75, ...),
+               max)
+  summary_output <- unlist(lapply(funs, function(f) f(x, na.rm = TRUE)))
+  names(summary_output) <- c("Min.", "1st Qu.", "Median", "Mean", "3rd Qu.", "Max.")
+  return(summary_output)
+}
+
+x <- 1:10
+summary2(x)
+```
+
+
+#
+#####2. Which of the following commands is equivalent to with(x, f(z))?
+
+Ans: (b) f(x$z)
+

@@ -1,0 +1,204 @@
+
+####Run a Syberia File
+
+#####Exercise 2: Read the documentation on models. Also read about the avantformula. Test your knowledge:
+
+#
+#####What is an indicator?
+
+Ans: Indicator contains load_id and one dependent variable.
+
+#
+#####How many columns of data are produced by the indicator?
+
+Ans: Two columns. One is loan_id and the other is dependent variable.
+
+#
+#####Where is the R code for the following found in 'avant' or 'avant-analytics' repos? ** indicators ** mungebits ** models
+Ans: 
+
+Indicators: avant-analytics/lib/indicators/ 
+
+mungebits: avant-analytics/lib/mungebits/ 
+           avant-analytics/lib/shared/
+
+models: avant-analytics/lib/classifiers/
+        avant-analytics/lib/shared/
+
+#
+#####What is the source of data when both an s3key and data sources are specified in the import stage?
+
+Ans: s3key is the source of data.
+
+#
+#####How does the syberia model file pick up the default parameter values for a model?
+
+Ans: This is defined in the model stage. The source can be found at avant-analytics/lib/classifiers/
+
+#
+#####Exercise 5: 
+
+Done! The dimensions of the training dataframe is nrow=362 and ncol=1274.
+
+
+
+#
+####Data Preparation - Transformation - Column Transformation
+
+#####Exercise 1. Write a column_transformation for performing median imputation and test your result on the following data set:
+#####iris2 <- iris; iris2[1, ] <- NA
+
+(Note you cannot use this for factor columns.)
+
+```{r}
+library("devtools")
+library("mungebits")
+
+imputer_median <- column_transformation(function(x) {
+  if(is.numeric(x)) x[is.na(x)] <- median(x, na.rm = TRUE)
+  if(!is.numeric(x)) x[is.na(x)] <- x[sample(1:length(x), 1)]
+  x
+})
+
+iris2 <- iris
+iris2[1, ] <- NA
+
+imputer_median(iris2, 1:ncol(iris2))
+print(head(iris2))
+```
+
+
+
+#
+#####Exercise 2. Assuming you know what the levels will be for the transformed chickwts example ("bean", "seed", and "other"), write a column_transformation that correctly transforms the feed column and restores the levels from training. (For example, a one-row dataframe with feed, "bean" must produce
+
+factor("bean", levels = c("bean", "other", "seed")))
+
+```{r}
+data(chickwts)
+
+cleanup_feed <- function(feed) {
+  factor(ifelse(feed %in% c('horsebean', 'soybean'), 'bean',
+         ifelse(feed %in% c('sunflower', 'linseed'), 'other', 'seed')))
+}
+
+train <- column_transformation(cleanup_feed)
+train(chickwts, c("feed"))
+summary(chickwts)
+levels(chickwts$feed)
+```
+
+
+#
+#####Exercise 3. Produce a column_transformation that removes outliers by receiving optional arguments max and min, and replaces values outside these bounds with NA. You can use the fact that column_transformation will dutifully pass along any additional arguments, for example:
+
+```{r}
+outlier_remover <- column_transformation(function(x, min_val = -Inf, max_val = Inf) {
+  x[x < min_val | x > max_val] <- NA
+  return(x)
+})
+
+data(iris)
+iris2 <- iris
+iris2 <- rbind(iris2, c(9999,9999, 0, 0, "setosa"))
+
+low <- min(iris$Sepal.Length)
+high <- max(iris$Sepal.Length)
+
+outlier_remover(iris2, "Sepal.Length", min_val = low, max_val = high) 
+
+tail(iris2, 3)
+```
+
+
+
+#
+####Data Preparation - Transformation - Row transformations
+
+#####Exercise 1. Write a row transformation that accepts a dataframe and a string, and removes all rows containing that string. (For extra credit, use a regular expression that looks for that string as a subtring.)
+```{r}
+filter_rows <- function(dataframe, condition)
+  eval.parent(substitute(dataframe <- dataframe[apply(dataframe, 1, condition), ]))
+
+data(iris)
+table(iris$Species)
+filter_rows(iris, function(x) !(x[5] == "setosa"))
+table(iris$Species)
+```
+
+
+
+#
+####Data Preparation - Transformation - Multi-column transformations
+
+#####Exercise 1. Write a multi-column transformation that accepts a dataframe and a string, and concatenates two character columns into one column using the string as the separator. For example, if the input columns were c("a", "b", "c") and c("d", "e", "f") and the separator was ".", the output would be c("a.d", "b.e", "c.f"). (Hint: Use paste as the input to the multi_column_transformation)
+
+```{r}
+df <- data.frame(t(replicate(3, letters[1:6])))
+names(df) <- letters[1:6]; df
+
+# create one column
+df1 <- df
+concatene_char_col1 <- multi_column_transformation(function(x, y) paste(x, y, sep = "."))
+concatene_char_col1(df1, 
+                   c("a", "d"),
+                   paste("a", "d", sep = ".")
+                   
+)                  
+df1
+
+# create multiple columns
+## using for-loop
+list_a <- list(c("a", "d"), c("b", "e"), c("c", "f"))
+list_b <- list()
+for (i in seq_along(list_a)) {
+  list_b[[i]] <- paste(list_a[[i]][1], list_a[[i]][2], sep = ".")
+}
+
+for (i in seq_along(list_a)) {
+  concatene_char_col1(df1, 
+                      c(list_a[[i]][1], list_a[[i]][2]),
+                      unlist(list_b[[i]]))
+}
+
+#Map(function(list_a, list_b) concatene_char_col1(df1, list_a, list_b), list_a, list_b)
+
+```
+
+
+#
+####Data Preparation - Trnasformation - Dataframe Transformation
+
+#####Exercies 1. Can re-ordering a data.frame's columns (e.g., sorting columns by names) be accomplished using just row and column transformations? Why or why not?
+
+
+#####Exercise 2. The following code removes all rows and columns containing more than 20% missing values. 
+```{r}
+# Generate some NAs in iris
+data(iris)
+dim(iris)
+
+iris[] <- lapply(iris, function(x) ifelse(runif(150, 0, 1) > 0.7, NA, x))
+
+remove_missings <- function(dataframe) eval.parent(substitute({
+    dataframe <- dataframe[apply(dataframe, 1, function(x) mean(is.na(x)) <= 
+        0.2), ]
+    dataframe <- dataframe[, apply(dataframe, 2, function(x) mean(is.na(x)) <= 
+        0.2)]
+}))
+
+remove_missings(iris)
+dim(iris)  
+```
+#####How would you break it down into row and column transformations?
+
+```{r}
+
+```
+
+
+list( 
+  list(column_transformation( function(x) { inputs$levels <<- levels(x); x }, mutating = TRUE), 
+       column_transformation(function(x) { x <- factor(x, levels = inputs$levels); x }, mutating = TRUE)
+  ), is.factor )
+
