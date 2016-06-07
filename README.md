@@ -34,6 +34,8 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * [Meet the team](https://github.com/avantcredit/avant-analytics/wiki/Bio-Page)
 
+* [Learn where you are](simulations/team/map.md)
+
 * [Learn what the team does](simulations/team/README.md)
 
 
