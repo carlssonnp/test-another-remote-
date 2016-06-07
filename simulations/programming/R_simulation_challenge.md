@@ -1,5 +1,7 @@
 ## Exercises
 
+*(Don't worry if this section of the guide takes awhile -- it's definitely the longest part!)*
+
 1.) Quickly skim these chapters (without doing the exercises) to make sure you're familiar with the concepts:
 
  * ["Data Structures"](http://adv-r.had.co.nz/Data-structures.html)
@@ -10,6 +12,8 @@
  * ["Functions"](http://adv-r.had.co.nz/Functions.html)
  * ["Functional Programming"](http://adv-r.had.co.nz/Functional-programming.html)
  * ["Functionals"](http://adv-r.had.co.nz/Functionals.html)
+
+*(Exercises will go in your answers folder in a separate file. Make a PR when you've finished all these exercises.)*
 
 3.) Read about Debugging, an important skill:
 
