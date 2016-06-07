@@ -1,0 +1,105 @@
+
+#
+####Exercises
+
+#
+#####1. Who is David Pickel?
+
+Ans: Controller.
+
+
+#
+#####2. How many employees do we have?
+
+Ans: 800+
+
+
+#
+#####3. When was Avant founded?
+
+Ans: The fist seed funding was raised in February 2013.
+
+
+#
+#####4. Which countries are we in?
+
+Ans: US, Canada, UK
+
+
+#
+####5. What is "debt consolidation"? Why would someone want to do that?
+
+Ans: "Debt consolidation" is to consolidate your debt into simple monthly payments and pay off the multiple debts on your own monthly schedule. Someone who tries to avoid the hassle of managing multiple credit card bills every month could want to do that.
+
+
+#
+#####5. How is an Avant loan different from a home equity loan?
+
+Ans: 
+
+Home equity loans is when a borrower uses the value of his or her home as collateral. This means that if property values decline, banks may refuse to issue loans to previously eligible borrowers. Avant loans, however, are issued based on a borrower’s creditworthiness and not the equity of their home. 
+
+
+
+#
+#####6. How is an Avant loan different from a payday loan?
+
+Ans:
+
+Payday loans, usually loans of $500 or less, have hidden fees and up 700% APR.
+
+"Avant loans could be a better alternative to payday loans for consumers who can’t qualify for traditional personal loans. Known for their cyclical and predatory nature, payday loans can have interest rates in the triple digits, since they’re calculated over a year’s time. An Avant loan interest rate varies from 35 percent to 95 percent a year, depending on a borrower’s credit score."
+
+*source*: https://blog.creditkarma.com/debt/loans/avantcredit-review-a-better-alternative-to-payday-loans/
+
+
+ 
+#
+#####7. What is "the waterfall"?
+
+Ans: "The waterfall" is the ordering of accounting buckets to which payment amounts are applied.
+
+
+#
+#####8. Name three variables we cannot legally use to score a customer.
+
+Ans: Race, color, religion, nationality, gender, marital status, age, salary, occupation, title, employer, and employment history.
+
+
+#
+#####9. Name two factors of your FICO score.
+
+Ans: Payment history (paying bills on time) and amounts owed (total indebtedness).
+
+
+#
+#####10. How long will a bankruptcy affect your credit score?
+
+Ans: 7 to 10 years.
+
+
+
+#
+#####11. Why might someone not have a FICO score?
+
+Ans: Often these consumers are new immigrants, recent college grads or have not had an active credit amount in the last six months.
+
+
+#
+#####12. What is the difference between hard fraud and soft fraud?
+
+Ans: Hard fraud is identity theft who use actual people's identity to fraud. Hard fraud takes planning, scheming, and maybe even someone on the inside to help you get money from a lending company. Soft fraud is actual people who is usually unplanned and arises when the opportunity presents itself. 
+
+
+
+#
+#####13. When do we issue a loan as a WebBank loan and when do we issue a loan as an Avant loan?
+
+Ans: WebBank loans means the loans issued by WebBank, of which the APR is ranging from 9%-36%. Avantcredit loans means the loans issued by Avant, of which the APR is above 36%.
+
+
+#
+#####14. On which step of the Five Step App do we pull Iovation data?
+
+Ans: After customer ffinish Step 2.
+

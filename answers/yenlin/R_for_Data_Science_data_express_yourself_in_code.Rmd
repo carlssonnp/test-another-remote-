@@ -1,0 +1,43 @@
+
+#
+####Exercises 
+
+```{r}
+library(magrittr)
+```
+
+
+#
+#####1. Adapt col_summary() so that it only applies to numeric inputs. You might want to start with an is_numeric() function that returns a logical vector that has a TRUE corresponding to each numeric column.
+```{r}
+(df <- data.frame(a = as.numeric(1:6), b = letters[1:6], c = as.numeric(11:16)))
+
+col_summary <- function(df, FUN, ...) {
+  fun_list <- list(
+    min1 <- min,
+    firstqt <- function(x, ...) quantile(x, probs = 0.25, na.rm = TRUE),
+    median <- median,
+    mean1 <- mean,
+    thirdqt <- function(x, ...) quantile(x, probs = 0.75, na.rm = TRUE),
+    max <- max
+  )
+  df <- df[, sapply(df, is.numeric)]
+  summary_output <- as.data.frame(matrix(nrow = 6, ncol = ncol(df)),
+                                  row.names = c("Min.   :", "1st Qu.:", "Median :", "Mean   :", "3rd Qu.:", "Max.   :"))
+  for (i in seq_along(names(df))) {
+    summary_output[, i] <- vapply(fun_list, function(f) f(df[, i], na.rm = TRUE), as.numeric(1))
+  }
+  colnames(summary_output) <- names(df)
+  return(summary_output)
+}
+
+col_summary(df)
+```
+
+
+#
+#####2. How do sapply() and vapply() differ from col_summary()?
+
+Ans: Both `sapply()` and `vapply()` apply to a column of numeric vector and then return the statstic summary of the vector. However, `col_summary()` can be applied to a data set containing multiple numeric columns and then return the statstic summary of the numeric columns.
+
+

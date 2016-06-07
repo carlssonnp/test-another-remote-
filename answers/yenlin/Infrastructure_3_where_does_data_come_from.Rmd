@@ -1,0 +1,29 @@
+
+#
+####Exercises 
+
+#
+#####1. Try calling batch_source to get transunion313 data for a random customer. What is the size of the dataframe you get back?
+
+Ans: 
+
+batch_source(12, 'transunion313', type='customer')
+[1] 12
+It returns the customer_id number.
+
+batch_source(loansplz(), 'transunion313', type = 'loan')
+
+The size of the dataframe is [1, 322].
+
+
+#
+#####2. What is the role of request_operation in getting data?
+
+Ans: Its role is to request the collection of some API data from the Rails back-end.
+
+
+#
+#####3. Which file does avant-basic use to process requests for data?
+
+And: request_operation
+

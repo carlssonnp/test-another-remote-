@@ -1,0 +1,49 @@
+
+Exercises
+
+#
+#####1. Get the object for Loan #123456. What is its loan status? When was it created?
+
+Ans: The loan of loan_id was created at: "2014-06-13 19:35:28" and the loan status is status: "paid_off".
+
+```
+yen-lin.lin:51:US-PROD> Loans.where(:id => 123456)
+```
+
+```
+Loans Load (5.5ms)  SELECT "loans".* FROM "loans" WHERE "loans"."id" = 123456
+==>[#<Loans id: 123456, created_at: "2014-06-13 19:35:28", updated_at: "2015-05-07 23:18:51", customer_id: 3033603, status: "paid_off", amount_cents: 400000, term: 18, repayment_day_of_month: 18, apr_percentage_old: #<BigDecimal:7f939c106120,'0.7E0',9(18)>, customer_application_id: 1790512, funding_date: "2014-06-18", state: "UT", ach_opted_out: nil, payment_method: "ach", uuid: "20027da5-5d58-45c4-9f3a-a8a294fdcdbb", event_updated_at: "2015-01-23 13:32:33", period_finance_charge_cents: nil, lock_version: 32, rebate_method: "us_rule", loan_type: "simple_interest", past_due_amount_cents: 0, loan_product_type: nil, paid_off_date: "2015-05-08", late_date: nil, days_per_year: 365, yearly_interest_period: 365, cpa_opt_out: false, fdic_apr_percentage: #<BigDecimal:7f939c10d678,'0.7009E0',9(18)>, apr_percentage: #<BigDecimal:7f939c10d358,'0.7E0',9(18)>, rcc_opted_out: false>]
+```
+
+
+#
+#####2. What is the name of the person holding Loan #123456?
+
+Ans: The name of the person holding Loan #123456 is Greg Poulson.
+```
+yen-lin.lin:52:US-PROD> Customer.where(:id => 3033603)
+
+yen-lin.lin:55:US-PROD> Person.where(:id => 946088)
+```
+
+```
+  Customer Load (4.6ms)  SELECT "customers".* FROM "customers" WHERE "customers"."id" = 3033603
+==>[#<Customer id: 3033603, email: "gpoulson80@gmail.com", encrypted_password: "$2a$10$jBYhRnqwbun4//L7aPmx0eF6IX5n.WP4Jlmd0w3/rAA4...", reset_password_token: "CiTmgXyXBrHUiHPIa-VXhg", reset_password_sent_at: "2014-06-16 23:57:04", remember_created_at: "2015-05-06 17:55:41", sign_in_count: 8, current_sign_in_at: "2015-05-08 22:36:02", last_sign_in_at: "2015-05-06 17:55:41", current_sign_in_ip: "65.130.100.83", last_sign_in_ip: "50.242.87.129", authentication_token: "9M3sQ3eAsQqVLZvbFDVj", confirmation_token: nil, confirmed_at: nil, confirmation_sent_at: nil, unconfirmed_email: nil, person_id: 946088, created_at: "2014-06-13 19:29:58", updated_at: "2015-05-08 22:36:02", credit_report_authorization: true, email_additional_offers: nil, status: "current", uuid: "169ba179-ec09-4c37-b66f-bf9407f4b1e5", electronic_communications_consent: true, bad_email: false, privacy_policy_consent: true, bankruptcy: false, important_consumer_information: nil, lock_version: 27, bad_address: false, fraud_confirmed: nil, failed_attempts: 0, locked_at: nil, unlock_token: nil>]
+
+yen-lin.lin:55:US-PROD> Person.where(:id => 946088)
+  Person Load (2.1ms)  SELECT "people".* FROM "people" WHERE "people"."id" = 946088
+==>[#<Person id: 946088, first_name: "Greg", middle_initial: nil, last_name: "Poulson", home_phone: "8017949789", work_phone: nil, work_phone_ext: nil, mobile_phone: "", fax: nil, status: nil, created_at: "2014-06-13 19:35:02", updated_at: "2014-06-17 13:43:18", date_of_birth: "1962-01-06", ssn_last_4: "3740", uuid: "bb04fed2-ff14-4a95-9566-904e79fe79ad", lock_version: 2, title: nil, encrypted_personal_identification: "d+eXp8VLInG5gWsSIjPJIA==\n", encrypted_birth_date: "ndWEZK7wcgtuQ0cAaETbiNQWnckTRxhMP1wIS1FO4A+POzx+KDz...", encrypted_personal_identification_salt: "de924234fcd2b3ca", encrypted_personal_identification_iv: "x1vBTZfRkv3nb6g56U/Uvw==\n", encrypted_birth_date_salt: "544069e02045d3b4", encrypted_birth_date_iv: "bEbfaydTFRzegS/ZivDvag==\n", hashed_ssn: "599fdc41a6e9c000cd4d73d865fdaa87">]
+yen-lin.lin:56:US-PROD>
+```
+
+
+#
+###3. How many loans do we have that are "current"?
+
+Ans: There are 269797 loans of which the status are "current".
+
+```
+yen-lin.lin::62:US-PROD*  Loans.where(:status => 'current').count
+   (2233.0ms)  SELECT COUNT(*) FROM "loans" WHERE "loans"."status" = 'current'
+==>269797
+```
