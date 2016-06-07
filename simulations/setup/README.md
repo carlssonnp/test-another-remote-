@@ -65,9 +65,11 @@ export LOOKER_SECRET="yoursecret"
 
 ...somewhere in your `~/.bash_profile` (or equivalent). To get your looker credentials, please reach out to Ignacio Thayer or your Gaurdian.
 
-14a: In terminal, navigate to `~/dev/avant-analytics` and start R. If you eventually see the following, then you have successfully installed all the packages you need to start your journey across the Syberian Tundra.
+14: Ensure that your analytics ETL is set up. [Follow the instructions here.](https://github.com/avantcredit/analyticsetl/blob/master/README.md)
 
-14b: If you have trouble installing `gbm`, it's probably complaining about gfortran.  Try the instructions [here](http://thecoatlessprofessor.com/programming/rcpp-rcpparmadillo-and-os-x-mavericks-lgfortran-and-lquadmath-error/), *in your terminal*, i.e.:
+15a: In terminal, navigate to `~/dev/avant-analytics` and start R. If you eventually see the following, then you have successfully installed all the packages you need to start your journey across the Syberian Tundra.
+
+15b: If you have trouble installing `gbm`, it's probably complaining about gfortran.  Try the instructions [here](http://thecoatlessprofessor.com/programming/rcpp-rcpparmadillo-and-os-x-mavericks-lgfortran-and-lquadmath-error/), *in your terminal*, i.e.:
       
    ```
    curl -O http://r.research.att.com/libs/gfortran-4.8.2-darwin13.tar.bz2
@@ -76,9 +78,9 @@ export LOOKER_SECRET="yoursecret"
 
 # S3, EC2, and Microvariables
 
-15: Get Amazon S3 credentials and a `database.yml` file from Rob K.  Install your `database.yml` file in `~/dev/avant-analytics/config/database.yml`.  This will let you connect to all our databases and caching layers.
+16: Get Amazon S3 credentials and a `database.yml` file from Rob K.  Install your `database.yml` file in `~/dev/avant-analytics/config/database.yml`.  This will let you connect to all our databases and caching layers.
 
-16: Setup your .s3cfg file. This sets up your credentials to read from and write to AWS S3, our cloud storage space. 
+17: Setup your .s3cfg file. This sets up your credentials to read from and write to AWS S3, our cloud storage space. 
 
    ```bash
    brew install s3cmd
@@ -91,6 +93,6 @@ export LOOKER_SECRET="yoursecret"
    s3cmd ls s3://avantminer/tmp/
    ```
 
-17: Be able to [log into an EC2 instance](https://github.com/avantcredit/avant-analytics/wiki/Configure-your-new-EC2-instance)
+18: Be able to [log into an EC2 instance](https://github.com/avantcredit/avant-analytics/wiki/Configure-your-new-EC2-instance)
 
-18: Clone [the microvariable server](https://github.com/avantcredit/analytics-microvariable-server) and ask your Gaurdian to give you the `config/database.yml` (yes, a third file different from the other two).
+19: Clone [the microvariable server](https://github.com/avantcredit/analytics-microvariable-server) and ask your Gaurdian to give you the `config/database.yml` (yes, a third file different from the other two).
