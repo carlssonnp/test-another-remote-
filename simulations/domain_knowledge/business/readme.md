@@ -3,11 +3,13 @@
 * Read [about Avant](https://www.avant.com/about_us).
 * Read about [loan uses](https://www.avant.com/personal-loans).
 * Read the [Business Analytics Onboarding Document](https://s3.amazonaws.com/uploads.hipchat.com/30224/984353/UwQWiAPIyzdZs3A/OnboardingAbridged.pdf) by Stefan Hansel (abridged).
+  * [loan validation and extensive documentation](https://avantc.atlassian.net/wiki/display/LV/Introduction)
 * Learn about our [Five Step Application](https://businessintelligence.hackpad.com/Object-Creation-Guide-9e1owDlRpcR)
 
 ## Exercises
 
 * Who is David Pickel?
+* Who is John Danaher & why is he relavant to onboarding? (Hint: Search Analytics-Onboarding Readme) 
 * How many employees do we have?
 * When was Avant founded?
 * Which countries are we in?

@@ -48,22 +48,6 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 * [Writing an R Package](simulations/programming/R_package.md)
 
 
-### Math and Statistics 
-
-* [Introduction to Statistical Learning](simulations/mathematical/isl.md)
-
-* [GBM](simulations/mathematical/gbm/readme.md)
-
-
-### Domain Knowledge
-
-* [Business](simulations/domain_knowledge/business)
-
-* [SQL and Database Tables](simulations/domain_knowledge/database_tables/readme.md)
-
-* [Learn about Looker](http://www.looker.com/docs/video-library/exploring-data) [TODO: add exercise questions]
-
-
 ### End to End Workflow Simulation 
 
 * [Run a Syberia File](simulations/running_syberia_file/README.md)
@@ -75,6 +59,13 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 * [Constructing model card](simulations/modelcard/readme.md)
 
 * [Deployment](simulations/deployment/readme.md)
+
+
+### Math and Statistics 
+
+* [Introduction to Statistical Learning](simulations/mathematical/isl.md)
+
+* [GBM](simulations/mathematical/gbm/readme.md)
 
 
 ### Infrastructure and Productionization
@@ -90,6 +81,20 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 * [Microvariables](simulations/microvariables/readme.md)
 
 * [Follow the law](simulations/follow_the_rules)
+
+
+### Business
+
+*This is a great section to do on the same day you have to go to the Ops center for training.*
+
+* [Business](simulations/domain_knowledge/business)
+
+
+### SQL and Databases
+
+* [SQL and Database Tables](simulations/domain_knowledge/database_tables/readme.md)
+
+* [Learn about Looker](http://www.looker.com/docs/video-library/exploring-data) [TODO: add exercise questions]
 
 
 ### Finish Line
@@ -110,7 +115,7 @@ You've made it to the end.  Now you just need to read! :)
 * [Programmer productivity tips & tricks](https://github.com/avantcredit/avant-analytics/wiki/Programmer-Tips-&-Tricks)
   * [Workflow Hacks](https://github.com/avantcredit/talks)(Peter & Robk talks)
 
-* [DataRobot](https://github.com/avantcredit/analytics-onboarding/tree/add_DR_SQL_training/simulations/datarobot) 
+* [DataRobot](https://github.com/avantcredit/analytics-onboarding/tree/master/simulations/datarobot) 
   
 
 **Knowing Our Team**
@@ -128,12 +133,6 @@ You've made it to the end.  Now you just need to read! :)
 
 * You will also have multiple **pairing sessions** (where someone else helps you with your work) and **shadowing sessions** (where you see the work of others). (See [notes on pairing sessions](https://devmynd.com/blog/2015-1-pairing-with-junior-developers/))
 
-* You should also participate in our morning lectures and ask questions.
-
-* You will also be invited to a Code Craftsmanship seminar to further hone your R knowledge.
-
-* You will have one day for a full-day Operations training session where you will see the inside workings of our Operations Center (call center), to further your business knowledge.
-
 * You will have quarterly mandated Banker's Edge training to improve your knowledge of the relevant laws affecting the lending industry (e.g., Truth in Lending Act).
 
-* Lastly, look out for regular training classes on your Avant calendar.
+* Lastly, look out for regular training classes and team lectures on your Avant calendar.

@@ -11,11 +11,11 @@ Also watch this video on the [xgboost algorithm](https://www.youtube.com/watch?v
 
 Completeing all these questions is not required but it is a good idea to take a stab at it if you can. Feel free to ask your gaurdian or Fei for help.
 
-1) What are the hyper parameters to tune for tree-based method?    
-2) Are trees sensitive to scaling or monotonic transformations? Why or why not?  
-3) Explain how trees are grown in the context of *information gain*.
-4) What is L1/L2 Regularization? Where within the GBM algorithim does one impose it?
-6) When do you stop training each tree and add more trees to the forest?
-5) Explain how the gradient and hassien is used within the algorithim.    
-7) Derive the gradient and hessian of the binary classification entropy loss function.
-8) Any useful notes to add?
+1. What are the hyper parameters to tune for tree-based method?   
+2. Are trees sensitive to scaling or monotonic transformations? Why or why not?
+3. Explain how trees are grown in the context of *information gain*.
+4. What is L1/L2 Regularization? Where within the GBM algorithim does one impose it?
+5. When do you stop training each tree and add more trees to the forest?
+6. Explain how the gradient and hassien is used within the algorithim.    
+7. Derive the gradient and hessian of the binary classification entropy loss function.
+8. Any useful notes to add?

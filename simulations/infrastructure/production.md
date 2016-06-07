@@ -3,15 +3,47 @@ We touched a bit on avant-basic when exploring how data moves around.  But now w
 
 ## Installing avant-basic
 
-To do this, we need to set up a copy of `avant-basic` on your local machine.
+1.) Clone [github.com/avantcredit/avant-basic](https://github.com/avantcredit/avant-basic) to your favorite directory.
 
-1.) [Install bundler](http://bundler.io/).
+2.) Add the following to `config/database.yml` and update `username`:
 
-2.) [Install rvm](http://rvm.io/).
+```
+general: &general
+  adapter: postgresql
+  min_messages: ERROR
 
-3.) [Download and run Postgres.app](http://postgresapp.com/).
+development: &development
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: avant_dev
+  username: <your username REPLACE ME!!!>
 
-4.) Open the Postgres console (type `psql`) and then:
+production: &production
+  <<: *development
+
+test: &test
+  <<: *development
+  database: avant_basic_test
+```
+
+3.) [Install bundler](http://bundler.io/) if you don't have it. Make sure you have version 1.11.2.
+
+4.) [Install rvm](http://rvm.io/).
+
+5.) Install the [Heroku toolbelt](https://toolbelt.heroku.com/): `brew install heroku-toolbelt`
+
+6a.) Install [Redis](http://redis.io/): `brew install redis`.
+
+6b.) Then add Redis to your startup list with `ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents`.
+
+6c.) Then start Redis with `launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist`.
+
+7a.) Download and run [Postgres.app](http://postgresapp.com/). To match up with avant-basic you need to use the old **9.4.5** version, which [you can download from their GitHub page](https://github.com/PostgresApp/PostgresApp/releases/tag/9.4.5.0) (download Postgres-9.4.5.0.zip, open it, and run the installer).
+
+7b.) Make sure the `psql` command works. If not, you might have to modify your `$PATH` to include the correct location of your postgres app. You can check your current path for psql with `which psql`.
+
+7c.) Open the Postgres console (type `psql`) and then:
 
 ```
 CREATE ROLE <your username> WITH LOGIN;
@@ -24,25 +56,27 @@ GRANT ALL PRIVILEGES ON DATABASE avant_basic_test TO <your username>;
 
 This will set up all the databases you need to work locally.
 
-5.) Within `avant-basic`, run `bundle install`.  Hopefully it will work the first time, but you may encounter errors.  Try to spend fifteen minutes reading the stacktrace of each error and using Google to solve your own problem before asking for help, but don't get stuck on each issue for too long.
+8a.) Within `avant-basic`, run `bundle install`.  Hopefully it will work the first time, but you may encounter errors.  Try to spend fifteen minutes reading the stacktrace of each error and using Google to solve your own problem before asking for help, but don't get stuck on each issue for too long.
 
-6.) Once you have successfully bundled, run `bundle exec rake db:migrate`.  This will create your development database.
+8b.) Once you have successfully bundled, run `bundle exec rake db:migrate`.  This will create your development database.
 
-7.) Next run `bundle exec rake db:test:prepare`.  This will create your test database.
+8c.) Next run `bundle exec rake db:test:prepare`.  This will create your test database.
 
-8.) Then run `bundle exec rake db:seed`.  This will prepopulate your database with some initial objects needed to work.
+8d.) Then run `bundle exec rake db:seed`.  This will prepopulate your database with some initial objects needed to work.
 
-9.) Start a web server with `bin/start_development`.  Navigate to http://localhost:4000 and you can see a copy of the Avant website on your own computer!
+9a.) Start a web server with `bin/start_development`.  Navigate to http://localhost:4000 and you can see a copy of the Avant website on your own computer!
+
+9b.) *optional* - Use the web server to apply for a fake loan, if you're curious.
 
 ## Prod Console
 
-10.) Kill your server.  Now let's open the prod console!
+10a.) Kill your server (ctrl+C in your terminal).  Now let's open the prod console!
 
-11.) Run `avant console us`.
+10b.) Run `avant console us`.
 
-12.) After awhile, you will be in a production console.  You can then interact with our database using Rails's ActiveRecord instead of SQL.
+10c.) After awhile, you will be in a production console.  You can then interact with our database using Rails's ActiveRecord instead of SQL.
 
-13.) Skim [some docs on ActiveRecord](https://github.com/rails/rails/blob/master/activerecord/README.rdoc).  [Read a bit more about interacting with ActiveRecord](http://www.giantflyingsaucer.com/blog/?p=1891).
+11.) Skim [some docs on ActiveRecord](https://github.com/rails/rails/blob/master/activerecord/README.rdoc).  [Read a bit more about interacting with ActiveRecord](http://www.giantflyingsaucer.com/blog/?p=1891).
 
 #### Exercises
 
