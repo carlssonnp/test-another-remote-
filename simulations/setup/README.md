@@ -16,7 +16,7 @@ To get started with working on analytics at avant, begin with the following setu
 
 6a: Make an account on [Heroku](www.heroku.com) with your Avant email address.
 
-6b: [Ask IT](https://avantcreditcorp.service-now.com/navpage.do) for access to "analytics-microvariable-server" and "avant-prod" on Heroku.
+6b: [Ask IT](https://avantcreditcorp.service-now.com/navpage.do) for access to "avant-prod" on Heroku. This is the server we host avant.com on for the US.
 
 # Github access
 

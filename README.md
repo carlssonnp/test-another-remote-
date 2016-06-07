@@ -78,8 +78,6 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * [Working in production](simulations/infrastructure/production.md)
 
-* [Microvariables](simulations/microvariables/readme.md)
-
 * [Follow the law](simulations/follow_the_rules)
 
 
