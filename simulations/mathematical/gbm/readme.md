@@ -9,7 +9,7 @@ Also watch this video on the [xgboost algorithm](https://www.youtube.com/watch?v
 
 ## Exercise Questions
 
-Completeing all these questions is not required but it is a good idea to take a stab at it if you can. Feel free to ask your gaurdian or Fei for help.
+These questions are pretty hard, but make a decent effort on your own to try and take a stab into the more technical parts of machine learning:
 
 1. What are the hyper parameters to tune for tree-based method?   
 2. Are trees sensitive to scaling or monotonic transformations? Why or why not?
