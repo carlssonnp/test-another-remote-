@@ -117,16 +117,11 @@ You've made it to the end.  Now you just need to read! :)
 * [Refactoring](simulations/programming/refactoring.md)
 
 * [Programmer productivity tips & tricks](https://github.com/avantcredit/avant-analytics/wiki/Programmer-Tips-&-Tricks)
-  * [Workflow Hacks](https://github.com/avantcredit/talks)(Peter & Robk talks)
-
-* [DataRobot](https://github.com/avantcredit/analytics-onboarding/tree/master/simulations/datarobot) 
   
 
 **Knowing Our Team**
 
 * [History of the team](simulations/history/readme.md)
-
-* How do we choose our project priorities? [TODO]
 
 * [Wrap up](simulations/wrap_up/readme.md)
 
