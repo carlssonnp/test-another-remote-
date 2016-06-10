@@ -43,7 +43,9 @@ test: &test
 
 7b.) Make sure the `psql` command works. If not, you might have to modify your `$PATH` to include the correct location of your postgres app. You can check your current path for psql with `which psql`.
 
-7c.) Open the Postgres console (type `psql`) and then:
+7c.) Ensure that `psql --version` is 9.4.x. If not, you need to change the version. If you change the version you have installed, be sure to also `gem uninstall pg` and `bundle install` because your pg gem will have been compiled against your old (wrong) version.
+
+7d.) Open the Postgres console (type `psql`) and then:
 
 ```
 CREATE ROLE <your username> WITH LOGIN;
