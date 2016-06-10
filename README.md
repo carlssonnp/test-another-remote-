@@ -71,6 +71,8 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 * [Comparing Models 102](simulations/mathematical/metrics.md)
 
+* [Fairness](simulations/mathematical/fairness.md)
+
 
 ### Infrastructure and Productionization
 
