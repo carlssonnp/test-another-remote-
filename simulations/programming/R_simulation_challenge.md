@@ -16,11 +16,11 @@
 3.) Hadley co-authored ["R for Data Science"](http://r4ds.had.co.nz/).  Read these two chapters and do all the exercises in them:
 
  * ["Data Transformation"](http://r4ds.had.co.nz/transform.html)
- * ["Expressing yourself in code"](http://r4ds.had.co.nz/functions.html)
+ * ["Functions 101"](http://r4ds.had.co.nz/functions.html)
 
 4.) Read the following chapters of "Advanced R":
 
- * ["Functions"](http://adv-r.had.co.nz/Functions.html). Do the three exercises in the "Lexical scoping" section (the ones right after the "Dynamic lookup" subsection) and then go back and do the beginning quiz.
+ * ["Functions 102"](http://adv-r.had.co.nz/Functions.html). Do the three exercises in the "Lexical scoping" section (the ones right after the "Dynamic lookup" subsection) and then go back and do the beginning quiz.
  * ["Functional Programming"](http://adv-r.had.co.nz/Functional-programming.html) Don't do any exercises. 
  * ["Functionals"](http://adv-r.had.co.nz/Functionals.html). Do the first five exericses, but the rest are optional.
  * ["Function Operators"](http://adv-r.had.co.nz/Function-operators.html) and do all the exercises.
