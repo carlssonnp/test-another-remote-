@@ -65,9 +65,11 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 ### Math and Statistics 
 
-* [Introduction to Statistical Learning](simulations/mathematical/isl.md)
+* [Comparing Models 101](simulations/mathematical/isl.md)
 
 * [GBM](simulations/mathematical/gbm/readme.md)
+
+* [Comparing Models 102](simulations/mathematical/metrics.md)
 
 
 ### Infrastructure and Productionization
