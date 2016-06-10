@@ -11,11 +11,14 @@ Code that is easily testable is often well structured and well written code and 
 * [Testing in R](http://r-pkgs.had.co.nz/tests.html)
 * [How we test within Avant Analytics](https://github.com/avantcredit/avant-analytics/tree/master/test/README.md)
 * **Optional:** Learn about [R CMD CHECK](http://r-pkgs.had.co.nz/check.html), which tests for other things that can go wrong in a package, in addition to automated test failures.
-* **Optional:** Learn about [verifications and quickcheck](github.com/peterhurford/checkr).
+* **Optional:** Learn about [verifications and quickcheck](https://github.com/peterhurford/checkr/blob/master/README.md).
 
 ## Exercises
 
-* Add some tests to your mean imputation package to make sure that it (a) successfully imputes one NA, that it (b) successfully imputes 2+ NAs, (c) that it works if there are no NAs, and (d) that it works if there are all NAs.
-* Write at least three tests for your custom mungebit. Append The DS checklist to PR and check relavant boxes.
-* **Optional:** Quickcheck your imputation function in your package.
-* **Optional:** Quickcheck your custom mungebit.
+1. Add some tests to your mean imputation package to make sure that it (a) successfully imputes one NA, that it (b) successfully imputes 2+ NAs, (c) that it works if there are no NAs, and (d) that it works if there are all NAs.
+
+2. Write at least three tests for your custom mungebit. Append The DS checklist to PR and check relavant boxes.
+
+3. **Optional:** Quickcheck your imputation function in your package.
+
+4. **Optional:** Quickcheck your custom mungebit.
