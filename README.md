@@ -41,7 +41,9 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 
 ### Computer Science 
 
-* [Git](simulations/setup/git.md)
+* [Git 101](simulations/setup/git.md)
+
+* [Git 102](simulations/setup/git_and_pivotal.md)
 
 * ["Advanced R"](simulations/programming/R_simulation_challenge.md)
 
@@ -83,8 +85,6 @@ The human follow up discussion you will will help you gain a deeper knowledge wi
 * [Where does data come from?](simulations/infrastructure/data.md)
 
 * [Working in production](simulations/infrastructure/production.md)
-
-* [Follow the law](simulations/follow_the_rules)
 
 
 ### Business

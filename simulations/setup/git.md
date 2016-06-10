@@ -30,5 +30,3 @@
 *(No peeking at other people's answers.)*
 
 **Exercise 8:** Create a PR with your answers to this repo. Ask your Guardian to review.
-
-**Exercise 9:** Add yourself to the [team list](https://github.com/avantcredit/avant/blob/master/R/team.R). Don't forget to "version" your contribution by updating the files `DESCRIPTION` and `CHANGELOG.md`, which means indicate your change with a version number (e.g., 0.3.15.9002) so that we can track changes.  Use this [PR](https://github.com/avantcredit/avant/pull/865/files) as a template.  You'll learn more about versioning later.
