@@ -20,9 +20,13 @@ To get started with working on analytics at avant, begin with the following setu
 
 # Github access
 
-7: Set up your [git ssh key](https://help.github.com/articles/generating-ssh-keys/).
+7a: Set up your [git ssh key](https://help.github.com/articles/generating-ssh-keys/).
 
-8: Have Rob K add your github account to the credit-model group of the avantcredit organization.
+7b: Add your public key to https://github.com/avantcredit/public_keys
+
+8a: Set up [two factor authentication](https://github.com/blog/1614-two-factor-authentication).
+
+8b: Have Rob K, Justin Hou, or Peter Hurford add your github account to the credit-model group of the avantcredit organization.
 
 9: Set up your [Github oauth token](https://gist.github.com/robertzk/c6efef69a92cc3a03753) and put it in your `~/.bash_profile`:
       
@@ -55,7 +59,9 @@ To get started with working on analytics at avant, begin with the following setu
 
 12: Get an `~/.Rprofile` from someone else. You should have two `Rprofile`s, one at `~/.Rprofile` and the other at `~/dev/avant-analytics/.Rprofile`. They're different and you want both of them!
 
-13: Ensure that you have:
+13a: See if you can login at avant.looker.com. If that doesn't work, request access to Looker by emailing BIpermissions@gmail.com.
+
+13b: Ensure that you have:
 
 ```
 export LOOKER_URL="https://avant.looker.com:19999/"
