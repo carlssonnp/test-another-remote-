@@ -8,6 +8,17 @@ Then read about [our Avant database tables](https://businessintelligence.hackpad
 
 Then do these exercises on our Avant data:
 
+## Using SQL in R
+
+From within `avant-analytics`, you can use the `run_query_us` helper function to run SQL queries on the US production database. `run_query_uk` will connect to the UK database. Results come back as an R dataframe.
+
+```R
+df <- run_query_us("SELECT * FROM loans LIMIT 1")
+```
+
+You could also use [pgAdmin](https://www.pgadmin.org/) or [Postico](https://eggerapps.at/postico/) or something else if you'd prefer.
+
+
 ## SQL Exercises
 
 Answer the below using your SQL skills (exercises by Rob Adler, BI):
