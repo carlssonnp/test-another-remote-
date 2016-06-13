@@ -1,4 +1,4 @@
-## Exercises
+## Advanced R
 
 *(Don't worry if this section of the guide takes awhile -- it's definitely the longest part!)*
 
