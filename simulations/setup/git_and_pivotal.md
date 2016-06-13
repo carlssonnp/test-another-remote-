@@ -1,3 +1,5 @@
+## Git 102
+
 Add yourself to the [team list](https://github.com/avantcredit/avant/blob/master/R/team.R). To do this, you'll not only have to use your git skills, but you'll have to know some other things:
 
 * You must "version" your contribution by updating the files `DESCRIPTION` and `CHANGELOG.md`, which means indicate your change with a version number (e.g., 0.3.15.9002) so that we can track changes.  Use this [PR](https://github.com/avantcredit/avant/pull/865/files) as a template. [Read about versioning here.](http://semver.org/)
