@@ -6,7 +6,16 @@ Add yourself to the [team list](https://github.com/avantcredit/avant/blob/master
 
 * You must be compliant with our [the PR Checklist](https://github.com/avantcredit/avant-analytics/wiki/PR-Review-Checklist).
 
-* You must be [compliant with SOC2](https://github.com/avantcredit/avant-analytics/wiki/Compliance-(SOC-2)).
+* You must be [compliant with SOC2](https://github.com/avantcredit/avant-analytics/wiki/Compliance-(SOC-2)) (see "Pivotal" below).
+
+
+## Pivotal
+
+* Read about [how Pivotal Tracker works](https://www.pivotaltracker.com/help/articles/quick_start/).
+
+* Read about [how we use Pivotal Tracker](https://github.com/avantcredit/avant-analytics/wiki/How-Avant-Analytics-Uses-Pivotal).
+
+* Create a SOC2 compliant Pivotal task [using this template](https://www.pivotaltracker.com/story/show/120859655) and link it into your PR. ([Here's an example of a completed one](https://www.pivotaltracker.com/n/projects/1257760/stories/118044149).)
 
 
 ## SOC2 Exercises
