@@ -31,4 +31,4 @@
 
 *(No peeking at other people's answers.)*
 
-**Exercise 8:** Create a PR with your answers to this repo. Ask your Guardian to review and hopefully bestow you with an "LGTM" ("looks good to me" or "let's get this merged" depending on who you ask).
+**Exercise 8:** Create a PR with your answers to this repo. Ask your Guardian to review and hopefully bestow you with an "LGTM" ("looks good to me" or "let's get this merged" depending on who you ask).  Our workflow involves a person creating a PR, then getting review from someone else in the form of an "LGTM", and then the original person merges their own PR (after the "LGTM").
