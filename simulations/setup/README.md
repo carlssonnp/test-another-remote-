@@ -57,7 +57,7 @@ To get started with working on analytics at avant, begin with the following setu
 
    If `brew install libcurl-dev` fails, try `brew install curl`
 
-12: Get an `~/.Rprofile` from someone else. You should have two `Rprofile`s, one at `~/.Rprofile` and the other at `~/dev/avant-analytics/.Rprofile`. They're different and you want both of them!
+12: Get an `~/.Rprofile` from someone else. You should have two `Rprofile`s, one at `~/.Rprofile` and the other at `~/dev/avant-analytics/.Rprofile` (which comes with the avant-analytics repo so you probably already have it). They're different and you want both of them!
 
 13a: See if you can login at avant.looker.com. If that doesn't work, request access to Looker by emailing BIpermissions@gmail.com.
 
