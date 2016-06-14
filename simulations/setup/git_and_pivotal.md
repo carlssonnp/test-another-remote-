@@ -9,6 +9,13 @@ Add yourself to the [team list](https://github.com/avantcredit/avant/blob/master
 * You must be [compliant with SOC2](https://github.com/avantcredit/avant-analytics/wiki/Compliance-(SOC-2)) (see "Pivotal" below).
 
 
+## Status Checks
+
+* Whenever you make a PR, tests for the repository will automatically be run and will need to be passed before you can merge a PR. This should not be a problem for your PR and you'll learn more about tests later.
+
+* You'll also need two different people to approve your PR with an "LGTM". (You can be one of those two people.) 
+
+
 ## Pivotal
 
 * Read about [how Pivotal Tracker works](https://www.pivotaltracker.com/help/articles/quick_start/).
