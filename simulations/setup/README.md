@@ -18,6 +18,8 @@ To get started with working on analytics at avant, begin with the following setu
 
 6b: [Ask IT](https://avantcreditcorp.service-now.com/navpage.do) for access to "avant-prod" on Heroku. This is the server we host avant.com on for the US.
 
+6c: Ask IT (in a separate ticket) for access to CircleCI.
+
 # Github access
 
 7a: Set up your [git ssh key](https://help.github.com/articles/generating-ssh-keys/).
