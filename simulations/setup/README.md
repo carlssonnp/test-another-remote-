@@ -18,7 +18,11 @@ To get started with working on analytics at avant, begin with the following setu
 
 6b: [Ask IT](https://avantcreditcorp.service-now.com/navpage.do) for access to "avant-prod" on Heroku. This is the server we host avant.com on for the US.
 
+
 6c: Ask for access to the corporate calendar and the Analytics OOO calendar.
+
+6c: Ask IT (in a separate ticket) for access to CircleCI.
+
 
 # Github access
 
@@ -104,6 +108,6 @@ export LOOKER_SECRET="yoursecret"
    s3cmd ls s3://avantminer/tmp/
    ```
 
-18: Be able to [log into an EC2 instance](https://github.com/avantcredit/avant-analytics/wiki/Configure-your-new-EC2-instance)
+18a: Ask Ignacio for an EC2 instance account.
 
-19: Clone [the microvariable server](https://github.com/avantcredit/analytics-microvariable-server) and ask your Gaurdian to give you the `config/database.yml` (yes, a third file different from the other two).
+18b: Be able to [log into that EC2 instance account and configure it](https://github.com/avantcredit/avant-analytics/wiki/Configure-your-new-EC2-instance).

@@ -48,7 +48,6 @@ fn(2, 3)
 8.) **Optional** These chapters in "R for Data Science" are useful, but not mandatory for our work:
 
 * ["Visualization"](http://r4ds.had.co.nz/data-visualisation.html) - Good way to learn about ggplot2!
-* ["Transform"](http://r4ds.had.co.nz/transform.html) - Good way to learn about dplyr!
 * ["Tidy data"](http://r4ds.had.co.nz/tidy-data.html) - While all data at Avant is already tidy, it's good to understand the "tidy data" philosophy.
 
 9.) **Optional** Read on [R6 classes](https://cran.r-project.org/web/packages/R6/vignettes/Introduction.html). Try constructing a bank account class with deposit, check balance, and withdraw methods.
