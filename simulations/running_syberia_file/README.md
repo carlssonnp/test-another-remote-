@@ -22,7 +22,9 @@ Test your knowledge:
 **Exercise 4:**  Install [Python XGBoost](https://github.com/dmlc/xgboost/tree/master/python-package)
 NOTE: This does not work without additional requirements.  Besides, this is only necessary when one wishes to **train** xgb models.  It is not necessary for **predictions**.   Instead, one needs to learn how to use the `beauty` or the `beast` to train their models, where xgb is preinstalled and preconfigured.
 
-**Exercise 5:**  Apply this knowledge to run the following [syberia file](https://github.com/avantcredit/avant-analytics/blob/master/models/examples/demo/demo.R). You must use the Beauty or the Beast EC2 instances to finish this exercise.  Prior to using the `run` command, set `options(avant.limit = 500)` so you don't run on every single loan and waste a lot of time.
+**Exercise 5:**  Apply this knowledge to run the following [syberia file](https://github.com/avantcredit/avant-analytics/blob/master/models/examples/demo_xgb_R/demo_xgb_R.R). You must use the Beauty or the Beast EC2 instances to finish this exercise.  Prior to using the `run` command, set `options(avant.limit = 500)` so you don't run on every single loan and waste a lot of time.
+
+Nowadays, instead of specifying options(avant.limit = 500) (which does work) you can also just use local_run(..., size = 500), which is the same as run(...) but with a limit of 500.
 
 * Create a new branch and new directory `demo_<yourname>` 
 
