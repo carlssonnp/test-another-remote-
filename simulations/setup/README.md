@@ -18,7 +18,11 @@ To get started with working on analytics at avant, begin with the following setu
 
 6b: [Ask IT](https://avantcreditcorp.service-now.com/navpage.do) for access to "avant-prod" on Heroku. This is the server we host avant.com on for the US.
 
+
+6c: Ask for access to the corporate calendar and the Analytics OOO calendar.
+
 6c: Ask IT (in a separate ticket) for access to CircleCI.
+
 
 # Github access
 
@@ -75,7 +79,9 @@ export LOOKER_SECRET="yoursecret"
 
 14: Ensure that your analytics ETL is set up. [Follow the instructions here.](https://github.com/avantcredit/analyticsetl/blob/master/README.md)
 
-15a: In terminal, navigate to `~/dev/avant-analytics` and start R. If you eventually see the following, then you have successfully installed all the packages you need to start your journey across the Syberian Tundra.
+15a: In terminal, navigate to `~/dev/avant-analytics` and start R. If you eventually see the following image, then you have successfully installed all the packages you need to start your journey across the Syberian Tundra.
+
+<img src="https://camo.githubusercontent.com/7f158ab3c80778a5f4c7c52886a46275038e3907/687474703a2f2f7075752e73682f707a4155752f363866613935666233392e706e67" alt="alt text" width="300" height="300">
 
 15b: If you have trouble installing `gbm`, it's probably complaining about gfortran.  Try the instructions [here](http://thecoatlessprofessor.com/programming/rcpp-rcpparmadillo-and-os-x-mavericks-lgfortran-and-lquadmath-error/), *in your terminal*, i.e.:
       
@@ -83,6 +89,7 @@ export LOOKER_SECRET="yoursecret"
    curl -O http://r.research.att.com/libs/gfortran-4.8.2-darwin13.tar.bz2
    sudo tar fvxz gfortran-4.8.2-darwin13.tar.bz2 -C /
    ```
+15c: If you do not see the above image and you get an xgboost error, try the steps in this [http://xgboost.readthedocs.io/en/latest/build.html#r-package-installation](http://xgboost.readthedocs.io/en/latest/build.html#r-package-installation). If these steps don't work, as for help.
 
 # S3, EC2, and Microvariables
 
