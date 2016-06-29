@@ -72,9 +72,9 @@ This will set up all the databases you need to work locally.
 
 ## Prod Console
 
-10a.) Kill your server (ctrl+C in your terminal).  Now let's open the prod console!
+10a.) Kill your server (ctrl+C in your terminal).  Now let's open the Rails production console.
 
-10b.) Run `avant console us`.
+10b.) Run `heroku run rails console --app analytics-adhoc-092915`.
 
 10c.) After awhile, you will be in a production console.  You can then interact with our database using Rails's ActiveRecord instead of SQL.
 
@@ -108,20 +108,22 @@ model = ModelSwitch.version("default/transunion/2.1")
 We then can use it to score loans:
 
 ```Ruby
-model.score(Loan.find(615750))
+model.score(Loan.find(615750)).score
 ```
 
 Sometimes we might want to score a loan without using the Ruby cache, to get the *true* data. (Ideally the cache will match the true data, but this is a good verification check):
 
 ```Ruby
-Modeling.without_cache { model.score(Loan.find(615750)) }
+Modeling.without_cache { model.score(Loan.find(615750)).score }
 ```
 
 You can compare this to the production model score from R:
 
 ```R
+syberia_project()
 model <- production_model("default/transunion/2.1")
-data <- batch_data(615750, "default/transunion/2.1")
+data_sources <- name_data_sources("default/transunion/2.1")
+data <- batch_multisource(615750, data_sources)
 model$predict(data, list(on_train = TRUE))
 ```
 
