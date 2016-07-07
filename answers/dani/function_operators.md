@@ -18,7 +18,7 @@ wait_until <- function(time_to_run, f) {
 	wait <- time_to_run - Sys.time()
 	force(f)
   	function(...) {
-  		if wait > 0 {
+  		if (wait > 0) {
   			Sys.sleep(wait)
   			f(...)
   		}
@@ -89,7 +89,7 @@ Write FOs that convert a function to return a matrix instead of a data frame, or
 You’ve seen five functions that modify a function to change its output from one form to another. What are they? Draw a table of the various combinations of types of outputs: what should go in the rows and what should go in the columns? What function operators might you want to write to fill in the missing cells? Come up with example use cases.
 
 * negate returns the opposite of the logical value returned by a func
-* pryr::failswith() turns the error output of a function into a default value
+* plyr::failswith() turns the error output of a function into a default value
 * capture_it returns the text that the fun printed
 * time_it returns how long a fun took to run
 
@@ -102,11 +102,11 @@ Implement your own version of compose() using Reduce and %o%.
 compose <- function(f1, f2) {
 	force(f1); force(f2)
 	function(...) {
-		f1(f2)
+		f1(f2(...))
 }
 
 compose_many <-function(...) {
-	Reduce(compose, ...)
+	Reduce(compose, list(...))
 }
 }
 

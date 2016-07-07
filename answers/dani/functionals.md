@@ -28,7 +28,7 @@ formulas <- list(
   mpg ~ I(1 / disp) + wt
 )
 
-* lapply(formulas, lm)
+* lapply(formulas, lm, mtcars)
 * for (m in formulas) {
 	print(lm(m))
 }
@@ -40,7 +40,7 @@ bootstraps <- lapply(1:10, function(i) {
   mtcars[rows, ]
 })
 
-* lapply(bootstraps, function(x) {lm(mpg ~ disp)})
+* lapply(bootstraps, function(x) {lm(mpg ~ disp, x)})
 * for (b in bootstraps) {
 print(lm(mpg ~ disp))
 }

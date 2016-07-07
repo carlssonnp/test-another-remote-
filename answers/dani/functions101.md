@@ -38,14 +38,13 @@ fizzbuzz <- function(i) {
 	 if (i %% 3 == 0 && i %% 5 == 0) {return("FizzBuzz")}
 	 else if (i %% 3 == 0) {return("Fizz")}
 	 else if (i %% 5 == 0) {return("Buzz")}
+	else i
 }
 
 5.Write both_na(), a function that takes two vectors of the same length and returns the number of positions that have an NA in both vectors.
 
 both_na <- function(v1, v2) {
-	ax <- is.na(v1)
-	bx <- is.na(v2)
-	which(ax & bx)
+	which(s.na(v1) & is.na(v2))
 }
 
 6. What do the following functions do? Why are they useful even though they are so short?
@@ -106,7 +105,7 @@ if (temp <= 0) {
   "hot"
 }
 
-* **temp %>% cut(c(-Inf,seq(0, 40, 10), right = FALSE,  labels = c("freezing", "cold", "cool", "warm", "hot")))**
+* **temp %>% cut(c(-Inf,seq(0, 30, 10), inf),  labels = c("freezing", "cold", "cool", "warm", "hot")))**
 
 How would you change the call to cut() if I’d used < instead of <=? What are the advantages of cut() for this type of problem?
 * **can not include right = FALSE depending on what end point I want to include**

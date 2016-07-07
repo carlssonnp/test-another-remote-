@@ -2,7 +2,7 @@ Make a function that takes another function and returns a function that will pri
 
 arg_printer <- function(f) {
 	print_run <- function(...) {
-		cat(paste0("I was called with ",match.call(), ".\n"))
+		paste(deparse(match.call()), collapse = "\n")
 		f(...)
 	}
 }
