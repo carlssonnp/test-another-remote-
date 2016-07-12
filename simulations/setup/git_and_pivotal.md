@@ -25,6 +25,12 @@ Add yourself to the [team list](https://github.com/avantcredit/avant/blob/master
 * Create a SOC2 compliant Pivotal task [using this template](https://www.pivotaltracker.com/story/show/120859655) and link it into your PR. ([Here's an example of a completed one](https://www.pivotaltracker.com/n/projects/1257760/stories/118044149).)
 
 
+## Continuous Integration (CI)
+
+* If you have not worked with CI tools before, read about about [continuous integration](https://www.thoughtworks.com/continuous-integration)
+
+* We currently use [CircleCI](https://circleci.com). Some of our R packages use [Travis](https://travis-ci.com/).
+
 ## SOC2 Exercises
 
 1.) I want to update the lockfile to include the latest avant package version.  Do I need to follow SOC II?  Do I need to use the DE checklist?  Do I need to use the DS checklist?
