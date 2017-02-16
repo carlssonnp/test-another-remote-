@@ -12,14 +12,13 @@ To get started with working on analytics at avant, begin with the following setu
 
 4: Install [Java 6](https://support.apple.com/kb/dl1572?locale=en_US).
 
-5: Set up Pivotal Tracker.  Ask Justin Hou for access.
+5: Set up Pivotal Tracker.  Ask Tong Lu for access.
 
 6a: Make an account on [Heroku](www.heroku.com) with your Avant email address.
 
 6b: [Ask IT](https://avantcreditcorp.service-now.com/navpage.do) for access to "avant-prod" on Heroku. This is the server we host avant.com on for the US.
 
-
-6c: Ask for access to the corporate calendar and the Analytics OOO calendar.
+6c: Ask IT for access to the corporate calendar and the Analytics OOO calendar.
 
 6c: Ask IT (in a separate ticket) for access to CircleCI.
 
@@ -32,7 +31,7 @@ To get started with working on analytics at avant, begin with the following setu
 
 8a: Set up [two factor authentication](https://github.com/blog/1614-two-factor-authentication).
 
-8b: Have Rob K, Justin Hou, or Peter Hurford add your github account to the credit-model group of the avantcredit organization.
+8b: Submit a ServiceNow ticket to IT to add your github account to the credit-model group of the avantcredit organization.
 
 9: Set up your [Github oauth token](https://gist.github.com/robertzk/c6efef69a92cc3a03753) and put it in your `~/.bash_profile`:
       
