@@ -12,14 +12,13 @@ To get started with working on analytics at avant, begin with the following setu
 
 4: Install [Java 6](https://support.apple.com/kb/dl1572?locale=en_US).
 
-5: Set up Pivotal Tracker.  Ask Justin Hou for access.
+5: Set up Pivotal Tracker.  Ask Tong Lu for access.
 
 6a: Make an account on [Heroku](www.heroku.com) with your Avant email address.
 
 6b: [Ask IT](https://avantcreditcorp.service-now.com/navpage.do) for access to "avant-prod" on Heroku. This is the server we host avant.com on for the US.
 
-
-6c: Ask for access to the corporate calendar and the Analytics OOO calendar.
+6c: Ask IT for access to the corporate calendar and the Analytics OOO calendar.
 
 6c: Ask IT (in a separate ticket) for access to CircleCI.
 
@@ -32,7 +31,7 @@ To get started with working on analytics at avant, begin with the following setu
 
 8a: Set up [two factor authentication](https://github.com/blog/1614-two-factor-authentication).
 
-8b: Have Rob K, Justin Hou, or Peter Hurford add your github account to the credit-model group of the avantcredit organization.
+8b: Submit a ServiceNow ticket to IT to add your github account to the credit-model group of the avantcredit organization.
 
 9: Set up your [Github oauth token](https://gist.github.com/robertzk/c6efef69a92cc3a03753) and put it in your `~/.bash_profile`:
       
@@ -65,7 +64,7 @@ To get started with working on analytics at avant, begin with the following setu
 
 12: Get an `~/.Rprofile` from someone else. You should have two `Rprofile`s, one at `~/.Rprofile` and the other at `~/dev/avant-analytics/.Rprofile` (which comes with the avant-analytics repo so you probably already have it). They're different and you want both of them!
 
-13a: See if you can login at avant.looker.com. If that doesn't work, request access to Looker by emailing BIpermissions@gmail.com.
+13a: See if you can login at avant.looker.com. If that doesn't work, request access by following [the BI onboarding guide here](https://wiki.ad.avant.com/display/BI/BI+100%3A+Accounts+and+Software).
 
 13b: Ensure that you have:
 
@@ -101,13 +100,13 @@ export LOOKER_SECRET="yoursecret"
    brew install s3cmd
    ```
 
-   Ask Rob K or Tong Lu for credentials and then copy and paste [this](https://gist.github.com/peterhurford/023bcaee0a27fa77e814) into your `~/.s3cfg` file.
+   Ask Rob K for credentials and then copy and paste [this](https://gist.github.com/peterhurford/023bcaee0a27fa77e814) into your `~/.s3cfg` file.
    Replace `{INSERT YOURS HERE}` with your credentials. Test out your connection with the following:
 
    ```bash
    s3cmd ls s3://avantminer/tmp/
    ```
 
-18a: Ask Ignacio for an EC2 instance account.
+18a: Ask RobK for an EC2 instance account.
 
 18b: Be able to [log into that EC2 instance account and configure it](https://github.com/avantcredit/avant-analytics/wiki/Configure-your-new-EC2-instance).
