@@ -1,2 +1,3 @@
 now want to make two new files, but only commit one!
-then see what happens 
+then see what happens
+i made a change to see how git diff works 

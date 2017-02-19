@@ -1,0 +1,2 @@
+Does reset after commit remove files from the staging area
+?
