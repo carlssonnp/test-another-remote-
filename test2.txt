@@ -1,3 +1,0 @@
-adding another file to the onboarding repo
-playing around with git rm and git reset
-figuring out the difference between them 
